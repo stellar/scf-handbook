@@ -91,7 +91,7 @@ Submission of any interest form, project proposal, or application does not guara
 
 **5.8 Contact**
 
-Join the Stellar community on[ Discord](https://discord.gg/stellardev). If you have any specific questions or concerns you can also email SDF at [communityfund@stellar.org](mailto:communityfund@stellar.org). While we are happy to assist with questions, in the event of any discrepancy or inconsistency, the Official Rules shall ultimately prevail.
+Join the Stellar community on [Discord](https://discord.gg/stellardev). If you have any specific questions or concerns you can also email SDF at [communityfund@stellar.org](mailto:communityfund@stellar.org). While we are happy to assist with questions, in the event of any discrepancy or inconsistency, the Official Rules shall ultimately prevail.
 
 <br>
 
