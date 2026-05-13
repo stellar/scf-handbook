@@ -4,7 +4,7 @@ icon: message-smile
 
 # Navigating Discord
 
-The [Stellar Developers Discord](https://discord.gg/stellardev) is where Stellar's entrepreneurial and developer communities come together and discuss exciting new Stellar-based solutions to grow the ecosystem.&#x20;
+The [Stellar Developers Discord](https://discord.gg/stellardev) is where Stellar's entrepreneurial and developer communities come together and discuss exciting new Stellar-based solutions to grow the ecosystem.
 
 {% content-ref url="channels-and-roles.md" %}
 [channels-and-roles.md](channels-and-roles.md)

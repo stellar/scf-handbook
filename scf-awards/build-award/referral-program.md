@@ -30,13 +30,13 @@ The SCF Referral Program (“Referral Program”) enables approved individuals o
 4.2 Attribution Logic. Attribution occurs when:
 
 * A referral is submitted with a valid referral code, and
-* The Referred Party applies to SCF and includes a matching code at the time of their initial SCF application submission, or SCF operations can confidently match the referral submission to the applicant record.&#x20;
+* The Referred Party applies to SCF and includes a matching code at the time of their initial SCF application submission, or SCF operations can confidently match the referral submission to the applicant record.
 
 4.3 Right to Resolve Conflicts. If multiple referrers claim the same applicant, SCF may apply a “first valid submission” rule or other tie-break policy (e.g., earliest timestamp, clearest evidence, applicant-confirmed source). All determinations made by SCF under this section are final and not subject to appeal or reconsideration.
 
 4.4 Discretionary Referral Rewards. A Referrer may, at the sole discretion of SCF, be considered for eligibility to receive up to 1% of the total SCF award actually granted to a Referred Party as a result of the Referrer’s referral, denominated in XLM (the “Referral Reward”). The availability, amount, form, and timing of any Referral Reward are entirely discretionary, may be modified, suspended, or terminated by SCF at any time, with or without notice, and are not guaranteed. A Referrer may receive multiple such rewards for separate successful referrals, subject to an aggregate cap of 6 Referral Rewards per application cycle. The disbursement of the Referral Rewards to the Referrers (including the amount and timeline of such disbursement) will correspondingly be tied to the completion of the final Build Award Tranche and the actual disbursement of funds of the final Build Award Tranche to the Referred Parties.
 
-At SCF’s sole discretion, a Referrer may be offered the option to receive a Referral Reward through one or more alternative methods, which may include, without limitation: (i) direct disbursement of funds to the Referrer; (ii) disbursement of the Referral Reward to a named project; in each case as approved by SCF.&#x20;
+At SCF’s sole discretion, a Referrer may be offered the option to receive a Referral Reward through one or more alternative methods, which may include, without limitation: (i) direct disbursement of funds to the Referrer; (ii) disbursement of the Referral Reward to a named project; in each case as approved by SCF.
 
 Referrers are not eligible to receive additional Referral Rewards for any subsequent funding of the same project, including any follow-on SCF funding, funding from SDF Matching Fund, or funding from SDF Enterprise Fund. SCF may, in its sole discretion, allow multiple Referrers to share a referral reward, provided that the total combined reward does not exceed the 1% cap. The determination of whether a referral is “successful,” whether a Referral Reward will be offered, and the calculation of any Referral Reward shall be made solely by SCF and shall be final and binding.
 

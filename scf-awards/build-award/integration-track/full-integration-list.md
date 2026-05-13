@@ -5,20 +5,20 @@ hidden: true
 
 # Full Integration List
 
-For your SCF Build Integration Track submission, you’ll need to choose at least one of the building blocks on this list. This list does not represent an exhaustive list of the protocols, wallets, anchors, etc. available on Stellar, but the building blocks on it have been tested and recommended by the community, and offer thorough docs and tutorials to help you integrate. This list was recommended by Pilots in the SCF Community, and rotates quarterly. &#x20;
+For your SCF Build Integration Track submission, you’ll need to choose at least one of the building blocks on this list. This list does not represent an exhaustive list of the protocols, wallets, anchors, etc. available on Stellar, but the building blocks on it have been tested and recommended by the community, and offer thorough docs and tutorials to help you integrate. This list was recommended by Pilots in the SCF Community, and rotates quarterly. 
 
 Note: Most of your requested budget should go towards the costs associated with your chosen integration(s).
 
 #### What’s the Integration Track?
 
-The Integration Track is an SCF Build program path for teams building products that integrate with existing services in the Stellar ecosystem, such as payment providers, liquidity venues, on and off-ramping services, and cross-chain infrastructure. Projects in this track apply for funding to ship high-quality integrations that expand the utility of Stellar for developers and users.&#x20;
+The Integration Track is an SCF Build program path for teams building products that integrate with existing services in the Stellar ecosystem, such as payment providers, liquidity venues, on and off-ramping services, and cross-chain infrastructure. Projects in this track apply for funding to ship high-quality integrations that expand the utility of Stellar for developers and users.
 
 #### Where did this list come from?
 
 Think of the integration list as a wayfinding tool for the Stellar Ecosystem. It was initially curated by the Stellar Development Foundation based on community feedback and then vetted and approved through a community vote.\
 It is not exhaustive, and inclusion is not an endorsement of any specific company or service. Its purpose is simply to highlight commonly used integration options so teams know where to begin when exploring the ecosystem.
 
-#### How do I get my company added to this list?&#x20;
+#### How do I get my company added to this list?
 
 We’re developing a simple onboarding process for companies that want to be evaluated for inclusion.\
 **Details are coming soon.**
@@ -33,7 +33,7 @@ Yes. Integrating multiple services (or building something that composes several 
 
 ***
 
-## DeFi (Lending / Borrowing)&#x20;
+## DeFi (Lending / Borrowing)
 
 <details>
 
@@ -121,7 +121,7 @@ Yes. Integrating multiple services (or building something that composes several 
 </details>
 
 {% hint style="warning" %}
-\*Indicates a product or service maintained by the Stellar Development Foundation&#x20;
+\*Indicates a product or service maintained by the Stellar Development Foundation
 {% endhint %}
 
 ***

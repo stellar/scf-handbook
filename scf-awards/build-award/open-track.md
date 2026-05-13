@@ -28,7 +28,7 @@ The Open Track is for experienced builders exploring novel use cases on Stellar 
 * Thoughtful budget that reflects team size, timeline, and effort
 * Clear articulation of of how your proposed solution will drive onchain growth, and how that growth will be measured
 * Full-disclosure on the use of AI-generated and AI-assisted artifacts (docs, code, etc.)
-* A market analysis with a focus on the business side and the technical aspects. How is the project different from other, similar solutions, and what value does it provide?&#x20;
+* A market analysis with a focus on the business side and the technical aspects. How is the project different from other, similar solutions, and what value does it provide?
 * A unified source (like Gitbook) containing all project development documentation, including but not limited to planning, overall roadmap, diagrams, dev artifacts, test plan, and any UI/UX prototypes
 * Evidence that your team has previously built and scaled similar products, and that you have the business expertise and commitment to do so again
 * Shows a plan to utilize the network's latest strengths to ensure long-term scalability and leverage
@@ -36,7 +36,7 @@ The Open Track is for experienced builders exploring novel use cases on Stellar 
 
 #### 📅 Process & Timeline
 
-1. Submit the SCF Interest form and indicate your interest in the Open Track.&#x20;
+1. Submit the SCF Interest form and indicate your interest in the Open Track.
 
 | Important: If you were referred by a member of the SCF community, make sure to include their unique referral code on this form.  |
 | -------------------------------------------------------------------------------------------------------------------------------- |

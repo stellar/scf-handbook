@@ -1,6 +1,6 @@
 # Audit Readiness Checklist
 
-Incoming submissions are reviewed in detail and only those that can check all the below requirements, and don’t fall under any ineligible category, will be considered for selection. Also, make sure that your submission has all the context a reviewer may need and doesn’t require any additional context: the panel does not take any other information into account other than what is mentioned in the submission.&#x20;
+Incoming submissions are reviewed in detail and only those that can check all the below requirements, and don’t fall under any ineligible category, will be considered for selection. Also, make sure that your submission has all the context a reviewer may need and doesn’t require any additional context: the panel does not take any other information into account other than what is mentioned in the submission.
 
 * [ ] **Funding**: Was the project funded through Stellar Community Fund and meet [eligibility requirements](official-rules.md#participant-eligibility)?
 * [ ] **Repo Hygiene**: Does the structure of the code repository appear well organized and understandable?

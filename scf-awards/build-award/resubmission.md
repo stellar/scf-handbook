@@ -7,7 +7,7 @@ icon: repeat
 
 # Resubmission
 
-### When Can You Resubmit?&#x20;
+### When Can You Resubmit?
 
 You may resubmit your project to any future SCF round as long as the submission window is open and your project:
 
@@ -55,8 +55,8 @@ If the answer to all three is yes, your project may be ready for another round.
 
 #### Resubmitting for Previously Awarded Projects
 
-Projects who have previously received an SCF Build Award (or other SCF Award) are eligible to submit for another Build Award to add additional features, provided they meet the following criteria:&#x20;
+Projects who have previously received an SCF Build Award (or other SCF Award) are eligible to submit for another Build Award to add additional features, provided they meet the following criteria:
 
-* All tranches from the previous SCF Build Award have been completed and the full budget has been paid out.&#x20;
+* All tranches from the previous SCF Build Award have been completed and the full budget has been paid out.
 * Teams should share evidence of significant traction from prior funding, ideally onchain metrics.
 * Products should be live and testable at the time of submission for a subsequent Build Award.

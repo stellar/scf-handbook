@@ -85,7 +85,7 @@ Active engagement goes beyond joining a Discord or attending a single event. The
 * Receiving and incorporating feedback from chapter leads or mentors
 * Helping shape or contribute to chapter programming
 
-The Chapter Leads generally have discretion to assess and determine, based on the totality of circumstances, whether an Applicant is meaningfully engaged and eligible for consideration for an Instaward. Such determinations are subject to SDF’s independent review and final approval.&#x20;
+The Chapter Leads generally have discretion to assess and determine, based on the totality of circumstances, whether an Applicant is meaningfully engaged and eligible for consideration for an Instaward. Such determinations are subject to SDF’s independent review and final approval.
 
 ### 5. What Makes a Strong Instaward Project Scope
 
@@ -160,4 +160,4 @@ Instawards are often a first step. Builders who demonstrate strong execution and
 * Accelerator & other founder support programs
 * Ecosystem opportunities within your Ambassador Chapter & beyond
 
-If you’re interested in an Instaward, start by engaging with your [local Ambassador Chapter](https://stellar.gitbook.io/ambassador-program).&#x20;
+If you’re interested in an Instaward, start by engaging with your [local Ambassador Chapter](https://stellar.gitbook.io/ambassador-program).

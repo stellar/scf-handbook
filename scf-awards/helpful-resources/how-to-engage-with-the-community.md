@@ -4,7 +4,7 @@ icon: comments
 
 # How To Engage with the Community
 
-Once selected, you can start engaging with, learning from, and getting to know the Stellar community and verified members. This is an excellent opportunity to collect and use feedback to improve your submission. Interact with potential voters to help them understand your project and tailor your submission to highlight its value.&#x20;
+Once selected, you can start engaging with, learning from, and getting to know the Stellar community and verified members. This is an excellent opportunity to collect and use feedback to improve your submission. Interact with potential voters to help them understand your project and tailor your submission to highlight its value.
 
 While you’re at it, give your submission another read. Is there anything you can improve? Be clear about what you’re building, complete your submission in as much detail as possible, share any information you have about your current users, and make sure all your links work.
 
@@ -14,9 +14,9 @@ Before engaging in Discord, make sure to read the [SCF Discord Rules & Guideline
 
 ## How to ask for feedback
 
-The most effective way to get feedback is to ask for it. Be proactive! Prove to the community that you appreciate and value their feedback. Science has proven that asking for advice can deepen relationships and make a positive impression on mentors!&#x20;
+The most effective way to get feedback is to ask for it. Be proactive! Prove to the community that you appreciate and value their feedback. Science has proven that asking for advice can deepen relationships and make a positive impression on mentors!
 
-That said, overloading people with information, direct messaging long messages, and sending multiple reminders does not create a positive impression.&#x20;
+That said, overloading people with information, direct messaging long messages, and sending multiple reminders does not create a positive impression.
 
 Here are three tips to effectively ask for feedback:
 
@@ -34,7 +34,7 @@ Tag the group of people who are likely able to answer your question. We've recen
 
 ## How to respond
 
-Awesome! Your efforts of asking for feedback have paid off, and someone has responded. What do you do next?&#x20;
+Awesome! Your efforts of asking for feedback have paid off, and someone has responded. What do you do next?
 
 Here are a few tips to help you respond to feedback:
 
@@ -42,7 +42,7 @@ Here are a few tips to help you respond to feedback:
 
 First and foremost, always say thank you after someone has taken the time to review your project. Remember that they don't get paid for it! This person genuinely wants to help you, and that means a lot!
 
-#### ⚖️  |  Determine if feedback is constructive&#x20;
+#### ⚖️  |  Determine if feedback is constructive
 
 While we hope everyone gives helpful feedback, it's not always the case. Take a moment to process the feedback and determine whether it's constructive. If not, politely close the conversation by saying something like: "Thank you for taking the time to share this with us." Don't engage further with ill-intended individuals.
 

@@ -80,7 +80,7 @@ This includes:
 
 * A fully defined roadmap and technical plan
 * Developers on your team with experience in the relevant tools/languages
-* Ideally, plans to leverage existing ecosystem tools and solutions rather than building from scratch.&#x20;
+* Ideally, plans to leverage existing ecosystem tools and solutions rather than building from scratch.
 
 #### Stellar Relevance
 
@@ -110,7 +110,7 @@ Each tranche must contain:
 
 * Feasible, well-defined deliverables
 * Sufficient detail and realistic timing
-* How much each deliverable will cost&#x20;
+* How much each deliverable will cost
 
 #### Ecosystem Value & Differentiation
 
