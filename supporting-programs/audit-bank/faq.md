@@ -1,6 +1,6 @@
 # FAQ
 
-Check out the FAQ to answer all your questions! If you can't find your answer, ask it in the #scf-general channel on the [Stellar Developers Discord](https://discord.gg/stellardev), and someone will help you shortly.
+Check out the FAQ to answer all your questions! If you can't find your answer, ask it in the `#scf-general` channel on the [Stellar Developers Discord](https://discord.gg/stellardev), and someone will help you shortly.
 
 <details>
 

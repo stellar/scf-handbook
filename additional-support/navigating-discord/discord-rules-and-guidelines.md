@@ -19,7 +19,7 @@ Many voters will shy away from a project if they see unanswered questions posted
 
 #### 🙌  |  Promote yourself in the dedicated channels
 
-Don't advertise or post promotional messages about your project in #☕ │ general, #│ support, or any individual channel that isn't yours. Instead, you can feature your project in #⚡ │ project-announcements and your individual channel if you have one.&#x20;
+Don't advertise or post promotional messages about your project in `#☕ │ general`, `#│ support`, or any individual channel that isn't yours. Instead, you can feature your project in `#⚡ │ project-announcements` and your individual channel if you have one.&#x20;
 
 Include your project name in your user nickname, about me, or a custom status so the community can recognize you. Check out the [beginner's guide for instructions on how to do this](/broken/pages/dN9FMb0XmwRSJquK1IoX).
 

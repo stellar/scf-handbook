@@ -64,7 +64,7 @@ If your project passes the eligibility review, you may be invited to apply for a
 
 #### ❓ | Have questions?
 
-Check out our [FAQ section](additional-support/faq.md)! Have questions not addressed in our FAQ? Hop over to the #scf-general channel on the [Stellar Dev Discord](https://discord.gg/stellardev). New to Discord? Learn more on [how to navigate Discord here](additional-support/navigating-discord/).
+Check out our [FAQ section](additional-support/faq.md)! Have questions not addressed in our FAQ? Hop over to the `#scf-general` channel on the [Stellar Dev Discord](https://discord.gg/stellardev). New to Discord? Learn more on [how to navigate Discord here](additional-support/navigating-discord/).
 
 ***
 
