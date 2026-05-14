@@ -18,7 +18,7 @@ Neural Governance uses the abstractions of Voting Neurons, which are arranged an
 
 The outputs from all Voting Neurons are aggregated together in layers, and then passed as an input to the next layer, until a final value is reached.
 
-<figure><img src="../../.gitbook/assets/unknown.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/nqg/neural-governance-flow.png" alt=""><figcaption></figcaption></figure>
 
 Neural Governance at a glance: In this stylized implementation, User Vote Power starts with a default voting power (such as zero), which gets replaced by the voting power that is computed by aggregating the Reputation and Past Voting Neurons' weighted outputs. This is then fed to the Trust Neuron, which will then provide the Final User Vote Power.
 
@@ -93,7 +93,7 @@ $$
 
 In the graph below, we chose arbitrary values (a = 0, k = 1, c = 1, q = 1, b = 1, n = 4, o = 22, and x = 33) to add mild effects influenced by round importance over the number of rounds. Weights for each round user voted in, are multiplied by a percentage of active votes of this user. Although it is set to always be at least 30%, because not all Tiers are allowed to actively vote.
 
-![](<../../.gitbook/assets/unknown (1).png>)
+![](<../../.gitbook/assets/nqg/voting-history-round-weight.png>)
 
 {% hint style="info" %}
 Example: User A voted in round 30, from the graph above we can see weight for this round is 1.0. In this round user A submitted 68 Yes/No votes, and 32 Delegate votes, so 68%. The final weight of round 30 for this user will be 1.0 x 68% = 0.68.
@@ -115,7 +115,7 @@ $$
 
 In the graph below, we chose arbitrary values (a = 0, k = 1, c = 1, q = 1, b = 1, n = 1, o = 5)  to add mild effects to the Voting History bonus influenced by the number of rounds.
 
-![](<../../.gitbook/assets/unknown (2).png>)
+![](<../../.gitbook/assets/nqg/voting-history-bonus-curve.png>)
 
 {% hint style="info" %}
 Example: Alice has voted in 5 rounds: SCF#19, 20, 27, 28, 29. We look at the first graph, take the corresponding weight for each round, and apply the active voting bonus for each round. Assume Alice always votes 100% actively, so we get values 0.5, 0.6, 1.0, 1.0, 1.0. We sum the weights and get a value of 4.1. Then we look at the second graph for the value of 4.1 at the X axis, and see that on the Y axis the corresponding bonus will be 0.25 - this is Alice’s Voting History Neuron bonus. Now let's look at Bob who has also voted in 5 rounds, but more recently in SCF#26, 27, 28, 29, 30. For each of those rounds weight is almost 1.0, approximately summing up to 5.0. Looking at the second graph, Bob’s Voting History Neuron’s bonus will be 0.5. Even though both Alice and Bob voted in 5 rounds, recent rounds get almost twice the Voting History bonus.
@@ -159,7 +159,7 @@ For any given user since SCF #30, we go over all votes of given user, since roun
 * Highly Trusted Bonus - additional bonus if given user is trusted by a highly trusted user
 * Trust History - used to determine if a user recently lost a lot of trust
 
-<figure><img src="../../.gitbook/assets/unknown (3).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/nqg/trust-score-flow.png" alt=""><figcaption></figcaption></figure>
 
 **1.2.4.1 Normalized PageRank**
 
@@ -194,7 +194,7 @@ Trust History safeguard is used to decrease a user’s voting power when signifi
    3. In round #32 user “C” has trust score of 1.0 and in #33 it fell to 0.6 because a lot less people trusted him. This means his current trust is equal to 60% of previous trust.
 3.  After we have those % diffs we run them through the logistic curve, which you can see on the graph below.<br>
 
-    <div data-full-width="true"><figure><img src="../../.gitbook/assets/unknown (4).png" alt=""><figcaption></figcaption></figure></div>
+    <div data-full-width="true"><figure><img src="../../.gitbook/assets/nqg/trust-history-multiplier-curve.png" alt=""><figcaption></figcaption></figure></div>
 4. To calculate the final trust score we take the user's PageRank (with HTB if applicable) score from the current round, and multiply it by the trust multiplier (also %) that came out of the logistic curve. Let’s come back to our 3 examples:
    1. User “A” had a Page Rank score for the current round at 1.2, and it was 120% of his trust score from the previous round. So looking at the graph, 120% equals the trust multiplier being 100% - that means user “A” will have his final trust score equal to the page rank from the current round - in other words, his score is unaffected.
    2. User “B” had a Page Rank score for the current round at 0.8, and it was 80% of his trust score from the previous round. Looking at the graph, 80% equals 97% trust multiplier - this means, his score will also remain mostly unchanged.
@@ -247,7 +247,7 @@ Quorum Delegation (QD) allows users to passively vote by delegating their choice
 2. If enough ranked delegates actively vote, their decision forms a Quorum Vote automatically for the user. If not enough ranked delegates actively vote,&#x20;
 3. The outcome of the Quorum Vote is weighted by the delegating member’s voting weight, and sent as input for the final vote tally.
 
-<figure><img src="../../.gitbook/assets/unknown (5).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/nqg/quorum-delegation-flow.png" alt=""><figcaption></figcaption></figure>
 
 In the example above, the quorum consists of 10 anonymous users of which 6 vote "Yes", 2 vote "No", 1 abstains, and 1 does not participate. The quorum participation threshold is 3/5 (6 users). Since "Yes" exceeds a simple majority (4 votes), the user automatically votes "Yes".
 

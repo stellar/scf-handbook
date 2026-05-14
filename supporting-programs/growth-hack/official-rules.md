@@ -12,7 +12,7 @@ Each Project in the SCF Growth Hack needs to adhere to the [Participant Eligibil
 
 During the program, companies will follow the 10 stages below.
 
-<figure><img src="../../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/growth-hack/program-stages.png" alt=""><figcaption></figcaption></figure>
 
 <table data-full-width="true"><thead><tr><th width="207.29296875">Phase</th><th>Description</th></tr></thead><tbody><tr><td>Application (1 week)</td><td>Eligible companies submit applications for the Growth Hack Program.</td></tr><tr><td>Selection &#x26; Risk Assessment (2 weeks)</td><td>SDF reviews applications against selection criteria. If you pass, you proceed; if not, SDF notifies you via email. SDF conducts risk assessment and KYC (if needed); may request additional info. If you pass, you’re approved and must sign SDF’s standard grant agreement. If you don’t pass, SDF notifies you via email.</td></tr><tr><td>1st Payment (post-agreement)</td><td>After the agreement is signed, SDF sends a small test transaction to the Stellar address/memo provided. You confirm the exact amount back to SDF. Once confirmed, SDF sends the full upfront award: <strong>USD $20K worth of XLM</strong>.</td></tr><tr><td>Preparation — Resource Mapping &#x26; Market Research (Weeks 1–2 of Prep)</td><td>SDF runs a series of workshops and introduces resources (agencies, contractors, GTM content, etc.). Each company explores options and decides whether to engage external support for research, strategy, and execution by end of Week 2.</td></tr><tr><td>Preparation — Strategy &#x26; Measurement (Weeks 3–4 of Prep)</td><td>Each project drafts its campaign plan (budget, incentives, channels, content, retention, measurement). SDF reviews and may amplify at its discretion. <strong>On-chain:</strong> build a Dune dashboard (shared with SDF &#x26; cohort) tracking WAA and txn volume vs. baseline. <strong>Off-chain:</strong> set up a dashboard on a preferred platform and share access with SDF. Weekly metric updates during the competition.</td></tr><tr><td>Preparation — Pre-launch Testing &#x26; Improvement (Weeks 5–6 of Prep)</td><td>Run closed beta groups; collect and apply feedback to product and strategy. Submit a final campaign plan form to SDF covering: target market/audience; acquisition channels; activity/timeline; KPIs (CPA, conversion, etc.); team capacity/expertise.</td></tr><tr><td>Campaign (4 weeks)</td><td>Execute the campaign and track growth metrics for 4 weeks. Document activities, conversion rates, and challenges. SDF holds a 15-minute weekly check-in to review progress and give feedback as needed.</td></tr><tr><td>Evaluation</td><td>After activation ends, SDF reviews results, announces the performance-based award pool, and names the <strong>top 5</strong> winners. Evidence of prohibited market manipulation leads to disqualification.</td></tr><tr><td>2nd Payment (top 5 only)</td><td>The top 5 companies receive the <strong>first 50% of their performance-based award</strong>.</td></tr><tr><td>Retention (4 weeks)</td><td>Use funding to sustain growth for 4 additional weeks. Maintain dashboards and report to SDF <strong>bi-weekly</strong>.</td></tr><tr><td>3rd Payment (conditional)</td><td>If average WAA and weekly txn volume remain within <strong>30% of competition levels</strong> (i.e., <strong>≤70% decline</strong>) during the 4-week retention period, the <strong>final 50% of the performance-based award</strong> is paid. If metrics drop by <strong>>70%</strong>, no third tranche is distributed.</td></tr><tr><td>Completion</td><td>Submit a final report summarizing strategies, acquisition results, and lessons learned.</td></tr></tbody></table>
 
@@ -30,7 +30,7 @@ Companies applying to the Growth Hack Program must meet the following criteria:
 
 Companies should demonstrate a good fit and readiness for the Growth Hack Program, and have the basic capabilities and resources necessary for execution.
 
-<figure><img src="../../.gitbook/assets/image (6).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/growth-hack/selection-criteria.png" alt=""><figcaption></figcaption></figure>
 
 ## Award Structure
 
@@ -62,7 +62,7 @@ $$
 
 
 
-<figure><img src="../../.gitbook/assets/Screenshot 2025-11-19 at 12.53.06 PM.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/growth-hack/award-calculation-formula.png" alt=""><figcaption></figcaption></figure>
 
 ### Example of Performance-Based Grant Calculation
 
