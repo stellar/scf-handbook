@@ -4,7 +4,7 @@ icon: gavel
 
 # Quarterly Governance Process
 
-To balance efficiency with decentralization in the governance process, SCF uses Track Delegate Panels — groups of subject-matter experts with the SCF Pilot role, rotating on a quarterly basis, organized by track that support:<br>
+To balance efficiency with decentralization in the governance process, SCF uses Track Delegate Panels—groups of subject-matter experts with the SCF Pilot role, rotating on a quarterly basis, organized by track that support:<br>
 
 * Setting quarterly goals;
 * Updates to submission criteria, forms, and other relevant resources associated;

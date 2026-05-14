@@ -21,7 +21,7 @@ The SCF is operated by the Stellar Development Foundation (SDF), with input from
 
 SCF offers a variety of programs to build and grow your project on Stellar, such as the SCF Build Award.&#x20;
 
-Currently, all new projects enter through an open-application interest form. From there, some teams may be invited to SCF Build — an award track designed to support product development and launch.
+Currently, all new projects enter through an open-application interest form. From there, some teams may be invited to SCF Build—an award track designed to support product development and launch.
 
 Teams may also be invited to connect with their local Ambassador Chapter for incubation and [Instaward](scf-awards/instawards/) opportunities, apply for [Public Goods Awards](supporting-programs/public-goods-award/) or participate in supporting programs like the [Audit Bank](supporting-programs/audit-bank/), [Liquidity Award](supporting-programs/stellar-liquidity-award/), [Growth Hack](supporting-programs/growth-hack/), accelerator programs, or any other support opportunities.
 

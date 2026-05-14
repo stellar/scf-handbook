@@ -12,12 +12,12 @@ SCF Build Awards are milestone-based. Funding is split into four payments tied t
 
 * Awards are capped at $150,000 worth of XLM.
 * 📆 Project timeline should not exceed 6 months.
-* Budget must be tied to three tranches — we recommend using the following structure, but feel free to adjust as makes the most sense for your project:
+* Budget must be tied to three tranches—we recommend using the following structure, but feel free to adjust as makes the most sense for your project:
   * **Tranche #1 - MVP**
   * **Tranche #2 - Testnet**
   * **Tranche #3 - Mainnet**
 * Each tranche must be backed by specific, verifiable deliverables.
-* Costs must support future development — not past work or general operations.
+* Costs must support future development, not past work or general operations.
 
 ### ✅  Budget DOs:  What to Include
 
@@ -77,7 +77,7 @@ Your budget should reflect the actual hours of engineering and product work requ
 * Will it unlock new functionality in the Stellar/Soroban ecosystem?
 * Is this a key piece of infrastructure or a public-good primitive?
 
-Higher-impact projects can justify larger budgets — but only if the work involved matches.
+Higher-impact projects can justify larger budgets—but only if the work involved matches.
 
 **Integration Partner Guidelines**
 
@@ -105,7 +105,7 @@ SCF Build Awards are structured around three tranches, tied to measurable outcom
 ### &#x20;What Is a Tranche?
 
 A tranche is a portion of your award linked to a project milestone.\
-The SCF Build application form includes space for three tranches — your full proposal must fit into that structure.
+The SCF Build application form includes space for three tranches—your full proposal must fit into that structure.
 
 ### Flexible Journey, Fixed Destination
 
@@ -114,7 +114,7 @@ While every project is different, we expect all SCF Build teams to be ready to b
 As mentioned in the Submission Eligibility section:
 
 * Your technical architecture must already be complete at the time of application
-* Tranche 1 should focus on actual development — not planning, research, or system design
+* Tranche 1 should focus on actual development—not planning, research, or system design
 * Mapping out the system should be done before you submit<br>
 
 We recommend a structure that follows a typical product lifecycle:

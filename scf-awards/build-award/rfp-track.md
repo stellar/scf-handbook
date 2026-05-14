@@ -60,11 +60,11 @@ Develop a standard (with reference implementation) that enables exchanges, broke
 
 #### **2. Background & Context**
 
-CEXes and institutional partners (e.g., Societe Generale working with Bitpanda) consistently struggle to let users withdraw native Stellar assets because the trustline requirement creates unintuitive UX -- users receive prompts from their wallet or exchange to "create a trustline" without context, which blocks withdrawal flows. With classic assets on Stellar (not Soroban), issuers cannot be MiCA-compliant without an authorization layer. This friction is a recurring blocker for asset issuers launching on Stellar and for exchanges that need predictable withdrawal UX. Existing tools (e.g., Stellar Light, eurcv.theaha.co) point to the shape of the solution but no standard exists. CAP-73 (authorize trustline) is relevant prior art.
+CEXes and institutional partners (e.g., Societe Generale working with Bitpanda) consistently struggle to let users withdraw native Stellar assets because the trustline requirement creates unintuitive UX—users receive prompts from their wallet or exchange to "create a trustline" without context, which blocks withdrawal flows. With classic assets on Stellar (not Soroban), issuers cannot be MiCA-compliant without an authorization layer. This friction is a recurring blocker for asset issuers launching on Stellar and for exchanges that need predictable withdrawal UX. Existing tools (e.g., Stellar Light, eurcv.theaha.co) point to the shape of the solution but no standard exists. CAP-73 (authorize trustline) is relevant prior art.
 
 #### **3. Requirements**
 
-The RFP should define a standard -- plus reference implementation -- that addresses the trustline onboarding problem. At minimum, submissions should cover:
+The RFP should define a standard—plus reference implementation—that addresses the trustline onboarding problem. At minimum, submissions should cover:
 
 * A well-defined standard for trustline authorization (leveraging CAP-73 or an equivalent approach) that custodians, wallets, exchanges, and asset issuers can implement predictably, supporting a full institutional asset lifecycle.
 * A reference implementation that demonstrates the standard end-to-end, including the issuer-side authorization flow and the recipient-side activation flow.
@@ -75,7 +75,7 @@ The RFP should define a standard -- plus reference implementation -- that addres
 
 #### **4. Evaluation Criteria**
 
-Technical capability -- experience with Stellar operations, CAP standards authoring or implementation, and wallet/exchange integration patterns.
+Technical capability—experience with Stellar operations, CAP standards authoring or implementation, and wallet/exchange integration patterns.
 
 * Relevant experience -- prior work on asset onboarding, account setup, or authorization flows in Stellar or comparable ecosystems.
 * Ecosystem alignment -- willingness and ability to coordinate with custodians, wallet providers, exchanges, and issuers, as well as DeFi protocols during the design phase.
@@ -105,11 +105,11 @@ _Added: Q2 2026_
 
 #### 1. Scope of Work
 
-Develop a documented set of passkey usage patterns for Stellar smart accounts, paired with a minimal, composable passkey SDK and a small set of reference UI components. The highest-value deliverable is documentation of what works reliably across devices, browsers, and hardware, what breaks, and what fallbacks wallets should use -- with the SDK and reference code built around those findings rather than the other way around. The SDK is explicitly intended to be adopted into stellar-wallet-kit so wallet teams can integrate passkey-based authentication for Soroban smart accounts without building UI or compatibility logic from scratch.
+Develop a documented set of passkey usage patterns for Stellar smart accounts, paired with a minimal, composable passkey SDK and a small set of reference UI components. The highest-value deliverable is documentation of what works reliably across devices, browsers, and hardware, what breaks, and what fallbacks wallets should use—with the SDK and reference code built around those findings rather than the other way around. The SDK is explicitly intended to be adopted into stellar-wallet-kit so wallet teams can integrate passkey-based authentication for Soroban smart accounts without building UI or compatibility logic from scratch.
 
 #### 2. Background & Context
 
-Passkey-based authentication is a key unlock for user-friendly Soroban smart accounts, but today every team building with passkeys on Stellar (e.g., Stellar Passport from Bastian) is building UI from scratch. Existing reference material (kalepail/smart-account-kit and similar repos) is functional but monolithic -- teams report that these kits include too much surface area and are difficult to extract a minimal, composable layer from.
+Passkey-based authentication is a key unlock for user-friendly Soroban smart accounts, but today every team building with passkeys on Stellar (e.g., Stellar Passport from Bastian) is building UI from scratch. Existing reference material (kalepail/smart-account-kit and similar repos) is functional but monolithic—teams report that these kits include too much surface area and are difficult to extract a minimal, composable layer from.
 
 Community feedback in the SCF Pilots discussion is that the ecosystem needs a minimal, neat SDK rather than another big repository, and that the hard part is less about the interface and more about reliable usage patterns across devices, browsers, and hardware. Ishan's framing on this: "the highest-value deliverable is documenting what works reliably, what breaks, and what fallbacks wallets should use." Without that body of knowledge codified somewhere, every new wallet team rediscovers the same compatibility gotchas independently.
 
@@ -157,11 +157,11 @@ _Added: Q2 2026_
 
 #### 1. Scope of Work
 
-Develop a production-ready Account Demolisher tool that allows users to cleanly close a Stellar account: close open positions (offers, LP stakes, DeFi positions), remove all trustlines, remove existing data entries, remove account extra signers (and change account the thresholds accordingly), optionally claim pending claimable balances, convert all tokens to XLM and merge the account -- sending all funds to a target destination (exchange or other wallet). The tool must support both classic Stellar operations and Soroban DeFi protocols(which the existing stellar.expert/demolisher tool does not).
+Develop a production-ready Account Demolisher tool that allows users to cleanly close a Stellar account: close open positions (offers, LP stakes, DeFi positions), remove all trustlines, remove existing data entries, remove account extra signers (and change account the thresholds accordingly), optionally claim pending claimable balances, convert all tokens to XLM and merge the account—sending all funds to a target destination (exchange or other wallet). The tool must support both classic Stellar operations and Soroban DeFi protocols(which the existing stellar.expert/demolisher tool does not).
 
 #### 2. Background & Context
 
-Stellar has over 10 million accounts on the network, many of them stale or abandoned ("zombie accounts"). Closing an account cleanly is currently a manual, multi-step process that most users cannot navigate, and CEXes periodically need to help users consolidate or withdraw remaining funds. Also none of major CEXes support ACCOUNT\_MERGE operation, which means that users cannot retrieve the remaining 1 XLM of the base account reserve, these funds are basically frozen on the ledger. An open-source precedent exists (stellar.expert/demolisher/public -- built by Orbit Lens) but has not been updated in some time and lacks Soroban support. Given the scale of the problem and the sensitivity of a tool that drains accounts, this RFP should be awarded to a well-known, trusted team, and the RFP assumes the existing open-source code is a starting point rather than a blocker.
+Stellar has over 10 million accounts on the network, many of them stale or abandoned ("zombie accounts"). Closing an account cleanly is currently a manual, multi-step process that most users cannot navigate, and CEXes periodically need to help users consolidate or withdraw remaining funds. Also none of major CEXes support ACCOUNT\_MERGE operation, which means that users cannot retrieve the remaining 1 XLM of the base account reserve, these funds are basically frozen on the ledger. An open-source precedent exists (stellar.expert/demolisher/public—built by Orbit Lens) but has not been updated in some time and lacks Soroban support. Given the scale of the problem and the sensitivity of a tool that drains accounts, this RFP should be awarded to a well-known, trusted team, and the RFP assumes the existing open-source code is a starting point rather than a blocker.
 
 #### 3. Requirements
 
@@ -323,17 +323,17 @@ _Added: Q2 2026_
 
 #### 1. Scope of Work
 
-Develop an AI-assisted toolkit (likely a combination of an MCP server and a Claude / agent skill) that helps developers and end users craft OpenZeppelin smart account policies and context rules from observed or simulated Stellar transactions. The core deliverable is a "record-and-generate" workflow: a user (or agent) executes a representative transaction sequence -- for example, claiming yield on Blend and converting it to USDC -- and the tool synthesizes a context rule plus the minimum set of policies that would permit exactly that flow, scoped tightly enough that a delegated third party (human or agent) can repeat the operation but cannot deviate from it. The deliverable is positioned as an MCP server / agent skill / developer tool, not a hosted service that auto-deploys policies on behalf of users. The tool generates reviewable policy code; deployment is always a separate, explicit step performed by the user (or by an agent operating under existing permissions).
+Develop an AI-assisted toolkit (likely a combination of an MCP server and a Claude / agent skill) that helps developers and end users craft OpenZeppelin smart account policies and context rules from observed or simulated Stellar transactions. The core deliverable is a "record-and-generate" workflow: a user (or agent) executes a representative transaction sequence—for example, claiming yield on Blend and converting it to USDC—and the tool synthesizes a context rule plus the minimum set of policies that would permit exactly that flow, scoped tightly enough that a delegated third party (human or agent) can repeat the operation but cannot deviate from it. The deliverable is positioned as an MCP server / agent skill / developer tool, not a hosted service that auto-deploys policies on behalf of users. The tool generates reviewable policy code; deployment is always a separate, explicit step performed by the user (or by an agent operating under existing permissions).
 
 #### 2. Background & Context
 
-OpenZeppelin's [smart accounts framework](https://docs.openzeppelin.com/stellar-contracts/accounts/smart-account) for Stellar (built on Soroban smart accounts and the OZ accounts package) decomposes authorization into three composable elements: context rules (scope and lifetime bindings, e.g. "call transfer() on USDC for one year"), signers (the entities authorized to act), and policies -- enforcement modules that add programmable constraints like spending limits, multisig thresholds, or time windows. A single context rule can attach up to 5 policies, evaluated through a defined lifecycle (install / can\_enforce / enforce / uninstall).
+OpenZeppelin's [smart accounts framework](https://docs.openzeppelin.com/stellar-contracts/accounts/smart-account) for Stellar (built on Soroban smart accounts and the OZ accounts package) decomposes authorization into three composable elements: context rules (scope and lifetime bindings, e.g. "call transfer() on USDC for one year"), signers (the entities authorized to act), and policies—enforcement modules that add programmable constraints like spending limits, multisig thresholds, or time windows. A single context rule can attach up to 5 policies, evaluated through a defined lifecycle (install / can\_enforce / enforce / uninstall).
 
 The expressive power of this design is significant: the same primitive supports subscription billing, agent delegation, social recovery, and corporate treasury rails. The tradeoff is authoring complexity. Today, writing a custom policy means writing a Soroban contract that implements the Policy trait correctly, segregates storage by both smart account address and context rule ID (for stateful policies), handles the install/enforce/uninstall lifecycle, and gets audited. That bar is too high for most application developers, and effectively prohibitive for end users who want to delegate a narrow capability to an agent or service.
 
-The most powerful unlock here is letting users start from a transaction they have already performed (or simulated). An AI-assisted toolkit can examine the effects of that transaction -- which contracts were called, which functions were invoked, which assets moved, in what amounts, in what order -- and from that derive a context rule plus the policies needed to permit a future invocation of that same flow, but only that flow. "Record this sequence, generate a policy that allows exactly this and nothing else."
+The most powerful unlock here is letting users start from a transaction they have already performed (or simulated). An AI-assisted toolkit can examine the effects of that transaction—which contracts were called, which functions were invoked, which assets moved, in what amounts, in what order—and from that derive a context rule plus the policies needed to permit a future invocation of that same flow, but only that flow. "Record this sequence, generate a policy that allows exactly this and nothing else."
 
-This sits at the intersection of three priorities for Stellar in 2026: AI / agent-readiness of the network, smart account adoption (C-addresses), and developer experience improvements that make Soroban's expressive capabilities practical to use. The output is also defensively useful -- agents acting under tightly scoped policies are categorically safer than agents holding full account keys, which matters as AI agents take on more autonomous on-chain roles.
+This sits at the intersection of three priorities for Stellar in 2026: AI / agent-readiness of the network, smart account adoption (C-addresses), and developer experience improvements that make Soroban's expressive capabilities practical to use. The output is also defensively useful—agents acting under tightly scoped policies are categorically safer than agents holding full account keys, which matters as AI agents take on more autonomous on-chain roles.
 
 OpenZeppelin involvement: OZ has been consulted on this RFP and indicated interest in participating as a technical reviewer rather than a co-owner. Design decisions and generated-code quality should be validated with the OZ accounts package maintainers, but the deliverable is independent of OZ's own roadmap.
 
@@ -381,7 +381,7 @@ The deliverable is a developer/end-user-facing toolkit, not a new contract primi
 
 </details>
 
-If you have an need for a tool or infrastructure that would meet an immediate ecosystem need but isn't listed above, it could be a good idea for an SCF RFP — add it on the [Stellarlight Ideas page](https://ideas.stellarlight.xyz/) and discuss further in the [Stellar Dev Discord](https://discord.gg/stellardev)!
+If you have an need for a tool or infrastructure that would meet an immediate ecosystem need but isn't listed above, it could be a good idea for an SCF RFP—add it on the [Stellarlight Ideas page](https://ideas.stellarlight.xyz/) and discuss further in the [Stellar Dev Discord](https://discord.gg/stellardev)!
 
 #### 📅 Process & Timeline
 

@@ -4,7 +4,7 @@
 
 The Integration Track supports applications leveraging existing building blocks on Stellar to enable everyday financial services, creating a plug-and-play experience for builders submitting to the SCF.
 
-Rather than reinventing the wheel, this track focuses on composability — integrating wallets, assets, on- and off-ramps, and DeFi protocols to create a more connected, user-ready ecosystem.
+Rather than reinventing the wheel, this track focuses on composability: integrating wallets, assets, on- and off-ramps, and DeFi protocols to create a more connected, user-ready ecosystem.
 
 #### ✅ Who This Track Is For
 

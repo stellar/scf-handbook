@@ -134,4 +134,4 @@ If your project issues (or plans to issue) a fiat-backed digital asset:
 * Teams with outstanding Research or Academic Grants must fulfill all obligations before applying
 * Teams with active Marketing, Currency Support, or Infrastructure Grants cannot seek funding for overlapping work
 
-Teams that received a prior SCF Build Award may apply again, but must show significant progress on the previous project — at SDF’s discretion.
+Teams that received a prior SCF Build Award may apply again, but must show significant progress on the previous project—at SDF’s discretion.
