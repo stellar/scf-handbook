@@ -126,6 +126,4 @@ If your project does not meet the above conditions or you're unsure which catego
 * Include a brief summary of your project and past SCF participation
 * We’ll help clarify your status and what next steps are available
 
-***
-
 {% include ".gitbook/includes/xlm-award-valuation-disclaimer.md" %}

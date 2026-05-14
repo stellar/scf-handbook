@@ -108,6 +108,4 @@ Non-SDF Delegates receive:
     \
     Payments are issued regularly during the quarter for completed reviews.
 
-***
-
 {% include "../../.gitbook/includes/xlm-award-valuation-disclaimer.md" %}

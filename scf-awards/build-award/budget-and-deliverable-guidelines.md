@@ -176,8 +176,6 @@ It’s okay to adjust scope, just communicate early.
 * Don’t front-load all the hard work into Tranche 1 - this should be an opportunity to ship something fast.&#x20;
 * Make sure each deliverable has a clear definition of success, both for you and for reviewers to verify.
 
-***
-
 {% include "../../.gitbook/includes/xlm-award-valuation-disclaimer.md" %}
 
 <br>
