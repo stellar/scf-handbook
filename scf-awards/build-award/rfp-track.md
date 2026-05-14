@@ -157,7 +157,7 @@ _Added: Q2 2026_
 
 #### 1. Scope of Work
 
-Develop a production-ready Account Demolisher tool that allows users to cleanly close a Stellar account: close open positions (offers, LP stakes, DeFi positions), remove all trustlines, remove existing data entries, remove account extra signers (and change account the thresholds accordingly), optionally claim pending claimable balances, convert all tokens to XLM and merge the account—sending all funds to a target destination (exchange or other wallet). The tool must support both classic Stellar operations and Soroban DeFi protocols(which the existing stellar.expert/demolisher tool does not).
+Develop a production-ready Account Demolisher tool that allows users to cleanly close a Stellar account: close open positions (offers, LP stakes, DeFi positions), remove all trustlines, remove existing data entries, remove account extra signers (and change account the thresholds accordingly), optionally claim pending claimable balances, convert all tokens to XLM and merge the account—sending all funds to a target destination (exchange or other wallet). The tool must support both classic Stellar operations and Soroban DeFi protocols (which the existing stellar.expert/demolisher tool does not).
 
 #### 2. Background & Context
 
