@@ -89,7 +89,7 @@ $$
 a+( k - a )(c + q * e(-b*(x - o)) )(1/n)
 $$
 
-<sup><sub>This formula was proposed by BlockScience (learn more about requirements and parameters<sub></sup> [<sup><sub>here<sub></sup>](https://hackmd.io/@blockscience/SkBilx67A) <sup><sub>and the parameter effects of<sub></sup> [<sup><sub>logistical curves on Wikipedia<sub></sup>](https://en.wikipedia.org/wiki/Generalised_logistic_function)<sup><sub>).<sub></sup> <sup><sub><i>a</i> = the left horizontal asymptote, <i>k</i> = the right horizontal asymptote, <i>c</i> = 1, <i>q</i> = is related to the value <i>Y</i>(0), <i>b</i> = the growth rate, <i>n</i> = affects near which asymptote maximum growth occurs, <i>o</i> = X axis offset (current round # - 10), <i>x</i> = current round #<sub></sup>
+<sup><sub>This formula was proposed by BlockScience (learn more about requirements and parameters<sub></sup> [<sup><sub>here<sub></sup>](https://hackmd.io/@blockscience/SkBilx67A) <sup><sub>and the parameter effects of<sub></sup> [<sup><sub>logistical curves on Wikipedia<sub></sup>](https://en.wikipedia.org/wiki/Generalised_logistic_function)<sup><sub>).<sub></sup> <sup><sub>$a$ = the left horizontal asymptote, $k$ = the right horizontal asymptote, $c$ = 1, $q$ = is related to the value $Y(0)$, $b$ = the growth rate, $n$ = affects near which asymptote maximum growth occurs, $o$ = X axis offset (current round # - 10), $x$ = current round #<sub></sup>
 
 In the graph below, we chose arbitrary values (a = 0, k = 1, c = 1, q = 1, b = 1, n = 4, o = 22, and x = 33) to add mild effects influenced by round importance over the number of rounds. Weights for each round user voted in, are multiplied by a percentage of active votes of this user. Although it is set to always be at least 30%, because not all Tiers are allowed to actively vote.
 
@@ -111,7 +111,7 @@ $$
 a+( k - a )(c + q * e(-b*(x - o)) )(1/n)
 $$
 
-<sub><i>a</i> = the left horizontal asymptote, <i>k</i> = the right horizontal asymptote, <i>c</i> = 1, <i>q</i> = is related to the value <i>Y</i>(0), <i>b</i> = the growth rate, <i>n</i> = affects near which asymptote maximum growth occurs, <i>o</i> = X axis offset, <i>x</i> = Sum of Rounds Weights.</sub>
+<sub>$a$ = the left horizontal asymptote, $k$ = the right horizontal asymptote, $c$ = 1, $q$ = is related to the value $Y(0)$, $b$ = the growth rate, $n$ = affects near which asymptote maximum growth occurs, $o$ = X axis offset, $x$ = Sum of Rounds Weights.</sub>
 
 In the graph below, we chose arbitrary values (a = 0, k = 1, c = 1, q = 1, b = 1, n = 1, o = 5)  to add mild effects to the Voting History bonus influenced by the number of rounds.
 
