@@ -279,6 +279,6 @@ The current implementation of QD in SCF has fixed parameters with relatively lig
 
 #### **2.2.1. Understanding the difference between the purpose of Trust Graph Neuron and Quorum Delegation**
 
-The relationships within the Trust Graph Neuron show correlations with Quorum Delegation as both are focused on trust, but each have a distinct purpose — while it might be assumed that a user would add their delegates to their trusted list of users, they would not necessarily select everyone in their trusted list as delegates (and not everyone would be available, as delegate selection happens quarterly based on nomination).&#x20;
+The relationships within the Trust Graph Neuron show correlations with Quorum Delegation as both are focused on trust, but each have a distinct purpose–while it might be assumed that a user would add their delegates to their trusted list of users, they would not necessarily select everyone in their trusted list as delegates (and not everyone would be available, as delegate selection happens quarterly based on nomination).&#x20;
 
-Trust in the Trust Graph Neuron is expected to be assigned more liberally — a user can assign trust for any reason to help gain reputation for that user — as there is no direct effect on their own choices and voting power. Similarly, a user can assign trust to a high number of other users, while Quorum Delegation is limited.
+Trust in the Trust Graph Neuron is expected to be assigned more liberally—a user can assign trust for any reason to help gain reputation for that user— as there is no direct effect on their own choices and voting power. Similarly, a user can assign trust to a high number of other users, while Quorum Delegation is limited.
