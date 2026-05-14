@@ -110,6 +110,4 @@ Non-SDF Delegates receive:
 
 ***
 
-#### Disclaimer
-
 {% include "../../.gitbook/includes/xlm-award-valuation-disclaimer.md" %}

@@ -254,6 +254,4 @@ Email [communityfund@stellar.org](mailto:communityfund@stellar.org), or (for a f
 
 </details>
 
-### Disclaimer
-
 {% include "../.gitbook/includes/xlm-award-valuation-disclaimer.md" %}

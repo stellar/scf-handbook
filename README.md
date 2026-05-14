@@ -128,6 +128,4 @@ If your project does not meet the above conditions or you're unsure which catego
 
 ***
 
-**Disclaimer**
-
 {% include ".gitbook/includes/xlm-award-valuation-disclaimer.md" %}

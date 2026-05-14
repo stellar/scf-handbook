@@ -10,6 +10,4 @@ Additional cohorts added soon.
 
 See [Official Rules ](official-rules.md)for more information.
 
-***
-
 {% include "../../.gitbook/includes/xlm-award-valuation-disclaimer.md" %}

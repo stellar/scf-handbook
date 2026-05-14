@@ -123,6 +123,4 @@ The Stellar Community Fund relies heavily on signals from vetted referral source
 
 ***
 
-#### Disclaimer
-
 {% include "../../.gitbook/includes/xlm-award-valuation-disclaimer.md" %}

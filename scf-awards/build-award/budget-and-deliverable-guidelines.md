@@ -178,8 +178,6 @@ It’s okay to adjust scope, just communicate early.
 
 ***
 
-### **Disclaimer**
-
 {% include "../../.gitbook/includes/xlm-award-valuation-disclaimer.md" %}
 
 <br>

@@ -173,6 +173,4 @@ SDF collects personal information from Participants when they enter the SCF Publ
 
 If you have any specific questions or concerns you can also email SDF at communityfund@stellar.org.
 
-***
-
 {% include "../../.gitbook/includes/xlm-award-valuation-disclaimer.md" %}
