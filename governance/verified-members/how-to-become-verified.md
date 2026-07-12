@@ -16,7 +16,7 @@ Verification is completed through the SCF Dashboard and granted automatically on
 
 ### Grow your influence in SCF
 
-Navigators and Pilots play a more direct and impactful role in SCF governance, and are unlocked through acquired voting power relative to the total voting power in a given round, and approved by a number of community members with a higher role than they currently have.&#x20;
+Navigators and Pilots play a more direct and impactful role in SCF governance, and are unlocked through acquired voting power relative to the total voting power in a given round, and approved by a number of community members with a higher role than they currently have.
 
 Relative voting power is powered by [SCF’s implementation of Neural Quorum Governance](../neural-quorum-governance/) and represents a member’s standing compared to other verified members, and is influenced by:
 
@@ -24,7 +24,7 @@ Relative voting power is powered by [SCF’s implementation of Neural Quorum Gov
 * Historic voting behavior
 * Inclusion in other members’ trusted user lists
 
-Once you’ve participated in an SCF Build Award round for Community Vote, you can log into the SCF Dashboard to understand your current growth journey in SCF governance and the breakdown of your voting power for each round.&#x20;
+Once you’ve participated in an SCF Build Award round for Community Vote, you can log into the SCF Dashboard to understand your current growth journey in SCF governance and the breakdown of your voting power for each round.
 
 | Item                                          | Navigator                                                                                                                         | Pilot                                                                                                                                                                                                    |
 | --------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -34,7 +34,7 @@ Once you’ve participated in an SCF Build Award round for Community Vote, you c
 
 #### Nomination Process
 
-If you meet the Relative Voting Power Eligibility Requirement (visible on the Voting History tab in the SCF Dashboard) for the Navigator or Pilot role, you’re invited to nominate yourself to acquire it. Nominations are welcome at any time.&#x20;
+If you meet the Relative Voting Power Eligibility Requirement (visible on the Voting History tab in the SCF Dashboard) for the Navigator or Pilot role, you’re invited to nominate yourself to acquire it. Nominations are welcome at any time.
 
 #### Approval Process
 
@@ -43,9 +43,9 @@ Navigator and Pilot nominations are reviewed during scheduled approval windows p
 1. Coinciding with quarterly delegate selection;
 2. Prior to the Community Vote round opening mid-quarter.
 
-If the nomination was not approved, the community member can nominate themselves again prior to the following SCF Build Award round.&#x20;
+If the nomination was not approved, the community member can nominate themselves again prior to the following SCF Build Award round.
 
-Note: Nominated and selected quarterly delegates (current or historic) that work at the Stellar Development Foundation (signified by the `@SDF Role` are exempt from the Nomination and Approval process) and can be assigned with either role directly by a Discord admin.&#x20;
+Note: Nominated and selected quarterly delegates (current or historic) that work at the Stellar Development Foundation (signified by the `@SDF Role` are exempt from the Nomination and Approval process) and can be assigned with either role directly by a Discord admin.
 
 ***
 
@@ -55,12 +55,12 @@ Verified roles reflect current contribution and trust, not historical achieved s
 
 #### Automated (Gradual) Downgrades
 
-A member will see a warning status on the SCF Dashboard as well as receive a warning message on Discord and/or email if their relative NQG score falls below the required threshold for their role. If this condition persists for three (3) consecutive Community Vote rounds, they will be automatically downgraded.&#x20;
+A member will see a warning status on the SCF Dashboard as well as receive a warning message on Discord and/or email if their relative NQG score falls below the required threshold for their role. If this condition persists for three (3) consecutive Community Vote rounds, they will be automatically downgraded.
 
 #### Immediate Downgrades
 
-In exceptional cases (e.g. serious [Stellar Code of Conduct](https://stellar.org/foundation/code-of-conduct) violations), Pilots may nominate an immediate downgrade or entire removal of roles for the user in question for downgrade or removal of tiers entirely, which needs to be supported by at least 5 Pilots.&#x20;
+In exceptional cases (e.g. serious [Stellar Code of Conduct](https://stellar.org/foundation/code-of-conduct) violations), Pilots may nominate an immediate downgrade or entire removal of roles for the user in question for downgrade or removal of tiers entirely, which needs to be supported by at least 5 Pilots.
 
-In sensitive cases where anonymity and/or threading lightly is of essence, any verified member can remove a user in question from their trusted user list. If it causes a significant drop in voting power from these actions (i.e. a lot of users with (significant) voting power untrust this user), it triggers an accelerated loss of voting power for this user (and thus initiating the automated downgrade process).&#x20;
+In sensitive cases where anonymity and/or threading lightly is of essence, any verified member can remove a user in question from their trusted user list. If it causes a significant drop in voting power from these actions (i.e. a lot of users with (significant) voting power untrust this user), it triggers an accelerated loss of voting power for this user (and thus initiating the automated downgrade process).
 
 <br>

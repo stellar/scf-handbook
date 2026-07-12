@@ -1,8 +1,8 @@
 # Official Rules
 
-The SCF Growth Hack is a program to support Stellar Mainnet-launched companies on go-to-market and finding product-market fit through competition-style user acquisition campaigns.&#x20;
+The SCF Growth Hack is a program to support Stellar Mainnet-launched companies on go-to-market and finding product-market fit through competition-style user acquisition campaigns.
 
-For each cohort, the SCF Growth Hack program will target 10-15 companies that have launched on Stellar Mainnet, providing them with USD $20,000 worth of XLM each to test acquisition strategies over an 8-week campaign (comprising a 4-week acquisition campaign and a 4-week retention campaign).&#x20;
+For each cohort, the SCF Growth Hack program will target 10-15 companies that have launched on Stellar Mainnet, providing them with USD $20,000 worth of XLM each to test acquisition strategies over an 8-week campaign (comprising a 4-week acquisition campaign and a 4-week retention campaign).
 
 Top-performing companies will share up to USD $200,000 worth of XLM in additional performance-based awards. This program aims to help teams find PMF at an accelerated pace and serves as a bridge between development funding (SCF Build Award) and further growth (SDF Marketing Grant and Matching Fund Investment Readiness).
 
@@ -16,7 +16,7 @@ During the program, companies will follow the 10 stages below.
 
 <table data-full-width="true"><thead><tr><th width="207.29296875">Phase</th><th>Description</th></tr></thead><tbody><tr><td>Application (1 week)</td><td>Eligible companies submit applications for the Growth Hack Program.</td></tr><tr><td>Selection &#x26; Risk Assessment (2 weeks)</td><td>SDF reviews applications against selection criteria. If you pass, you proceed; if not, SDF notifies you via email. SDF conducts risk assessment and KYC (if needed); may request additional info. If you pass, you’re approved and must sign SDF’s standard grant agreement. If you don’t pass, SDF notifies you via email.</td></tr><tr><td>1st Payment (post-agreement)</td><td>After the agreement is signed, SDF sends a small test transaction to the Stellar address/memo provided. You confirm the exact amount back to SDF. Once confirmed, SDF sends the full upfront award: <strong>USD $20,000 worth of XLM</strong>.</td></tr><tr><td>Preparation — Resource Mapping &#x26; Market Research (Weeks 1–2 of Prep)</td><td>SDF runs a series of workshops and introduces resources (agencies, contractors, GTM content, etc.). Each company explores options and decides whether to engage external support for research, strategy, and execution by end of Week 2.</td></tr><tr><td>Preparation — Strategy &#x26; Measurement (Weeks 3–4 of Prep)</td><td>Each project drafts its campaign plan (budget, incentives, channels, content, retention, measurement). SDF reviews and may amplify at its discretion. <strong>On-chain:</strong> build a Dune dashboard (shared with SDF &#x26; cohort) tracking WAA and txn volume vs. baseline. <strong>Off-chain:</strong> set up a dashboard on a preferred platform and share access with SDF. Weekly metric updates during the competition.</td></tr><tr><td>Preparation — Pre-launch Testing &#x26; Improvement (Weeks 5–6 of Prep)</td><td>Run closed beta groups; collect and apply feedback to product and strategy. Submit a final campaign plan form to SDF covering: target market/audience; acquisition channels; activity/timeline; KPIs (CPA, conversion, etc.); team capacity/expertise.</td></tr><tr><td>Campaign (4 weeks)</td><td>Execute the campaign and track growth metrics for 4 weeks. Document activities, conversion rates, and challenges. SDF holds a 15-minute weekly check-in to review progress and give feedback as needed.</td></tr><tr><td>Evaluation</td><td>After activation ends, SDF reviews results, announces the performance-based award pool, and names the <strong>top 5</strong> winners. Evidence of prohibited market manipulation leads to disqualification.</td></tr><tr><td>2nd Payment (top 5 only)</td><td>The top 5 companies receive the <strong>first 50% of their performance-based award</strong>.</td></tr><tr><td>Retention (4 weeks)</td><td>Use funding to sustain growth for 4 additional weeks. Maintain dashboards and report to SDF <strong>bi-weekly</strong>.</td></tr><tr><td>3rd Payment (conditional)</td><td>If average WAA and weekly txn volume remain within <strong>30% of competition levels</strong> (i.e., <strong>≤70% decline</strong>) during the 4-week retention period, the <strong>final 50% of the performance-based award</strong> is paid. If metrics drop by <strong>>70%</strong>, no third tranche is distributed.</td></tr><tr><td>Completion</td><td>Submit a final report summarizing strategies, acquisition results, and lessons learned.</td></tr></tbody></table>
 
-## Eligibility Criteria&#x20;
+## Eligibility Criteria
 
 Companies applying to the Growth Hack Program must meet the following criteria:
 
@@ -38,7 +38,7 @@ Each selected project will be awarded USD $20,000 worth of XLM\* Upfront campaig
 
 <table data-full-width="true"><thead><tr><th>Awards</th><th>Amount</th></tr></thead><tbody><tr><td>Upfront campaign awards</td><td>$20,000 in XLM*</td></tr><tr><td>Performance-based awards</td><td>$50,000 or $100,000 or $200,000 in XLM*</td></tr><tr><td>Total</td><td>$70,000–$220,000 in XLM*</td></tr></tbody></table>
 
-### Performance-based Awards&#x20;
+### Performance-based Awards
 
 The Performance-based awards are dynamic, depending on the Total Weekly Active Accounts of all companies measured at campaign start and end. The top 5 companies based on the three selection metrics will share the awards.
 
@@ -76,7 +76,7 @@ For the top 5 companies, the award will be distributed in the following three pa
 
 <table data-full-width="true"><thead><tr><th>Payment Tranche</th><th width="211.44140625">Purpose</th><th>Total (USD value, paid in XLM)</th><th width="87.33203125"># of companies</th><th>Amount per Project</th></tr></thead><tbody><tr><td>1. Upfront campaign awards</td><td>Prepare the user acquisition campaign</td><td>$200,000</td><td>10</td><td>$20,000 in XLM</td></tr><tr><td>2. Performance-based awards</td><td>Award the top 5 companies based on the 3 selection metrics</td><td>$100,000 max*</td><td>5</td><td><p>1st half of </p><p>Individual Award</p></td></tr><tr><td>3. Performance-based awards</td><td>Award user retention >=30%</td><td>$100,000 max*</td><td>&#x3C;=5</td><td><p>2nd half of </p><p>Individual Award </p></td></tr></tbody></table>
 
-_\*The dynamic awards amount is depending on the campaign performance._&#x20;
+_\*The dynamic awards amount is depending on the campaign performance._
 
 {% include "../../.gitbook/includes/xlm-award-valuation-disclaimer.md" %}
 
@@ -119,9 +119,9 @@ Even if you are adding your own budget to fund the campaign, the restricted uses
 2. Teams of Eligible Individuals (“Teams”); and
 3. Organizations (including corporations, not-for-profit corporations, and other nonprofit organizations, limited liability companies, partnerships, and other legal entities) that consist of Eligible Individuals and that are duly organized or incorporated and in good standing at the time of submission (“Organizations”).
 
-(the above Eligible Individuals, Teams, and Organizations are referred to collectively as “Participants”).&#x20;
+(the above Eligible Individuals, Teams, and Organizations are referred to collectively as “Participants”).
 
-In any individual Round, an Eligible Individual may not join more than one Team or Organization and an Eligible Individual who is part of a Team or Organization may not also enter the program on an individual basis.&#x20;
+In any individual Round, an Eligible Individual may not join more than one Team or Organization and an Eligible Individual who is part of a Team or Organization may not also enter the program on an individual basis.
 
 #### 1.2 If a Team or Organization is applying:
 

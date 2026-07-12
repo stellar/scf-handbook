@@ -34,7 +34,7 @@ Also, be honest by including the challenges and threats you're facing. If we thi
 
 User feedback and validation are highly valuable during all stages of development. It dictates your revenue and influences how you should build your project. For readers of your submission, knowing that users already like your solution increases the credibility of your project. Any traction you can already show can improve your submission tremendously, and remember, numbers are key!
 
-If you have an established company that already has users, you can showcase user validation through user acquisition and retention, sales, reviews, and more. 
+If you have an established company that already has users, you can showcase user validation through user acquisition and retention, sales, reviews, and more.
 
 If you're just starting out, getting feedback can be more difficult, but not impossible! Try building a simple MVP for testing purposes only (something bare-boned with the essential features) and have friends and family that somewhat fit the target audience profile test it and give feedback.
 

@@ -5,7 +5,7 @@ hidden: true
 
 # Full Integration List
 
-For your SCF Build Integration Track submission, you’ll need to choose at least one of the building blocks on this list. This list does not represent an exhaustive list of the protocols, wallets, anchors, etc. available on Stellar, but the building blocks on it have been tested and recommended by the community, and offer thorough docs and tutorials to help you integrate. This list was recommended by Pilots in the SCF Community, and rotates quarterly. 
+For your SCF Build Integration Track submission, you’ll need to choose at least one of the building blocks on this list. This list does not represent an exhaustive list of the protocols, wallets, anchors, etc. available on Stellar, but the building blocks on it have been tested and recommended by the community, and offer thorough docs and tutorials to help you integrate. This list was recommended by Pilots in the SCF Community, and rotates quarterly.
 
 Note: Most of your requested budget should go towards the costs associated with your chosen integration(s).
 
