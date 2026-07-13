@@ -97,7 +97,7 @@ To ensure accountability and efficient resource allocation, projects may be requ
 
 <table><thead><tr><th>Audit Stage</th><th>Traction Threshold</th><th width="127.91796875">Co-Payment %</th><th width="258.55078125">Description</th></tr></thead><tbody><tr><td>Initial Audit</td><td>None for priority categories</td><td>5% with potential refund*</td><td>Covers initial audit to ensure baseline security for newly developed protocols.</td></tr><tr><td>Growth Audit</td><td>>$10M TVL or equivalent</td><td>0%</td><td>Focused on scaling projects with moderate traction to validate ongoing security. May include more extensive auditing (e.g. formal verification)</td></tr><tr><td>Scale Audit</td><td>>$100M TVL or equivalent</td><td>0%</td><td>Targets high-value projects nearing maturity to ensure robust security measures. May include more extensive auditing (e.g. formal verification)</td></tr><tr><td>Pre-Traction Follow Up Audits<br></td><td>N/A</td><td><p>20% for the pre-traction follow-up audit, 50% for the second pre-traction</p><p>follow-up audit</p></td><td>If additional audits are needed in addition to the Initial Audit and the project hasn’t achieved traction required for Growth and Scale Audit yet, SDF partly covers the first two follow-up audits. </td></tr></tbody></table>
 
-\*If the project is able to successfully address all critical, high, and medium issues identified by the Audit Firm within  20 business days, the 5% co-payment of the Initial Audit will be refunded back to the project.&#x20;
+\*If the project is able to successfully address all critical, high, and medium issues identified by the Audit Firm within 20 business days, the 5% co-payment of the Initial Audit will be refunded back to the project.&#x20;
 
 ## Participant Eligibility
 
