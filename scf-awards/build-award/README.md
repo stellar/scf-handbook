@@ -13,7 +13,7 @@ SCF Build Award (or “Build Awards”) is an award of up to $150,000 in XLM\* d
 {% hint style="info" %}
 #### 🧑‍💻 **Who It’s For:**
 
-SCF Build supports strong teams ready to deliver and ship in 3-5 months.
+SCF Build supports strong teams ready to deliver and ship in 3–5 months.
 
 The Open Track is for:
 
