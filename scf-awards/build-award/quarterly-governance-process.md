@@ -43,7 +43,7 @@ In order to be selected as a delegate, nominated Pilots who are not SDF employee
 
 <table><thead><tr><th>Track</th><th width="152.00390625">Min. # Community Delegates</th><th width="163.3359375">Max. # Community Delegates</th><th>Cut-off NQG Voting Weight (if minimum # delegates is reached)</th></tr></thead><tbody><tr><td>Integration</td><td>11</td><td>13</td><td>1/40 of total NQG Voting Weight for that track.</td></tr><tr><td>Open</td><td>11</td><td>13</td><td>1/40 of total NQG Voting Weight for that track.</td></tr><tr><td>RFP</td><td>9</td><td>11</td><td>1/40 of total NQG Voting Weight for that track.</td></tr></tbody></table>
 
-Delegates who are also SDF employees do not get specifically compensated for their delegate responsibilities, do not need to meet above criteria and are there primarily to support the overall process. The ratio of community delegates to SDF delegates should not be below 70% for each quarter to ensure sufficient decentralization of the process.
+Delegates who are also SDF employees do not get specifically compensated for their delegate responsibilities, do not need to meet above criteria, and are there primarily to support the overall process. The ratio of community delegates to SDF delegates should not be below 70% for each quarter to ensure sufficient decentralization of the process.
 
 After the onchain selection period has ended, the results are published in corresponding thread in the `#governance` channel on the [Stellar Dev Discord](https://discord.com/invite/stellardev) and all selected delegates are asked to confirm their participation in that round.
 
