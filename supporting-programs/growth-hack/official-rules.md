@@ -58,7 +58,7 @@ $$
 IndividualGrant = ((X)/∑(X) +(Y)/∑(Y) +(Z)/∑(Z)) /3 * A
 $$
 
-[_X = WAA Increase, Y = Weekly Txn Volume Increase, Z = W_](#user-content-fn-1)[^1]_eekly TVL increase, A = Total Grant Amount_
+_X = WAA Increase, Y = Weekly Txn Volume Increase, Z = Weekly TVL increase, A = Total Grant Amount_
 
 
 
@@ -163,5 +163,3 @@ SDF collects personal information from Participants when they enter the SCF Grow
 ## 5) Contact
 
 If you have any specific questions or concerns you can also email SDF at communityfund@stellar.org.
-
-[^1]: 
