@@ -45,4 +45,5 @@ The Open Track is for experienced builders exploring novel use cases on Stellar 
 3. Submissions are reviewed by 2 reviewers from that quarter’s Open Track Delegate Panel.<br>
 4. Teams receive feedback and may revise submissions<br>
 5. Eligible submissions enter Community Vote<br>
-6. Projects that meet quorum and pass the vote with strong panel reviews are awarded for the round, and receive the first payment of 10% of their total awarded budget.
+6. Projects that meet quorum and pass the vote with strong panel reviews are awarded for the round, and receive the first payment of 10% of their total awarded budget.<br>
+7. Once funded, each subsequent tranche must be submitted within 90 days of the previous payment. Teams that miss a deadline without notifying the SCF team in advance forfeit the remainder of their award. See Tranches & Deliverables and the Official Rules for full details.

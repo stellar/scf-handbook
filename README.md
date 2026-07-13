@@ -7,7 +7,7 @@ description: >-
 
 # Welcome to the SCF Handbook!
 
-#### 🌱  |  SCF at a Glance
+#### 🌱 | SCF at a Glance
 
 **What is SCF?**
 
@@ -17,15 +17,15 @@ The Stellar Community Fund leverages community input to fund and support Web3 te
 
 The SCF is operated by the Stellar Development Foundation (SDF), with input from the Stellar community and verified members.
 
-**What can I apply for?**&#x20;
+**What can I apply for?**
 
-SCF offers a variety of programs to build and grow your project on Stellar, such as the SCF Build Award.&#x20;
+SCF offers a variety of programs to build and grow your project on Stellar, such as the SCF Build Award.
 
-Currently, all new projects enter through an open-application interest form. From there, some teams may be invited to SCF Build — an award track designed to support product development and launch.
+Currently, all new projects enter through an open-application interest form. From there, some teams may be invited to SCF Build—an award track designed to support product development and launch.
 
 Teams may also be invited to connect with their local Ambassador Chapter for incubation and [Instaward](scf-awards/instawards/) opportunities, apply for [Public Goods Awards](supporting-programs/public-goods-award/) or participate in supporting programs like the [Audit Bank](supporting-programs/audit-bank/), [Liquidity Award](supporting-programs/stellar-liquidity-award/), [Growth Hack](supporting-programs/growth-hack/), accelerator programs, or any other support opportunities.
 
-#### 📚  |  What's in the handbook?
+#### 📚 | What's in the handbook?
 
 This handbook includes everything you need to:
 
@@ -51,12 +51,12 @@ If your project passes the eligibility review, you may be invited to apply for a
 
 #### 📝| Quick Access
 
-**Tools for Applicants:**&#x20;
+**Tools for Applicants:**
 
-* [communityfund.stellar.org](https://communityfund.stellar.org/) - view all SCF projects, check dates of upcoming rounds, and access submission forms for eligible projects&#x20;
-* [Supporting Programs](/broken/pages/mjcScU3eOu5BVmWtlXUs) - SCF-awarded projects can leverage audit and liquidity support to get ready for a secure and successful launch
+* [communityfund.stellar.org](https://communityfund.stellar.org/) - view all SCF projects, check dates of upcoming rounds, and access submission forms for eligible projects
+* [Supporting Programs](https://app.gitbook.com/s/4IGHJeoWQzABoSBkKBxt/supporting-programs) - SCF-awarded projects can leverage audit and liquidity support to get ready for a secure and successful launch
 
-**Community & Info:**&#x20;
+**Community & Info:**
 
 * [Stellar Developers Discord](https://discord.gg/stellardev) - participate in discussions, ask questions, and get updates and event information
 * [Stellar Community Medium](https://medium.com/stellar-community) - check out the latest community blog posts
@@ -70,23 +70,28 @@ Check out our [FAQ section](additional-support/faq.md)! Have questions not addre
 
 ### What’s New in the SCF Handbook:
 
+_July 2026_
+
+* Implementation of timegating policy between tranches. Teams that miss a deadline without notifying the SCF team in advance forfeit the remainder of their award. See [Budget & Deliverables](scf-awards/build-award/budget-and-deliverable-guidelines.md) and the [Official Rules](scf-awards/instawards/official-rules.md) for full details.
+* SDF may require awarded teams to re-complete KYC/KYB at any point in the award process.
+
 _April 2026_
 
-* Estimated development time for each partner added to [integration track list,](scf-awards/build-award/integration-track/integration-list.md) with more info [here.](https://airtable.com/appymB1sbp5uidiGe/shrQFLSRUqxI7tBdT) Teams should use these to scope their budgets appropriately, and delegates will cross-reference them when reviewing&#x20;
-* Additional guidelines added around "what makes a strong Open Track submission" section.  &#x20;
-* Additional guidelines and requirements added for [RFP submissions](scf-awards/build-award/rfp-track.md).&#x20;
-* RFP track delegates agreed to push Q2 RFPs to SCF #44. There will be no open RFPs for the SCF #43 submission window.&#x20;
-* Some teams (particularly in the Integration and RFP tracks) may be asked to meet with reviewers/the SCF team as part of the submission and review process.&#x20;
+* Estimated development time for each partner added to [integration track list,](scf-awards/build-award/integration-track/integration-list.md) with more info [here.](https://airtable.com/appymB1sbp5uidiGe/shrQFLSRUqxI7tBdT) Teams should use these to scope their budgets appropriately, and delegates will cross-reference them when reviewing
+* Additional guidelines added around "what makes a strong Open Track submission" section.
+* Additional guidelines and requirements added for [RFP submissions](scf-awards/build-award/rfp-track.md).
+* RFP track delegates agreed to push Q2 RFPs to SCF #44. There will be no open RFPs for the SCF #43 submission window.
+* Some teams (particularly in the Integration and RFP tracks) may be asked to meet with reviewers/the SCF team as part of the submission and review process.
 
 _January 2026_
 
-SCF 7.0 is the Stellar Development Foundation’s redesigned awards program for teams building real on-chain impact with Stellar. SCF 7.0 officially launched in January 2026. These are the biggest updates to the program. You can find more information about all of these in the rest of the handbook, as well as check out some of the smaller programmatic changes meant to streamline the funding experience.&#x20;
+SCF 7.0 is the Stellar Development Foundation’s redesigned awards program for teams building real on-chain impact with Stellar. SCF 7.0 officially launched in January 2026. These are the biggest updates to the program. You can find more information about all of these in the rest of the handbook, as well as check out some of the smaller programmatic changes meant to streamline the funding experience.
 
 * SCF Build is split into 3 tracks:
-  * Open Track - for experienced teams building novel usecases&#x20;
+  * Open Track - for experienced teams building novel usecases
   * Integration Track - for teams looking to incorporate existing ecosystem solutions into their products
   * RFP Track - for dev tools that respond to an active SCF Request for Proposals.
-* Awarded budget is distributed in 4 payments:&#x20;
+* Awarded budget is distributed in 4 payments:
   * Tranche #0: 10% of budget → Tranche #1: 20% of budget → Tranche #2: 30% of budget → Tranche #3: 40% of budget.
 * Implementation of a robust referral program to sharpen selection processes and increase application pool quality. While not mandatory to receive an award, SCF relies heavily on referral signals from a diverse set of Stellar ecosystem stakeholders.
 * After successfully completing all tranches of a Build Award, projects may submit for additional Build Awards up to a total of $150k worth of XLM in funding. Projects that exceed the $150k cap may be eligible for additional funding on a case-by-case basis.
@@ -96,11 +101,11 @@ SCF 7.0 is the Stellar Development Foundation’s redesigned awards program for 
 
 ## Previously Funded Projects
 
-For the purposes of this handbook, a Previously Funded Project  is a project that has applied and received funding from an SCF round prior to SCF #41. This includes projects that received Activation Awards and Community Awards from SCF 5.0, as well as SCF 6.0 Build Awards.&#x20;
+For the purposes of this handbook, a Previously Funded Project is a project that has applied and received funding from an SCF round prior to SCF #41. This includes projects that received Activation Awards and Community Awards from SCF 5.0, as well as SCF 6.0 Build Awards.
 
 As we transition to Stellar Community Fund 7.0, we understand that some projects may not seamlessly fit into the new categories due to receiving funding under the previous structure. To help guide you through this change, we've outlined options for each situation below to ensure all projects continue to thrive within the new framework.
 
-**Submitting as a Previously Funded Project** \
+**Submitting as a Previously Funded Project**\
 \
 You may be eligible to apply for an additional SCF Build Award if all of the following apply:
 
@@ -110,9 +115,9 @@ You may be eligible to apply for an additional SCF Build Award if all of the fol
 
 Any previously funded project satisfying all conditions above may submit for additional award(s), up to a total maximum of $150,000 in XLM across all awards accumulated over its lifetime.
 
-Projects that have previously already received $150,000 may be eligible for additional awards only on a case-by-case basis, subject to a lifetime accumulated funding cap of $300,000 in XLM. If you fall into this category, reach out to communityfund@stellar.org when you submit for the additional award. &#x20;
+Projects that have previously already received $150,000 may be eligible for additional awards only on a case-by-case basis, subject to a lifetime accumulated funding cap of $300,000 in XLM. If you fall into this category, reach out to communityfund@stellar.org when you submit for the additional award.
 
-&#x20;Any such follow-on awards may also require additional legal and business due diligence.
+Any such follow-on awards may also require additional legal and business due diligence.
 
 For purposes of calculating budget caps, each award is valued based on the market value of the XLM at the time the award payment is made, rather than its current market value.
 
@@ -126,8 +131,4 @@ If your project does not meet the above conditions or you're unsure which catego
 * Include a brief summary of your project and past SCF participation
 * We’ll help clarify your status and what next steps are available
 
-***
-
-**Disclaimer**
-
-_\*To determine the number of XLM equal to the USD value of any Award, the USD valuation of XLM shall be calculated using the CF Stellar Lumens-Dollar Settlement Price as administered, maintained, and reported by the cryptocurrency index provider CF Benchmarks Ltd. (using the ticker “XLMUSD\_RR”) (available at https://www.cfbenchmarks.com/indices/XLMUSD\_RR), or, if such settlement price is unavailable or reasonably suspected by SDF to be unreliable, the settlement price as reported on a substantially similar and equally reputable cryptocurrency index provider as determined by the SDF in its discretion. The USD valuation of XLM for any particular Award shall be calculated using the CF Stellar Lumens-Dollar Settlement Price (or other agreed upon settlement price) reported on the day such Award is scheduled to be paid. The Participants acknowledge and understand that XLM is a highly risky and volatile asset, and that SDF does not provide any representations, warranties, or guarantees of its value._
+{% include ".gitbook/includes/xlm-award-valuation-disclaimer.md" %}

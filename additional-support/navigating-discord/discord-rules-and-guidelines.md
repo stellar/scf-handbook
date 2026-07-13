@@ -27,7 +27,7 @@ Include your project name in your user nickname, about me, or a custom status so
 
 There isn’t much benefit to inviting your own community to the SCF Discord server to show support for your project unless they are genuinely interested in supporting the Stellar ecosystem as a whole.
 
-Also, don’t create sock puppet accounts to hold conversations about your project. Current SCF voters highly value organic communication.
+Also, don’t create sock-puppet accounts to hold conversations about your project. Current SCF voters highly value organic communication.
 
 Don’t FUD other projects with speculation. If you have a serious concern about vulnerabilities or issues with a project, we strongly encourage you to reach out privately to the project owner to see if there is an explanation or reasoning that may resolve any concerns.
 

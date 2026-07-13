@@ -4,13 +4,13 @@ icon: gavel
 
 # Quarterly Governance Process
 
-To balance efficiency with decentralization in the governance process, SCF uses Track Delegate Panels — groups of subject-matter experts with the SCF Pilot role, rotating on a quarterly basis, organized by track that support:<br>
+To balance efficiency with decentralization in the governance process, SCF uses Track Delegate Panels—groups of subject-matter experts with the SCF Pilot role, rotating on a quarterly basis, organized by track that support:<br>
 
 * Setting quarterly goals;
 * Updates to submission criteria, forms, and other relevant resources associated;
 * Review incoming submissions;
 * Providing guidance to projects;
-* \[Open Track only] Can be added by voters to their delegation quorum during Community Vote (learn more [here](/broken/pages/oOONkEMgpVb5C3nzSCsb)).
+* \[Open Track only] Can be added by voters to their delegation quorum during Community Vote (learn more [here](https://app.gitbook.com/s/4IGHJeoWQzABoSBkKBxt/governance)).
 
 Delegates are [compensated per engagement](quarterly-governance-process.md#delegate-compensation-and-expectations) (excluding SDF employees). See delegate selection for each quarter [here](https://docs.google.com/spreadsheets/d/1ThFcOIzhRNnebmeG99ZkwAALiusmCAOYqtVPSgbTXSU/edit?gid=2099892939#gid=2099892939).
 
@@ -20,7 +20,7 @@ Delegates are [compensated per engagement](quarterly-governance-process.md#deleg
 
 ## Quarterly Cycle
 
-Typically, the SCF quarterly governance review cycle starts 9-10 weeks before the Submission Deadline of the first round of the quarter. Exact dates for each quarter can be found in the SCF Dashboard and are announced in the #governance channel in the [Stellar Dev Discord](http://discord.gg/stellardev).&#x20;
+Typically, the SCF quarterly governance review cycle starts 9-10 weeks before the Submission Deadline of the first round of the quarter. Exact dates for each quarter can be found in the SCF Dashboard and are announced in the #governance channel in the [Stellar Dev Discord](http://discord.gg/stellardev).
 
 <table><thead><tr><th>Phase</th><th width="429.4296875">Core Outputs</th><th>Deadline (t = Round Submission Deadline)*</th></tr></thead><tbody><tr><td>1. Delegate Nomination &#x26; Signal Intake</td><td><ul><li>Pilot candidate list</li><li>Submission form released to ecosystem and SDF for needs signaling (use cases, tooling gaps, partner requests)</li></ul></td><td>t - 8 weeks</td></tr><tr><td>2. Delegate Selection &#x26; Retro</td><td><ul><li>List of Selected Delegates (onchain)</li><li>Quarterly retro summarizing prior quarter outcomes, adoption gaps, and ecosystem needs signals (leveraged using Scoring Process)</li></ul></td><td>t - 7 weeks</td></tr><tr><td>3. Ecosystem Needs Deliberation</td><td><ul><li>Delegate-led deliberation on retro findings</li><li>Agreement on what should change or be prioritized this quarter (use cases, markets, enablers, integrations)</li><li>Initial shortlist of priority ecosystem needs</li></ul></td><td>t - 6 weeks</td></tr><tr><td>4. Resource Updating and Creation</td><td><ul><li>Updated Integration Track use cases list</li><li>Vetting and updating of Partner Building Blocks (existing + incoming)</li><li>Creation of RFPs for priority tooling / protocol gaps</li></ul></td><td>t - 5 weeks</td></tr><tr><td>5. Ecosystem Direction Publication</td><td><ul><li>Legal review as necessary</li><li>Community Vote on Soroban Governor</li><li>Launch quarterly “What to Build on Stellar in Q[x] 2026” report, authored by Delegates</li></ul></td><td>t - 3 weeks</td></tr></tbody></table>
 
@@ -33,7 +33,7 @@ Nominations take place during the Nomination phase in the #governance channel on
 * Their name
 * Track(s) they want to participate in
 * Why they are qualified to do so (why people should select them as their delegate)
-* What's their approach when they vote or review projects&#x20;
+* What's their approach when they vote or review projects
 
 ### **2. Delegate Selection & Retro**
 
@@ -47,7 +47,7 @@ Delegates who are also SDF employees do not get specifically compensated for the
 
 After the onchain selection period has ended, the results are published in corresponding thread in the #governance channel on the [Stellar Dev Discord](https://discord.com/invite/stellardev) and all selected delegates are asked to confirm their participation in that round.
 
-#### Quarterly Retro&#x20;
+#### Quarterly Retro
 
 The SCF Quarterly Retro should summarize prior quarter outcomes, adoption gaps, and ecosystem needs signals collected during the Delegate Nomination & Signal Intake phase.
 
@@ -57,19 +57,17 @@ Once all delegates have confirmed, three private threads will be created in the 
 
 #### Deliberation Deliverables per Track
 
-| Integration                                                                                                                                                                                                                                                                                          | Open                                                                                                                                                                  | RFP                                                                                                                                                                                                                                                                   |
-| ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| <ul><li>Add comments to complete Quarterly Recap as necessary;</li><li>Assess if adjustment of use cases is needed; </li><li>Assess if adjustment of overall submission criteria or process is needed;</li><li>(Re)vet existing and incoming use case partners for eligibility;</li></ul><p><br></p> | <ul><li>Add comments to complete Quarterly Recap as necessary;</li><li>Assess if adjustment of overall submission criteria or process is needed;</li></ul><p><br></p> | <ul><li>Add comments to complete Quarterly Recap as necessary;</li><li>Assess if current RFPs should be adjusted or closed;</li><li>Assess if new RFPs should be created;</li><li>Assess if adjustment of overall submission criteria or process is needed;</li></ul> |
+| Integration                                                                                                                                                                                                                                                                                         | Open                                                                                                                                                                  | RFP                                                                                                                                                                                                                                                                   |
+| --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| <ul><li>Add comments to complete Quarterly Recap as necessary;</li><li>Assess if adjustment of use cases is needed;</li><li>Assess if adjustment of overall submission criteria or process is needed;</li><li>(Re)vet existing and incoming use case partners for eligibility;</li></ul><p><br></p> | <ul><li>Add comments to complete Quarterly Recap as necessary;</li><li>Assess if adjustment of overall submission criteria or process is needed;</li></ul><p><br></p> | <ul><li>Add comments to complete Quarterly Recap as necessary;</li><li>Assess if current RFPs should be adjusted or closed;</li><li>Assess if new RFPs should be created;</li><li>Assess if adjustment of overall submission criteria or process is needed;</li></ul> |
 
 ### **4. Resource Updating and Creation**
 
-After the Ecosystem Needs Deliberation phase, all discussion and notes are aggregated to update the Updated Integration Track use cases list, Partner Building Blocks list, RFPs for priority tooling / protocol gaps, as well as any submission criteria or process updates for each track.&#x20;
+After the Ecosystem Needs Deliberation phase, all discussion and notes are aggregated to update the Updated Integration Track use cases list, Partner Building Blocks list, RFPs for priority tooling / protocol gaps, as well as any submission criteria or process updates for each track.
 
 ### **5. Ecosystem Direction Publication**
 
-Updated resources go through final SDF legal review as necessary, after which a quarterly Community Vote on Soroban Governor is launched to formally approve of set changes. As changes are approved by the wider community, a blog post on “What to Build on Stellar in Q\[x] \[Year]”, authored by SDF Delegates, will be published on the Stellar Community Medium which communicates the updates publicly.&#x20;
-
-
+Updated resources go through final SDF legal review as necessary, after which a quarterly Community Vote on Soroban Governor is launched to formally approve of set changes. As changes are approved by the wider community, a blog post on “What to Build on Stellar in Q\[x] \[Year]”, authored by SDF Delegates, will be published on the Stellar Community Medium which communicates the updates publicly.
 
 ## Eligibility Criteria
 
@@ -81,13 +79,13 @@ To nominate themselves as a Quarterly Delegate, community members must meet the 
 
 #### Commitment & Performance Expectations
 
-* Complete all assigned reviews (abstract, submission, tranche) and responsibilities by their stated deadlines.&#x20;
+* Complete all assigned reviews (abstract, submission, tranche) and responsibilities by their stated deadlines.
 * Actively participate throughout the full review window, including responding to clarification requests when needed.
 * Actively vote on all eligible SCF Build submissions in their assigned category during each round
 * Maintain a reasonable level of availability during the quarter to support timely decision-making and program flow.
 * Communicate early if circumstances change and responsibilities cannot be fulfilled.
 
-Delegates who do not complete their assigned reviews, fail to vote, or skip core responsibilities may:&#x20;
+Delegates who do not complete their assigned reviews, fail to vote, or skip core responsibilities may:
 
 * Forfeit compensation for incomplete tasks
 * Be removed from the delegate panel
@@ -95,7 +93,7 @@ Delegates who do not complete their assigned reviews, fail to vote, or skip core
 
 Specifically, delegates who are consistently late or submit incomplete deliverables across two or more quarters will be required to sit out the following quarter before becoming eligible for nomination again. Delegate contributions shape funding decisions and category direction, so consistent participation ensures the quality and fairness of the SCF governance process.<br>
 
-### Delegate Compensation & Expectations&#x20;
+### Delegate Compensation & Expectations
 
 Non-SDF delegates are compensated based on specific tasks completed each quarter. Compensation is tied to active participation in the review process and category planning.
 
@@ -103,13 +101,9 @@ Non-SDF Delegates receive:
 
 * $200 worth of XLM\* for contributing to quarterly category planning (goal-setting and wishlist updates).
 * $20 worth of XLM\* for each SCF Build submission they fully review during a round + a bonus for Open Track delegates who vote on time.
-*   $20 worth of XLM\* for each subsequent tranche review completed.&#x20;
+*   $20 worth of XLM\* for each subsequent tranche review completed.
 
     \
     Payments are issued regularly during the quarter for completed reviews.
 
-***
-
-#### Disclaimer
-
-_\*To determine the number of XLM equal to the USD value of any Award, the USD valuation of XLM shall be calculated using the CF Stellar Lumens-Dollar Settlement Price as administered, maintained, and reported by the cryptocurrency index provider CF Benchmarks Ltd. (using the ticker “XLMUSD\_RR”) (available at https://www.cfbenchmarks.com/indices/XLMUSD\_RR), or, if such settlement price is unavailable or reasonably suspected by SDF to be unreliable, the settlement price as reported on a substantially similar and equally reputable cryptocurrency index provider as determined by the SDF in its discretion. The USD valuation of XLM for any particular Award shall be calculated using the CF Stellar Lumens-Dollar Settlement Price (or other agreed upon settlement price) reported on the day such Award is paid. The Participants acknowledge and understand that XLM is a highly risky and volatile asset, and that SDF does not provide any representations, warranties, or guarantees of its value._
+{% include "../../.gitbook/includes/xlm-award-valuation-disclaimer.md" %}
