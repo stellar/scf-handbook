@@ -15,7 +15,7 @@ The following audit firms have been pre-approved by the Stellar Development Foun
 * [ChainSecurity](https://www.chainsecurity.com/): Founded in 2017, ChainSecurity is a leading smart contract auditing firm specializing in securing complex code that powers critical Web3 infrastructures.
 * [Halborn](https://halborn.com/): Founded in 2019, Halborn provides world-class security assessments and consulting for Web3 and Fortune 500 clients—protecting against crypto-specific threats like smart contract exploits, social engineering, and infrastructure breaches.
 * [Oak Security](https://oaksecurity.io/): Securing Web3 since 2017, Oak Security has completed over 600 audits without a single exploit. Oak Security’s signature ‘blinded’ process guarantees that every line of code is reviewed by multiple auditors in parallel. Fast, robust, secure.
-* [OtterSec](https://osec.io/): Focused on identifying and patching critical exploits before protocols go to market; known for securing over $36B in total value locked (TVL) across 120+ protocols of major ecosystems.
+* [OtterSec](https://osec.io/): Focused on identifying and patching critical exploits before protocols go to market; known for securing over $36,000,000,000 in total value locked (TVL) across 120+ protocols of major ecosystems.
 * [Runtime Verification](https://runtimeverification.com/): Offers formal methods and runtime verification techniques to enhance blockchain system safety and reliability, starting with an in-depth design and specification review to ensure deep understanding of the protocol.
 * [Spearbit + Cantina](https://cantina.xyz/welcome): Cantina and Spearbit combine a world-class security researcher network with purpose-built tools - delivering scalable and effective solutions pre-deployment through runtime all in one platform.
 * [Veridise](https://veridise.com/): Offers rigorous smart contract and ZK circuit audits backed by deep blockchain security expertise and advanced in-house vulnerability detection tooling.
@@ -95,7 +95,7 @@ By participating, projects agree to all phases of this structure, committing to 
 
 To ensure accountability and efficient resource allocation, projects may be required to co-pay for audits based on their TVL (Total Value Locked) or equivalent traction milestones:
 
-<table><thead><tr><th>Audit Stage</th><th>Traction Threshold</th><th width="127.91796875">Co-Payment %</th><th width="258.55078125">Description</th></tr></thead><tbody><tr><td>Initial Audit</td><td>None for priority categories</td><td>5% with potential refund*</td><td>Covers initial audit to ensure baseline security for newly developed protocols.</td></tr><tr><td>Growth Audit</td><td>>$10M TVL or equivalent</td><td>0%</td><td>Focused on scaling projects with moderate traction to validate ongoing security. May include more extensive auditing (e.g. formal verification)</td></tr><tr><td>Scale Audit</td><td>>$100M TVL or equivalent</td><td>0%</td><td>Targets high-value projects nearing maturity to ensure robust security measures. May include more extensive auditing (e.g. formal verification)</td></tr><tr><td>Pre-Traction Follow Up Audits<br></td><td>N/A</td><td><p>20% for the pre-traction follow-up audit, 50% for the second pre-traction</p><p>follow-up audit</p></td><td>If additional audits are needed in addition to the Initial Audit and the project hasn’t achieved traction required for Growth and Scale Audit yet, SDF partly covers the first two follow-up audits. </td></tr></tbody></table>
+<table><thead><tr><th>Audit Stage</th><th>Traction Threshold</th><th width="127.91796875">Co-Payment %</th><th width="258.55078125">Description</th></tr></thead><tbody><tr><td>Initial Audit</td><td>None for priority categories</td><td>5% with potential refund*</td><td>Covers initial audit to ensure baseline security for newly developed protocols.</td></tr><tr><td>Growth Audit</td><td>>$10,000,000 TVL or equivalent</td><td>0%</td><td>Focused on scaling projects with moderate traction to validate ongoing security. May include more extensive auditing (e.g. formal verification)</td></tr><tr><td>Scale Audit</td><td>>$100,000,000 TVL or equivalent</td><td>0%</td><td>Targets high-value projects nearing maturity to ensure robust security measures. May include more extensive auditing (e.g. formal verification)</td></tr><tr><td>Pre-Traction Follow Up Audits<br></td><td>N/A</td><td><p>20% for the pre-traction follow-up audit, 50% for the second pre-traction</p><p>follow-up audit</p></td><td>If additional audits are needed in addition to the Initial Audit and the project hasn’t achieved traction required for Growth and Scale Audit yet, SDF partly covers the first two follow-up audits. </td></tr></tbody></table>
 
 \*If the project is able to successfully address all critical, high, and medium issues identified by the Audit Firm within  20 business days, the 5% co-payment of the Initial Audit will be refunded back to the project.&#x20;
 
@@ -120,22 +120,22 @@ Projects must demonstrate increased risk or the potential for a significant impa
 #### **Priority Categories:**
 
 * **Financial Protocols**: Protocols managing on-chain value, as they are prime targets for malicious actors.
-* **Widely Used Applications**: Applications using stellar smart contracts that are expected to have large-scale adoption ($1M+ TVL, 100K+ active users), where vulnerabilities could undermine user trust.
+* **Widely Used Applications**: Applications using stellar smart contracts that are expected to have large-scale adoption ($1,000,000+ TVL, 100K+ active users), where vulnerabilities could undermine user trust.
 * **Infrastructure Contracts**: Oracles, vaults, account abstraction contracts, or similar components that are widely integrated across multiple services.
 * Yield-Bearing Token Protocols: Protocols representing real-world value through smart contracts.
 
 #### **Non-Priority Categories Criteria:**
 
-Projects outside of priority categories must reach a threshold of 10K MAA, $100K in TVL or transaction volume to potentially qualify for an audit post-launch, but must obtain review panel approval first.&#x20;
+Projects outside of priority categories must reach a threshold of 10K MAA, $100,000 in TVL or transaction volume to potentially qualify for an audit post-launch, but must obtain review panel approval first.&#x20;
 
 #### **Eligibility Examples**
 
 {% hint style="info" %}
-Example 1: A financial protocol managing $500K TVL would qualify for an audit due to its high-risk nature and ability to significantly impact the ecosystem if compromised.
+Example 1: A financial protocol managing $500,000 TVL would qualify for an audit due to its high-risk nature and ability to significantly impact the ecosystem if compromised.
 {% endhint %}
 
 {% hint style="info" %}
-Example 2: An escrow account project with <$100K TVL would only qualify once it surpasses the $100K TVL threshold for non-priority categories, and there is a by the review panel-accepted reason to do so (e.g. this project is adopting a use case where the consequence of a breach or vulnerabilities can be medium or high without audit, and would result in the loss of user funds)
+Example 2: An escrow account project with <$100,000 TVL would only qualify once it surpasses the $100,000 TVL threshold for non-priority categories, and there is a by the review panel-accepted reason to do so (e.g. this project is adopting a use case where the consequence of a breach or vulnerabilities can be medium or high without audit, and would result in the loss of user funds)
 {% endhint %}
 
 ### General Rules

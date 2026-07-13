@@ -94,7 +94,7 @@ SCF 7.0 is the Stellar Development Foundation’s redesigned awards program for 
 * Awarded budget is distributed in 4 payments:
   * Tranche #0: 10% of budget → Tranche #1: 20% of budget → Tranche #2: 30% of budget → Tranche #3: 40% of budget.
 * Implementation of a robust referral program to sharpen selection processes and increase application pool quality. While not mandatory to receive an award, SCF relies heavily on referral signals from a diverse set of Stellar ecosystem stakeholders.
-* After successfully completing all tranches of a Build Award, projects may submit for additional Build Awards up to a total of $150k worth of XLM in funding. Projects that exceed the $150k cap may be eligible for additional funding on a case-by-case basis.
+* After successfully completing all tranches of a Build Award, projects may submit for additional Build Awards up to a total of $150,000 worth of XLM in funding. Projects that exceed the $150,000 cap may be eligible for additional funding on a case-by-case basis.
 * Additional support provided beyond funding: In addition to the existing audit bank, awarded Build teams may receive a UX audit and rigorous user testing as part of the award process.
 
 ***

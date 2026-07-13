@@ -38,7 +38,7 @@ Projects should request an audit if they are [eligible](official-rules.md#partic
 
 <summary>Can I request more than one audit?</summary>
 
-Complimentary follow-up audits are available at significant traction milestones, such as $10M and $100M Total Value Locked. If you haven’t met these milestones yet but need an additional audit, a co-payment will be required (20% of total audit cost for 2nd audit, 50% of total audit cost for 3rd audit). See details [here](official-rules.md#audit-co-payment-system).
+Complimentary follow-up audits are available at significant traction milestones, such as $10,000,000 and $100,000,000 Total Value Locked. If you haven’t met these milestones yet but need an additional audit, a co-payment will be required (20% of total audit cost for 2nd audit, 50% of total audit cost for 3rd audit). See details [here](official-rules.md#audit-co-payment-system).
 
 </details>
 
