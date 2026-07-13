@@ -120,7 +120,7 @@ Projects must demonstrate increased risk or the potential for a significant impa
 #### **Priority Categories:**
 
 * **Financial Protocols**: Protocols managing on-chain value, as they are prime targets for malicious actors.
-* **Widely Used Applications**: Applications using stellar smart contracts that are expected to have large-scale adoption ($1M+ TVL, 100K+ active users), where vulnerabilities could undermine user trust.
+* **Widely Used Applications**: Applications using Stellar smart contracts that are expected to have large-scale adoption ($1M+ TVL, 100K+ active users), where vulnerabilities could undermine user trust.
 * **Infrastructure Contracts**: Oracles, vaults, account abstraction contracts, or similar components that are widely integrated across multiple services.
 * Yield-Bearing Token Protocols: Protocols representing real-world value through smart contracts.
 

@@ -147,7 +147,7 @@ For any given user since SCF #30, we go over all votes of given user, since roun
 * Not live on Stellar within 6 months, Testnet -0.1
 
 {% hint style="info" %}
-**Example**: In previous rounds, a user voted for one project that went live on stellar within 6 months, and one that is on testnet after 6 months, so his bonus will be 0.3 - 0.1 = 0.2 points.
+**Example**: In previous rounds, a user voted for one project that went live on Stellar within 6 months, and one that is on testnet after 6 months, so his bonus will be 0.3 - 0.1 = 0.2 points.
 {% endhint %}
 
 #### **1.2.4. Trust Graph Neuron**
