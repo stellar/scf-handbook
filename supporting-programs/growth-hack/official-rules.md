@@ -36,7 +36,7 @@ Companies should demonstrate a good fit and readiness for the Growth Hack Progra
 
 Each selected project will be awarded USD $20,000 worth of XLM\* Upfront campaign awards to build a user acquisition strategy. The top 5 companies based on the selection metrics will be further awarded performance-based awards of up to $200,000 in XLM\*.
 
-<table data-full-width="true"><thead><tr><th>Awards</th><th>Amount</th></tr></thead><tbody><tr><td>Upfront campaign awards</td><td>$20,000 in XLM*</td></tr><tr><td>Performance-based awards</td><td>$50,000 or $100,000 or $200,000 in XLM*</td></tr><tr><td>Total</td><td>$70,000 - $220,000 in XLM*</td></tr></tbody></table>
+<table data-full-width="true"><thead><tr><th>Awards</th><th>Amount</th></tr></thead><tbody><tr><td>Upfront campaign awards</td><td>$20,000 in XLM*</td></tr><tr><td>Performance-based awards</td><td>$50,000 or $100,000 or $200,000 in XLM*</td></tr><tr><td>Total</td><td>$70,000–$220,000 in XLM*</td></tr></tbody></table>
 
 ### Performance-based Awards&#x20;
 

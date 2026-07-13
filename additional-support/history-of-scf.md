@@ -183,7 +183,7 @@ Even though we learned a ton in the Lab Fund, the Seed Fund (SCF#7) was a real g
 
 After two months of deliberation, a [panel of 20 judges narrowed the field to eight finalists](https://medium.com/stellar-community/announcing-stellar-community-seed-fund-1-finalists-3e9e95d41793?source=collection_detail----89c348dcf743-----22-----------------------) (not the 3-5 originally planned due to a four-way tie for fifth place). Learning from the Lab Fund, the team made necessary, although unannounced, changes to open up voting to only a select group of SDF and community members (about 50 handpicked at the time). This abrupt decision-making received some pushback but ultimately resulted in a better and fairer approach than all previous SCF rounds.
 
-Each of the eight finalists walked away with $200,000-$350,000 worth of XLM, amounts SCF had never given away before, setting the tone for yet another iteration of community funding.
+Each of the eight finalists walked away with $200,000–$350,000 worth of XLM, amounts SCF had never given away before, setting the tone for yet another iteration of community funding.
 
 ## **SCF 3.0 - Discord, budget requests, and entrepreneurial focus**
 
