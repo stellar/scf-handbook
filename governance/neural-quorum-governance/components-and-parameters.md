@@ -40,7 +40,7 @@ The key neurons in the initial implementation are:
 * [Trust Graph](components-and-parameters.md#id-1.1.2.4.-trust-graph-neuron)
 * [Trust Loss](components-and-parameters.md#id-1.2.4.-trust-loss-neuron)
 
-<img src="../../.gitbook/assets/unknown (6).png" alt="" height="289.01528302685017" width="876">
+<img src="../../.gitbook/assets/nqg/nqg-score-neurons.png" alt="" height="289.01528302685017" width="876">
 
 Out of the above, the Trust Graph Neuron carries significant relative weight. With Quorum Delegation, this makes SCF’s governance mechanism primarily trust-based. This has been a deliberate choice from the beginning, as SCF’s existing community prior to implementing NQG had been based on trust informally, and because ‘human trust’ has the capability to bridge multiple forms of reputation (e.g. quality of contributions, engagement within a community, and general sense), and can thus manage complexity of the system. Managing complexity is important in NQG, because the more neurons (data inputs) you add, the more parameters and weighting attribution methods you need to adjust, the more chance of unclarity and confusion on how the system calculates the final vote.
 
