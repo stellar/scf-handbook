@@ -11,7 +11,7 @@ The Soroban Security Audit Program (the “Program”) is structured to enhance 
 The following audit firms have been pre-approved by the Stellar Development Foundation to participate in the Soroban Security Audit Bank. Additional audit firms coming soon.
 
 * [Certora](https://www.certora.com/): Specializes in Web3 security providing both audits and formal verification of smart contracts based on mathematical reasoning of code.
-* [Code4rena](https://code4rena.com/): Code4rena is a competitive audit platform where 100+ top security researchers review your code per audit, uncovering high-severity bugs before deployment—so you can launch to mainnet with confidence.
+* [Code4rena](https://code4rena.com/): Code4rena is a competitive audit platform where 100+ top security researchers review your code per audit, uncovering high-severity bugs before deployment—so you can launch to Mainnet with confidence.
 * [ChainSecurity](https://www.chainsecurity.com/): Founded in 2017, ChainSecurity is a leading smart contract auditing firm specializing in securing complex code that powers critical Web3 infrastructures.
 * [Halborn](https://halborn.com/): Founded in 2019, Halborn provides world-class security assessments and consulting for Web3 and Fortune 500 clients—protecting against crypto-specific threats like smart contract exploits, social engineering, and infrastructure breaches.
 * [Oak Security](https://oaksecurity.io/): Securing Web3 since 2017, Oak Security has completed over 600 audits without a single exploit. Oak Security’s signature ‘blinded’ process guarantees that every line of code is reviewed by multiple auditors in parallel. Fast, robust, secure.
@@ -27,7 +27,7 @@ The following audit firms have been pre-approved by the Stellar Development Foun
 
 #### **Phase 1: Intake & Eligibility Submission**
 
-Projects interested in participating must submit an audit request using a provided intake form. This intake form is provided to SCF-funded projects which have reached testnet stage or are already on mainnet. This form will detail the division of audit costs between SDF and the projects, and will require detailed information about the project, including:
+Projects interested in participating must submit an audit request using a provided intake form. This intake form is provided to SCF-funded projects which have reached Testnet stage or are already on Mainnet. This form will detail the division of audit costs between SDF and the projects, and will require detailed information about the project, including:
 
 * Project description and purpose
 * Smart contract and technical architecture details
@@ -106,8 +106,8 @@ In order to be eligible for an audit, projects must meet the following criteria:
 * Projects must have been funded by SCF. Companies with other commercial grants from the SDF are not eligible for participation in the audit bank.
 * Projects must pass KYC and sanction checks.
 * Projects must be in an [eligible priority category or meet non-priority traction criteria](official-rules.md#eligible-categories).
-* Projects must have completed the development of the code portions within the audit scope, be nearly mainnet-ready, and require an audit within 4-6 weeks.&#x20;
-* Projects must have conducted extensive tests on their code and deployed it on testnet for validation.
+* Projects must have completed the development of the code portions within the audit scope, be nearly Mainnet-ready, and require an audit within 4-6 weeks.&#x20;
+* Projects must have conducted extensive tests on their code and deployed it on Testnet for validation.
 * As part of their application, projects must submit the results of one of the “self-service tooling” options to include a list of all identified vulnerabilities and a remediation plan for fixing identified critical, high, and medium severity vulnerabilities prior to audit start.
 * Projects must include a STRIDE threat model for the project as part of their application.&#x20;
 * Projects must be able to be responsive during the entirety of the audit.

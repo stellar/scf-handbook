@@ -1,8 +1,8 @@
 # Official Rules
 
-The SCF Growth Hack is a program to support Stellar mainnet-launched companies on go-to-market and finding product-market fit through competition-style user acquisition campaigns.&#x20;
+The SCF Growth Hack is a program to support Stellar Mainnet-launched companies on go-to-market and finding product-market fit through competition-style user acquisition campaigns.&#x20;
 
-For each cohort, the SCF Growth Hack program will target 10-15 companies that have launched on Stellar mainnet, providing them with USD $20,000 worth of XLM each to test acquisition strategies over an 8-week campaign (comprising a 4-week acquisition campaign and a 4-week retention campaign).&#x20;
+For each cohort, the SCF Growth Hack program will target 10-15 companies that have launched on Stellar Mainnet, providing them with USD $20,000 worth of XLM each to test acquisition strategies over an 8-week campaign (comprising a 4-week acquisition campaign and a 4-week retention campaign).&#x20;
 
 Top-performing companies will share up to USD $200K worth of XLM in additional performance-based awards. This program aims to help teams find PMF at an accelerated pace and serves as a bridge between development funding (SCF Build Award) and further growth (SDF Marketing Grant and Matching Fund Investment Readiness).
 
@@ -20,7 +20,7 @@ During the program, companies will follow the 10 stages below.
 
 Companies applying to the Growth Hack Program must meet the following criteria:
 
-* The company must be a financial protocol or application live on  Stellar mainnet.
+* The company must be a financial protocol or application live on  Stellar Mainnet.
 * The company must have completed KYC and sanctions screening from the Stellar Development Foundation within the past two years.
 * The company must not have other active grants from the Stellar Development Foundation.
 * If the company is a financial protocol, the Project must have completed  at least one security audit with any identified vulnerabilities fixed.

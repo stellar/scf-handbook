@@ -29,7 +29,7 @@ The SCF Public Good Award program will roll-out in several incremental stages ba
 As the community and proposal teams have little to no issues with the program and outcomes of the previous stage, parameters are agreed upon by the community, and any necessary security audits have been completed with vulnerabilities (if any are found) fixed, the program may progress to a future stage (subject to change):
 
 * **Launch (Testnet)**: Ability to propose new eligible proposals (including previous Stellar Infrastructure Grant recipients). Proposal submission will be included into the SCF Dashboard.
-* **Launch (Mainnet):** After an extensive audit, contracts launched on mainnet. Can include experimentation using the onchain treasury and call data proposals, as well as further decentralizing the council.
+* **Launch (Mainnet):** After an extensive audit, contracts launched on Mainnet. Can include experimentation using the onchain treasury and call data proposals, as well as further decentralizing the council.
 * **Full Launch**: Onchain treasury processes all public good award payments based on community vote.&#x20;
 
 ### 1.2 Program Phases

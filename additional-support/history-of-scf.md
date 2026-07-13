@@ -308,7 +308,7 @@ With smart contract functionality live on Stellar, SCF 6.0 marked a shift toward
 
 The fund expanded from a single-track program into an umbrella of specialized programs and initiatives designed to support projects at different stages of development. This new structure reflected the increasingly diverse needs of builders in a Soroban-enabled ecosystem. In tandem, the SCF team grew from just two people during SCF 5.0 to a six-person Ecosystem Growth team managing SCF and its supporting programs.
 
-To support the surge of Soroban projects deploying to mainnet, SCF introduced new post-development award programs that provided liquidity incentives, RPC/indexer credits, and pathways to go-to-market acceleration. Startup Camp was revitalized as SCF Kickstart to help teams refine their use cases ahead of submission, and a new vertical launched to support community-led education and onboarding.
+To support the surge of Soroban projects deploying to Mainnet, SCF introduced new post-development award programs that provided liquidity incentives, RPC/indexer credits, and pathways to go-to-market acceleration. Startup Camp was revitalized as SCF Kickstart to help teams refine their use cases ahead of submission, and a new vertical launched to support community-led education and onboarding.
 
 SCF governance also became more decentralized and automated through the continued rollout of Neural Quorum Governance, enabling community members and ecosystem experts to play a more direct role in award allocation decisions.
 

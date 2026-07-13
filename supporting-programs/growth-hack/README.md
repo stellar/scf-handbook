@@ -1,6 +1,6 @@
 # Growth Hack
 
-The SCF Growth Hack program is an 8-week, competition-style GTM/PMF program for Stellar mainnet projects happening on a quarterly basis. Each cohort funds 10–15 teams with **$20K (in XLM\*)** to run a **4-week acquisition + 4-week retention** campaign; top performers share **up to $200K (in XLM\*)** in performance awards. The program bridges SCF Build to eligibility for additional marketing support (including SDF Marketing Grants and SDF Matching Fund).
+The SCF Growth Hack program is an 8-week, competition-style GTM/PMF program for Stellar Mainnet projects happening on a quarterly basis. Each cohort funds 10–15 teams with **$20K (in XLM\*)** to run a **4-week acquisition + 4-week retention** campaign; top performers share **up to $200K (in XLM\*)** in performance awards. The program bridges SCF Build to eligibility for additional marketing support (including SDF Marketing Grants and SDF Matching Fund).
 
 ### Cohorts
 

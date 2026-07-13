@@ -4,7 +4,7 @@ Each Participant needs to meet the Participant Eligibility Rules, the applicatio
 
 ### Structure
 
-Financial protocols who have completed an audit and have a live implementation on Stellar mainnet can be invited to submit proposals to request a Liquidity Award of up to $100,000 of XLM\* total to support bootstrapping their initial liquidity needs.&#x20;
+Financial protocols who have completed an audit and have a live implementation on Stellar Mainnet can be invited to submit proposals to request a Liquidity Award of up to $100,000 of XLM\* total to support bootstrapping their initial liquidity needs.&#x20;
 
 #### Award Types
 
@@ -21,7 +21,7 @@ Financial protocols who have completed an audit and have a live implementation o
 
 In order to be invited to submit an application to the Liquidity Awards Program and qualify for an initial Liquidity Award, Projects must meet the following criteria:
 
-* **Business Criteria**: Projects must have a fully functioning financial protocol/application deployed on Stellar mainnet that demonstrates a viable use case, business model, and show potential for adoption from either users and/or community.
+* **Business Criteria**: Projects must have a fully functioning financial protocol/application deployed on Stellar Mainnet that demonstrates a viable use case, business model, and show potential for adoption from either users and/or community.
 * **Technical Criteria**: Projects must have a completed valid security audit from an SDF recognized audit firm, with any outstanding vulnerabilities and issues resolved.
 * **Legal Criteria**: Projects must have passed SDF’s KYC, Risk Assessment, and Due Diligence checks.<br>
 

@@ -22,7 +22,7 @@ Prior to an eligible project's initial audit, the project must pay 5% of its fir
 
 <summary>When should I audit my project?</summary>
 
-Projects should request an audit if they are [eligible](official-rules.md#participant-eligibility), and are close to launching on Stellar mainnet, demonstrate technical maturity, including stable code, comprehensive documentation, and readiness for review—typically after completing the [SCF Build testnet tranche](../../scf-awards/build-award/#structure-and-timeline-scf-build-award).
+Projects should request an audit if they are [eligible](official-rules.md#participant-eligibility), and are close to launching on Stellar Mainnet, demonstrate technical maturity, including stable code, comprehensive documentation, and readiness for review—typically after completing the [SCF Build Testnet tranche](../../scf-awards/build-award/#structure-and-timeline-scf-build-award).
 
 </details>
 

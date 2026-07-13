@@ -266,7 +266,7 @@ Other ecosystems have solved this via [Sourcify](https://sourcify.dev) (EVM) and
 * Expose a free, public API for querying verification status by contract ID or Wasm hash. Response includes at minimum: verification status, SEP-58 fields recorded (bldimg, bldopt, source\_repo, source\_rev, tarball\_url, tarball\_sha256 as applicable), linked source artifact, build metadata, image trust signal, and verification timestamp.
 * Provide a shared verification result layer that explorers, Lab, wallets, and other consumers can query without performing their own rebuilds. Verification runs once and the result is available via API. Hard requirement: solutions that force every consumer to rebuild, or that rely on a single hardcoded verifier, do not meet the bar.
 * Support **multi-verifier architecture.** Each verifier reports its result against the deployed Wasm hash. Disagreement surfaces as a per-verifier signal (e.g., \[√] Verified by X, \[!] Mismatching verification by Y), not a single "correct" status.
-* Support mainnet and testnet.
+* Support Mainnet and Testnet.
 * Handle contracts deployed before service launch (**retroactive verification for non-upgradable contracts is a priority requirement,** since many existing deployments cannot be redeployed).
 * Source retrieval must not hardcode HTTPS or GitHub. The API and rebuild flow accept all SEP-58 source identifier modes: public repo (`source_repo` + `source_rev`), hosted tarball (`tarball_url` + `tarball_sha256`), and content-addressed (`tarball_sha256` alone). **IPFS retrieval is a first-tier channel alongside HTTPS.** Vendors may propose which modes their service handles directly versus surfaces from off-chain sources; the API must distinguish modes in responses.
 * Provide a CLI or developer-facing submission flow. API shaped to integrate with [stellar-cli](https://github.com/stellar/stellar-cli).
@@ -311,7 +311,7 @@ Conform to the forthcoming verifier-API SEP (currently unauthored, expected to f
 #### 5. Expected Deliverables
 
 * Verification service codebase, open-source and self-hostable.
-* Public deployment for mainnet and testnet.
+* Public deployment for Mainnet and Testnet.
 * Stable public API with documented schema and versioning policy.
 * SDK or client library for querying verification status, designed to conform with the forthcoming verifier-API SEP once authored.
 * Contract developer CLI or submission interface.
@@ -355,7 +355,7 @@ Prior art: Tyler (kalepail on GitHub) has built [kalepail/pollywallet](https://g
 
 The deliverable is a developer/end-user-facing toolkit, not a new contract primitive. At minimum, submissions should cover:
 
-* A transaction recording / observation layer that can ingest either (a) a real on-chain transaction by hash on mainnet/testnet or (b) a locally simulated transaction (e.g., from a Soroban simulation against a forked state). The layer must extract structured information about which contracts were invoked, which functions, with which arguments, and the resulting state changes / token movements.
+* A transaction recording / observation layer that can ingest either (a) a real on-chain transaction by hash on Mainnet/Testnet or (b) a locally simulated transaction (e.g., from a Soroban simulation against a forked state). The layer must extract structured information about which contracts were invoked, which functions, with which arguments, and the resulting state changes / token movements.
 * A context rule + policy synthesizer that converts the recorded transaction(s) into a proposed context rule (scope: which contracts and functions; lifetime: how long the permission lasts) plus the smallest set of policies needed to constrain the rule (e.g. spending limits derived from the observed amounts, frequency limits, time bounds). The synthesizer should bias toward minimal permissions -- if a transaction sequence only ever calls two functions with two specific assets, the generated rule should not permit a third.
 * Generated policy code in Rust, suitable for compilation as a Soroban contract, leveraging existing OZ-provided policy primitives (simple\_threshold, weighted\_threshold, spending\_limit) wherever they suffice. The tool should compose existing policies first and only generate net-new policy contracts when the constraint cannot be expressed by combining standard ones. Where new policy code is generated, it must implement the Policy trait correctly, including proper storage segregation for stateful cases.
 * An MCP server that exposes the recording, synthesis, and verification capabilities to agents, so that an AI agent can both request a policy be drafted from a sample transaction and operate under that policy once installed. The MCP interface should be agent-friendly: structured inputs/outputs, deterministic behavior, machine-readable error codes. Get inspiration from the [Cloudflare Agent Setup](https://developers.cloudflare.com/agent-setup/) and how they handle plugins, mcp and skills.

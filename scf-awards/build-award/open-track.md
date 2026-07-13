@@ -24,7 +24,7 @@ The Open Track is for experienced builders exploring novel use cases on Stellar 
 
 * Clearly scoped, technically ambitious product or protocol
 * Clear on-chain integration plan specific to the Stellar tech stack
-* Milestones and deliverables mapped to mainnet deployment
+* Milestones and deliverables mapped to Mainnet deployment
 * Thoughtful budget that reflects team size, timeline, and effort
 * Clear articulation of of how your proposed solution will drive onchain growth, and how that growth will be measured
 * Full-disclosure on the use of AI-generated and AI-assisted artifacts (docs, code, etc.)

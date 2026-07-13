@@ -38,7 +38,7 @@ Your budget should focus on the cost of completing specific deliverables. These 
 **Testing & Verification**
 
 * Unit and integration test coverage
-* QA processes and testnet simulations
+* QA processes and Testnet simulations
 * Monitoring and alerting stack
 
 **Deployment & Release**
@@ -119,9 +119,9 @@ As mentioned in the Submission Eligibility section:
 
 We recommend a structure that follows a typical product lifecycle:
 
-<table><thead><tr><th width="114.76953125">Tranche</th><th>Focus</th><th>Examples of Deliverable</th></tr></thead><tbody><tr><td>1</td><td>Minimum Viable Product (MVP)</td><td>Core contracts on testnet, simple UI, CLI tools</td></tr><tr><td>2</td><td>Testnet Expansion</td><td>Governance, integrations, adapters, feature depth</td></tr><tr><td>3</td><td>Mainnet Launch</td><td>Deployment, docs, SDK, monitoring, go-live metrics</td></tr></tbody></table>
+<table><thead><tr><th width="114.76953125">Tranche</th><th>Focus</th><th>Examples of Deliverable</th></tr></thead><tbody><tr><td>1</td><td>Minimum Viable Product (MVP)</td><td>Core contracts on Testnet, simple UI, CLI tools</td></tr><tr><td>2</td><td>Testnet Expansion</td><td>Governance, integrations, adapters, feature depth</td></tr><tr><td>3</td><td>Mainnet Launch</td><td>Deployment, docs, SDK, monitoring, go-live metrics</td></tr></tbody></table>
 
-Your timeline and deliverables can flex, but the end goal is the same: **a functional project live on Stellar mainnet.**
+Your timeline and deliverables can flex, but the end goal is the same: **a functional project live on Stellar Mainnet.**
 
 ### ✅ What Makes a Strong Deliverable
 
@@ -135,7 +135,7 @@ A great deliverable is:
 \
 ✅ Outcome-based: Focuses on the result
 
-Example: Instead of “frontend done,” say: “End-to-end swap flow demo recorded on testnet.”
+Example: Instead of “frontend done,” say: “End-to-end swap flow demo recorded on Testnet.”
 
 ### 💸 How Tranche Payments Work
 
