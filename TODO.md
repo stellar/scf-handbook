@@ -1,1 +1,0 @@
-also reqs `@SCF Project`; `@Ambassador President`, or `@SDF Discord Role`;
