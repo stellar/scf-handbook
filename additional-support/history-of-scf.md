@@ -341,7 +341,7 @@ As SCF evolves, the goal remains the same: to be the most effective launch mecha
 SCF is ever evolving, and new structure ideas and additions are under active discussion. You’re invited to participate! Join the[ Stellar Developers Discord](http://discord.gg/stellardev) (and make sure you’re opting in for the Community Fund role) and become[ SCF verified](https://stellarcommunityfund.gitbook.io/scf-handbook/community-involvement/governance/how-to-become-verified).
 
 {% hint style="info" %}
-If you've been part of the Stellar Community for a while and some of what is documented here seems inaccurate, let us know through the [Stellar Developers Discord ](https://discord.gg/stellardev)or email us at communityfund@stellar.org. We strive to have a complete, candid, and transparent historic overview we can learn from as we work on future iterations of SCF.&#x20;
+If you've been part of the Stellar community for a while and some of what is documented here seems inaccurate, let us know through the [Stellar Developers Discord ](https://discord.gg/stellardev)or email us at communityfund@stellar.org. We strive to have a complete, candid, and transparent historic overview we can learn from as we work on future iterations of SCF.&#x20;
 {% endhint %}
 
 [^1]: 
