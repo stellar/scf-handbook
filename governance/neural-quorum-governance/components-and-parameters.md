@@ -94,9 +94,9 @@ $$
 
 <sup><sub>This formula was proposed by BlockScience (learn more about requirements and parameters<sub></sup> [<sup><sub>here<sub></sup>](https://hackmd.io/@blockscience/SkBilx67A) <sup><sub>and the parameter effects of<sub></sup> [<sup><sub>logistical curves on Wikipedia<sub></sup>](https://en.wikipedia.org/wiki/Generalised_logistic_function)<sup><sub>).<sub></sup> <sup><sub>_a_<sub></sup> <sup><sub> </sup><sup><sub>= the left horizontal asymptote,<sub></sup> <sup><sub> </sup><sup><sub>_k_<sub></sup> <sup><sub> </sup><sup><sub>= the right horizontal asymptote,<sub></sup> <sup><sub> </sup><sup><sub>_c_<sub></sup> <sup><sub> </sup><sup><sub>= 1,<sub></sup> <sup><sub> </sup><sup><sub>_q_<sub></sup> <sup><sub> </sup><sup><sub>= is related to the value<sub></sup> <sup><sub> </sup><sup><sub>_Y_<sub></sup><sup><sub>(0),<sub></sup> <sup><sub> </sup><sup><sub>_b_<sub></sup> <sup><sub> </sup><sup><sub>= the growth rate,<sub></sup> <sup><sub> </sup><sup><sub>_n_<sub></sup> <sup><sub> </sup><sup><sub>= affects near which asymptote maximum growth occurs,<sub></sup> <sup><sub> </sup><sup><sub>_o_<sub></sup> <sup><sub> </sup><sup><sub>= X axis offset (current round # - 10),<sub></sup> <sup><sub> </sup><sup><sub>_x_<sub></sup> <sup><sub> </sup><sup><sub>= current round #<sub></sup>
 
-In the graph below, we chose arbitrary values (a = 0, k = 1, c = 1, q = 1, b = 1, n = 4, o = `[current_round - 8]`) to add mild effects influenced by round importance over the number of rounds. Weights for each round user voted in, are multiplied by a percentage of active votes of this user. Although it is set to always be at least 50%, because not all Tiers are allowed to actively vote. 
+In the graph below, we chose arbitrary values (a = 0, k = 1, c = 1, q = 1, b = 1, n = 4, o = `[current_round - 8]`) to add mild effects influenced by round importance over the number of rounds. Weights for each round a user voted in are multiplied by that user's percentage of active votes. It is set to always be at least 50%, because not all tiers are allowed to vote actively. 
 
-Additionally if you are a teammeber of a project thats being voted on in given round, you are not allowed to vote, but this neurons treats you as if you did vote 100% actively, so you don't loose your participation bonus.
+Additionally, if you are a team member of a project that's being voted on in a given round, you are not allowed to vote, but this neuron treats you as if you had voted 100% actively, so you don't lose your participation bonus.
 
 <figure><img src="../../.gitbook/assets/components-and-parameters/round_weight_graph.png"/></figure>
 
@@ -108,7 +108,7 @@ User B voted in round 42, from the graph above we can see weight for this round 
 {% endstep %}
 
 {% step %}
-**The sum of the weights of all rounds participated is passed as an input for a logistic curve.**
+**The sum of the weights of all rounds participated in is passed as the input to a logistic curve.**
 
 $$
 y = a+( k - a )(c + q * e(-b*(x - o)) )(1/n)
@@ -156,7 +156,7 @@ For any given user since SCF #30, we go over all votes of given user, since roun
 
 **Mechanism**: Each user defines a list of users they trust. Based on those lists we perform some calculations explained below:
 
-* PageRank - calculates initial trust score based on how many users trust given user, which is then normalized in range from 0 to 3 based on scores of all users.
+* PageRank — calculates an initial trust score based on how many users trust a given user, which is then normalized to a range from 0 to 3 based on the scores of all users.
 * Highly Trusted Bonus - additional bonus if given user is trusted by a highly trusted user
 
 <figure><img src="../../.gitbook/assets/components-and-parameters/trust_graph_neuron.png"/></figure>
@@ -183,7 +183,7 @@ After calculating PageRank scores, we take users with top 10% scores, those are 
 
 Note: Keep in mind that even though we perform normalization after the PageRank, adding this HTB can result in the trust score of some users being higher than 3.0. This is an important change from the original implementation of the system, which was designed in a way so all 3 neurons should output values in range 0.0 - 1.0. We believe this isn't a flaw, because it makes the trust have a bigger impact on the overall NQG score, which is desired.
 
-#### **1.2.5 Trust Loss Neuron**
+#### **1.2.5. Trust Loss Neuron**
 
 The Trust Loss Neuron tracks how a person's reputation changes between voting rounds by watching how many users stop trusting them, and can generate only 0 or negative outputs. If many community members removed you from their trust list since the last round, your score goes down by one point for each person who did. If nobody withdrew their trust, your score doesn’t change. Output from this neuron is also added to your NQG score, and is not tied to the Trust graph.
 
@@ -196,7 +196,7 @@ After all 5 neurons are calculated, the results are aggregated together to give 
 | Layer 1 | <p>Trust Graph</p><p>Assigned Reputation</p><p>Vote Quality</p><p>Prior Voting History</p><p>Trust Loss</p> | Sum             | Adds results of all neurons       |
 
 
-The result of Layer 1 is equal to the final voting power. In the future we might extend the system to use another layer with different aggregator.
+The result of Layer 1 is equal to the final voting power. In the future, we might extend the system to use another layer with a different aggregator.
 
 ***
 
@@ -244,6 +244,6 @@ The current implementation of QD in SCF has fixed parameters with relatively lig
 
 #### **2.2.1. Understanding the difference between the purpose of Trust Graph Neuron and Quorum Delegation**
 
-The relationships within the Trust Graph Neuron show correlations with Quorum Delegation as both are focused on trust, but each have a distinct purpose—while it might be assumed that a user would add their delegates to their trusted list of users, they would not necessarily select everyone in their trusted list as delegates (and not everyone would be available, as delegate selection happens quarterly based on nomination).
+The relationships within the Trust Graph Neuron show correlations with Quorum Delegation as both are focused on trust, but each have a distinct purpose — while it might be assumed that a user would add their delegates to their trusted list of users, they would not necessarily select everyone in their trusted list as delegates (and not everyone would be available, as delegate selection happens quarterly based on nomination).
 
-Trust in the Trust Graph Neuron is expected to be assigned more liberally—a user can assign trust for any reason to help gain reputation for that user, as there is no direct effect on their own choices and voting power. Similarly, a user can assign trust to a high number of other users, while Quorum Delegation is limited.
+Trust in the Trust Graph Neuron is expected to be assigned more liberally — a user can assign trust for any reason to help gain reputation for that user, as there is no direct effect on their own choices and voting power. Similarly, a user can assign trust to a high number of other users, while Quorum Delegation is limited.
