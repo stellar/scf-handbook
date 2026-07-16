@@ -135,7 +135,7 @@ Example 1: A financial protocol managing $500K TVL would qualify for an audit du
 {% endhint %}
 
 {% hint style="info" %}
-Example 2: An escrow account project with <$100K TVL would qualify only after surpassing the $100K TVL threshold for non-priority categories and receiving review panel approval based on a valid justification (e.g., without an audit, a breach or vulnerability in the project could have medium- or high-severity consequences and result in the loss of user funds).
+Example 2: An escrow account project with <$100K TVL would qualify only after reaching the $100K TVL threshold for non-priority categories and receiving review panel approval based on a valid justification (e.g., without an audit, a breach or vulnerability in the project could have medium- or high-severity consequences and result in the loss of user funds).
 {% endhint %}
 
 ### General Rules
