@@ -144,8 +144,22 @@ For any given user since SCF #30, we go over all votes of given user, since roun
 * Not live on Stellar within 6 months, MVP -0.2
 * Not live on Stellar within 6 months, Testnet -0.1
 
+This applies to active Yes votes. Delegated votes that resolve to Yes through the user's quorum earn half the points of an active Yes vote, rewarding active conviction over passive delegation. Delegated votes that resolve to No or Abstain don't affect the score.
+
+The sum of all points is then passed as the input to a logistic curve, and its output is the final Vote Quality bonus. This means the bonus is always in the range from -5 to 5, so users with a long voting history can't accumulate an unlimited bonus, while the relative ordering between voters is preserved.
+
+$$
+y = a+( k - a )(c + q * e(-b*(x - o)) )(1/n)
+$$
+
+<sub>_a_</sub> <sub></sub><sub>= the left horizontal asymptote,</sub> <sub></sub><sub>_k_</sub> <sub></sub><sub>= the right horizontal asymptote,</sub> <sub></sub><sub>_c_</sub> <sub></sub><sub>= 1,</sub> <sub></sub><sub>_q_</sub> <sub></sub><sub>= is related to the value</sub> <sub></sub><sub>_Y_</sub><sub>(0),</sub> <sub></sub><sub>_b_</sub> <sub></sub><sub>= the growth rate,</sub> <sub></sub><sub>_n_</sub> <sub></sub><sub>= affects near which asymptote maximum growth occurs,</sub> <sub></sub><sub>_o_</sub> <sub></sub><sub>= X axis offset,</sub> <sub></sub><sub>_x_</sub> <sub></sub><sub>= sum of points.</sub>
+
+In the graph below, we chose values (a = -5, k = 5, c = 1, q = 1, b = 0.4, n = 1, o = 0). The curve is centered on the origin, so a user with no points gets a bonus of exactly 0, and equal sums of positive and negative points result in bonuses that are exact negatives of each other.
+
+<figure><img src="../../.gitbook/assets/components-and-parameters/vote_quality_curve.png"/></figure>
+
 {% hint style="info" %}
-**Example**: In previous rounds, a user voted for one project that went live on stellar within 6 months, and one that is on testnet after 6 months, so his bonus will be 0.3 - 0.1 = 0.2 points.
+**Example**: In previous rounds, a user voted for one project that went live on stellar within 6 months, and one that is on testnet after 6 months, so the sum of his points will be 0.3 - 0.1 = 0.2. We then look at the graph for the value of 0.2 on the X axis, and see that the corresponding bonus is ≈ 0.2 — around zero the curve is almost linear, and it only flattens out for users with a large sum of points.
 {% endhint %}
 
 #### **1.2.4. Trust Graph Neuron**
