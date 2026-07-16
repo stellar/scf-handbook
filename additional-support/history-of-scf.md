@@ -216,7 +216,7 @@ Since SCF #10 had an unprecedented amount of high-quality projects, the pool amo
 
 ### **SCF #11 - Renewed guidelines and community-driven bootcamp**
 
-During the selection phase of SCF #10, many projects put a lot of work into their submission but were deemed ineligible to participate. In SCF #11, the team worked to improve guidelines to set up future submitters for success, and from that, the [SCF Handbook ](https://stellar-development-foundation-1.gitbook.io/stellar-community-fund-handbook/)was born: a source of truth document for everything related to the Stellar Community Fund, including all information, rules, and recommendations for project submission and community participation.
+During the selection phase of SCF #10, many projects put a lot of work into their submission but were deemed ineligible to participate. In SCF #11, the team worked to improve guidelines to set up future submitters for success, and from that, the [SCF Handbook](../README.md) was born: a source of truth document for everything related to the Stellar Community Fund, including all information, rules, and recommendations for project submission and community participation.
 
 Previous bootcamps successfully led high-quality submissions to the SCF, but it was relatively difficult for them to gain popularity with voters, causing some to lose confidence. So in SCF #11, the bootcamp element was integrated into the program, and selected SCF #11 candidates can participate in a [virtual bootcamp](https://communityfund.stellar.org/bootcamp) from November 1–4, 2022. Bootcamp participants will work with SDF and Stellar ecosystem members to define a problem, storyboard a solution, and develop a rapid prototype before getting feedback from the Stellar community.
 
@@ -338,7 +338,7 @@ Looking ahead, SCF is also laying the foundation for a more decentralized future
 
 As SCF evolves, the goal remains the same: to be the most effective launch mechanism for projects building on Stellar—and to do it in a way that grows with the ecosystem, not above it.
 
-SCF is ever evolving, and new structure ideas and additions are under active discussion. You’re invited to participate! Join the[ Stellar Developers Discord](http://discord.gg/stellardev) (and make sure you’re opting in for the Community Fund role) and become[ SCF verified](https://stellarcommunityfund.gitbook.io/scf-handbook/community-involvement/governance/how-to-become-verified).
+SCF is ever evolving, and new structure ideas and additions are under active discussion. You’re invited to participate! Join the[ Stellar Developers Discord](http://discord.gg/stellardev) (and make sure you’re opting in for the Community Fund role) and become[ SCF verified](../governance/verified-members/how-to-become-verified.md).
 
 {% hint style="info" %}
 If you've been part of the Stellar Community for a while and some of what is documented here seems inaccurate, let us know through the [Stellar Developers Discord ](https://discord.gg/stellardev)or email us at communityfund@stellar.org. We strive to have a complete, candid, and transparent historic overview we can learn from as we work on future iterations of SCF.&#x20;
