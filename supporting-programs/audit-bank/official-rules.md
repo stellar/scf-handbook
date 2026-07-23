@@ -23,7 +23,7 @@ The following audit firms have been pre-approved by the Stellar Development Foun
 
 ### Program Phases
 
-<table data-header-hidden><thead><tr><th width="149.75390625"></th><th width="386.73046875"></th><th></th></tr></thead><tbody><tr><td>Phase</td><td>Description</td><td>Duration</td></tr><tr><td>Intake &#x26; Eligibility</td><td>Projects submit audit requests based on clearly defined eligibility criteria.</td><td>-</td></tr><tr><td>Readiness Review</td><td>Each project undergoes a mandatory readiness assessment by a security expert, including threat modeling.</td><td>&#x3C;4 weeks</td></tr><tr><td>Audit Scheduling</td><td>Audits scheduled with pre-approved audit firms based on importance, ecosystem impact, availability, and readiness.</td><td>1 week</td></tr><tr><td>Pre-Audit Preparation</td><td>Participants are encouraged to perform self-administered code and security checks with recommended tooling.</td><td>2-3 weeks</td></tr><tr><td>Audit Execution</td><td>Audits conducted by pre-approved audit firms.</td><td>1-6 weeks</td></tr><tr><td>Post-Audit Resolution</td><td>Participants receive a private audit report detailing vulnerabilities and address these promptly.</td><td>1-4 weeks</td></tr><tr><td>Verification and Follow-Up</td><td>Security experts verify remediation; additional audits or formal verification for high-value projects.</td><td>2-3 weeks</td></tr></tbody></table>
+<table data-header-hidden><thead><tr><th width="149.75390625"></th><th width="386.73046875"></th><th></th></tr></thead><tbody><tr><td>Phase</td><td>Description</td><td>Duration</td></tr><tr><td>Intake &#x26; Eligibility</td><td>Projects submit audit requests based on clearly defined eligibility criteria.</td><td>-</td></tr><tr><td>Readiness Review</td><td>Each project undergoes a mandatory readiness assessment by a security expert, including threat modeling.</td><td>&#x3C;4 weeks</td></tr><tr><td>Audit Scheduling</td><td>Audits scheduled with pre-approved audit firms based on importance, ecosystem impact, availability, and readiness.</td><td>1 week</td></tr><tr><td>Pre-Audit Preparation</td><td>Participants are encouraged to perform self-administered code and security checks with recommended tooling.</td><td>2–3 weeks</td></tr><tr><td>Audit Execution</td><td>Audits conducted by pre-approved audit firms.</td><td>1–6 weeks</td></tr><tr><td>Post-Audit Resolution</td><td>Participants receive a private audit report detailing vulnerabilities and address these promptly.</td><td>1–4 weeks</td></tr><tr><td>Verification and Follow-Up</td><td>Security experts verify remediation; additional audits or formal verification for high-value projects.</td><td>2–3 weeks</td></tr></tbody></table>
 
 #### **Phase 1: Intake & Eligibility Submission**
 
@@ -106,7 +106,7 @@ In order to be eligible for an audit, projects must meet the following criteria:
 * Projects must have been funded by SCF. Companies with other commercial grants from the SDF are not eligible for participation in the audit bank.
 * Projects must pass KYC and sanction checks.
 * Projects must be in an [eligible priority category or meet non-priority traction criteria](official-rules.md#eligible-categories).
-* Projects must have completed the development of the code portions within the audit scope, be nearly mainnet-ready, and require an audit within 4-6 weeks.&#x20;
+* Projects must have completed the development of the code portions within the audit scope, be nearly mainnet-ready, and require an audit within 4–6 weeks.&#x20;
 * Projects must have conducted extensive tests on their code and deployed it on testnet for validation.
 * As part of their application, projects must submit the results of one of the “self-service tooling” options to include a list of all identified vulnerabilities and a remediation plan for fixing identified critical, high, and medium severity vulnerabilities prior to audit start.
 * Projects must include a STRIDE threat model for the project as part of their application.&#x20;
@@ -120,7 +120,7 @@ Projects must demonstrate increased risk or the potential for a significant impa
 #### **Priority Categories:**
 
 * **Financial Protocols**: Protocols managing on-chain value, as they are prime targets for malicious actors.
-* **Widely Used Applications**: Applications using stellar smart contracts that are expected to have large-scale adoption ($1M+ TVL, 100K+ active users), where vulnerabilities could undermine user trust.
+* **Widely Used Applications**: Applications using Stellar smart contracts that are expected to have large-scale adoption ($1M+ TVL, 100K+ active users), where vulnerabilities could undermine user trust.
 * **Infrastructure Contracts**: Oracles, vaults, account abstraction contracts, or similar components that are widely integrated across multiple services.
 * Yield-Bearing Token Protocols: Protocols representing real-world value through smart contracts.
 
@@ -135,7 +135,7 @@ Example 1: A financial protocol managing $500K TVL would qualify for an audit du
 {% endhint %}
 
 {% hint style="info" %}
-Example 2: An escrow account project with <$100K TVL would only qualify once it surpasses the $100K TVL threshold for non-priority categories, and there is a by the review panel-accepted reason to do so (e.g. this project is adopting a use case where the consequence of a breach or vulnerabilities can be medium or high without audit, and would result in the loss of user funds)
+Example 2: An escrow account project with <$100K TVL would qualify only after reaching the $100K TVL threshold for non-priority categories and receiving review panel approval based on a valid justification (e.g., without an audit, a breach or vulnerability in the project could have medium- or high-severity consequences and result in the loss of user funds).
 {% endhint %}
 
 ### General Rules

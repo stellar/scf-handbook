@@ -30,7 +30,7 @@ Projects should request an audit if they are [eligible](official-rules.md#partic
 
 <summary>How quickly can my project get audited?</summary>
 
-[Eligible](official-rules.md#participant-eligibility) projects are typically matched with an audit firm within approximately two weeks after passing the readiness review. Audit firms are able to schedule most audits within 3-6 weeks after matching. The audit length depends on the scope of the code to be audited, and can take anywhere from 2 to 8 weeks.
+[Eligible](official-rules.md#participant-eligibility) projects are typically matched with an audit firm within approximately two weeks after passing the readiness review. Audit firms are able to schedule most audits within 3–6 weeks after matching. The audit length depends on the scope of the code to be audited, and can take anywhere from 2 to 8 weeks.
 
 </details>
 
