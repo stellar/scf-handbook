@@ -6,7 +6,7 @@ The SCF Growth Hack program is an 8-week, competition-style GTM/PMF program for 
 
 Additional cohorts added soon.
 
-<table data-full-width="true"><thead><tr><th>Cohort</th><th>Application </th><th>Selection</th><th>Preparation</th><th>Campaign (Activation)</th><th>Evaluation </th><th>Retention</th><th>Completion</th></tr></thead><tbody><tr><td>Cohort #1</td><td>Sep 3, 2025-Sep 12, 2025  </td><td>Sep 15, 2025-Sep 26, 2025  </td><td>Sep 29, 2025-Nov 10, 2025  </td><td>Nov 10, 2025-Dec 7, 2025  </td><td>Dec 8, 2025-Dec 14, 2025  </td><td>Dec 8, 2025-Jan 4, 2026  </td><td>Jan 5, 2026-Jan 18, 2026  </td></tr></tbody></table>
+<table data-full-width="true"><thead><tr><th>Cohort</th><th>Application </th><th>Selection</th><th>Preparation</th><th>Campaign (Activation)</th><th>Evaluation </th><th>Retention</th><th>Completion</th></tr></thead><tbody><tr><td>Cohort #1</td><td>Sep 3, 2025–Sep 12, 2025  </td><td>Sep 15, 2025–Sep 26, 2025  </td><td>Sep 29, 2025–Nov 10, 2025  </td><td>Nov 10, 2025–Dec 7, 2025  </td><td>Dec 8, 2025–Dec 14, 2025  </td><td>Dec 8, 2025–Jan 4, 2026  </td><td>Jan 5, 2026–Jan 18, 2026  </td></tr></tbody></table>
 
 See [Official Rules ](official-rules.md)for more information.
 
