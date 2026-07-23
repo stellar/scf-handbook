@@ -159,7 +159,7 @@ In the graph below, we chose values (a = -5, k = 5, c = 1, q = 1, b = 0.4, n = 1
 <figure><img src="../../.gitbook/assets/nqg/vote-quality-curve.png"/></figure>
 
 {% hint style="info" %}
-**Example**: In previous rounds, a user voted for one project that went live on stellar within 6 months, and one that is on testnet after 6 months, so the sum of his points will be 0.3 - 0.1 = 0.2. We then look at the graph for the value of 0.2 on the X axis, and see that the corresponding bonus is ≈ 0.2 — around zero the curve is almost linear, and it only flattens out for users with a large sum of points.
+**Example**: In previous rounds, a user voted for one project that went live on Stellar within 6 months, and one that is on testnet after 6 months, so the sum of his points will be 0.3 - 0.1 = 0.2. We then look at the graph for the value of 0.2 on the X axis, and see that the corresponding bonus is ≈ 0.2 — around zero the curve is almost linear, and it only flattens out for users with a large sum of points.
 {% endhint %}
 
 #### **1.2.4. Trust Graph Neuron**

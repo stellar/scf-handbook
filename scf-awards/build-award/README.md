@@ -13,7 +13,7 @@ SCF Build Award (or “Build Awards”) is an award of up to $150,000 in XLM\* d
 {% hint style="info" %}
 #### 🧑‍💻 **Who It’s For:**
 
-SCF Build supports strong teams ready to deliver and ship in 3-5 months.
+SCF Build supports strong teams ready to deliver and ship in 3–5 months.
 
 The Open Track is for:
 
@@ -128,7 +128,7 @@ You are responsible for safeguarding your own private keys and wallet. SCF/SDF h
 
 ### SCF Build Referral Program
 
-The Stellar Community Fund relies heavily on signals from vetted referral sources for project support. If you’ve been in touch with someone in the Stellar Community, an SDF employee, or a partner, make sure to ask them for their unique referrer code, and include it in your interest form. This helps the SCF team to narrow focus and provide high-touch support to high-quality teams.
+The Stellar Community Fund relies heavily on signals from vetted referral sources for project support. If you’ve been in touch with someone in the Stellar community, an SDF employee, or a partner, make sure to ask them for their unique referrer code, and include it in your interest form. This helps the SCF team to narrow focus and provide high-touch support to high-quality teams.
 
 [SCF Referral Program Terms & Conditions](referral-program.md)<br>
 

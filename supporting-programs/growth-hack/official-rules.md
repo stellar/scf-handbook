@@ -58,7 +58,7 @@ $$
 IndividualGrant = ((X)/∑(X) +(Y)/∑(Y) +(Z)/∑(Z)) /3 * A
 $$
 
-[_X = WAA Increase, Y = Weekly Txn Volume Increase, Z = W_](#user-content-fn-1)[^1]_eekly TVL increase, A = Total Grant Amount_
+_X = WAA Increase, Y = Weekly Txn Volume Increase, Z = Weekly TVL increase, A = Total Grant Amount_
 
 
 
@@ -68,13 +68,13 @@ $$
 
 To help understand how the calculation outlined above works, please see an example below where the Total WAA for all Participating Projects reaches a Level 2 Pool Size, which increases the Grant Pool to $100,000 in XLM. In this example, the Top Projects will qualify for the following:
 
-<table data-full-width="true"><thead><tr><th>Project</th><th width="222.6875">WAA Increase (X)</th><th width="186.62890625">WTV Increase (Y)</th><th width="208.1796875">WTVL Increase (Z)</th><th width="429.53125">Individual Award =  (X)/∑(X) +(Y)/∑(Y)]/2 * Z (in XLM)</th><th>Rank</th></tr></thead><tbody><tr><td>Project A</td><td>1,500</td><td>$35,000</td><td>$7,000</td><td>(0.15+0.35+0.7)/3*$100K = $40K</td><td>1</td></tr><tr><td>Project B</td><td>5,000</td><td>$40,000</td><td>0</td><td>(0.5+0.4+0)/3*$100K = $30K</td><td>2</td></tr><tr><td>Project C</td><td>1,000</td><td>$5,000</td><td>0</td><td>(0.1+0.05+0)/3*$100K = $5K</td><td>5</td></tr><tr><td>Project D</td><td>2,000</td><td>$5,000</td><td>0</td><td>(0.2+0.05+0)/3*$100K = $8.33K</td><td>4</td></tr><tr><td>Project E</td><td>500</td><td>$15,000</td><td>$3,000</td><td>(0.05+0.15+0.3)/3*$100K = $16.67K</td><td>3</td></tr><tr><td>Total Increase</td><td><p>10,000</p><p>∑(X)</p></td><td><p>$100,000</p><p>∑(Y)</p></td><td><p>$10,000</p><p>∑(Y)</p></td><td>Total $100K<br>(A=Level 2 Grant Pool)</td><td>-</td></tr></tbody></table>
+<table data-full-width="true"><thead><tr><th>Project</th><th width="222.6875">WAA Increase (X)</th><th width="186.62890625">WTV Increase (Y)</th><th width="208.1796875">WTVL Increase (Z)</th><th width="429.53125">Individual Award =  (X)/∑(X) +(Y)/∑(Y)]/2 * Z (USD value, paid in XLM)</th><th>Rank</th></tr></thead><tbody><tr><td>Project A</td><td>1,500</td><td>$35,000</td><td>$7,000</td><td>(0.15+0.35+0.7)/3*$100K = $40K</td><td>1</td></tr><tr><td>Project B</td><td>5,000</td><td>$40,000</td><td>0</td><td>(0.5+0.4+0)/3*$100K = $30K</td><td>2</td></tr><tr><td>Project C</td><td>1,000</td><td>$5,000</td><td>0</td><td>(0.1+0.05+0)/3*$100K = $5K</td><td>5</td></tr><tr><td>Project D</td><td>2,000</td><td>$5,000</td><td>0</td><td>(0.2+0.05+0)/3*$100K = $8.33K</td><td>4</td></tr><tr><td>Project E</td><td>500</td><td>$15,000</td><td>$3,000</td><td>(0.05+0.15+0.3)/3*$100K = $16.67K</td><td>3</td></tr><tr><td>Total Increase</td><td><p>10,000</p><p>∑(X)</p></td><td><p>$100,000</p><p>∑(Y)</p></td><td><p>$10,000</p><p>∑(Y)</p></td><td>Total $100K<br>(A=Level 2 Grant Pool)</td><td>-</td></tr></tbody></table>
 
 ### Award Distribution
 
 For the top 5 companies, the award will be distributed in the following three payment tranches. The companies ranked 6 to 10 will only be awarded the upfront campaign awards.
 
-<table data-full-width="true"><thead><tr><th>Payment Tranche</th><th width="211.44140625">Purpose</th><th>Total (in XLM)</th><th width="87.33203125"># of companies</th><th>Amount per Project</th></tr></thead><tbody><tr><td>1. Upfront campaign awards</td><td>Prepare the user acquisition campaign</td><td>$200K</td><td>10</td><td>$20K in XLM</td></tr><tr><td>2. Performance-based awards</td><td>Award the top 5 companies based on the 3 selection metrics</td><td>$100K max*</td><td>5</td><td><p>1st half  of </p><p>Individual Award</p></td></tr><tr><td>3. Performance-based awards</td><td>Award user retention >=30%</td><td>$100K max*</td><td>&#x3C;=5</td><td><p>2nd half of </p><p>Individual Award </p></td></tr></tbody></table>
+<table data-full-width="true"><thead><tr><th>Payment Tranche</th><th width="211.44140625">Purpose</th><th>Total (USD value, paid in XLM)</th><th width="87.33203125"># of companies</th><th>Amount per Project</th></tr></thead><tbody><tr><td>1. Upfront campaign awards</td><td>Prepare the user acquisition campaign</td><td>$200K</td><td>10</td><td>$20K in XLM</td></tr><tr><td>2. Performance-based awards</td><td>Award the top 5 companies based on the 3 selection metrics</td><td>$100K max*</td><td>5</td><td><p>1st half  of </p><p>Individual Award</p></td></tr><tr><td>3. Performance-based awards</td><td>Award user retention >=30%</td><td>$100K max*</td><td>&#x3C;=5</td><td><p>2nd half of </p><p>Individual Award </p></td></tr></tbody></table>
 
 _\*The dynamic awards amount is depending on the campaign performance._&#x20;
 
@@ -163,5 +163,3 @@ SDF collects personal information from Participants when they enter the SCF Grow
 ## 5) Contact
 
 If you have any specific questions or concerns you can also email SDF at communityfund@stellar.org.
-
-[^1]: 
