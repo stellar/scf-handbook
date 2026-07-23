@@ -4,7 +4,7 @@ icon: question
 
 # FAQ
 
-Check out the FAQ to answer all your questions! If you can't find your answer, ask it in the #scf-general channel on the [Stellar Developers Discord](https://discord.gg/stellardev), and someone will help you shortly.
+Check out the FAQ to answer all your questions! If you can't find your answer, ask it in the `#scf-general` channel on the [Stellar Developers Discord](https://discord.gg/stellardev), and someone will help you shortly.
 
 ### General
 
@@ -241,7 +241,7 @@ This handbook provides the most up-to-date information about category-specific e
 
 <summary>Who can I ask if I have more questions?</summary>
 
-Email [communityfund@stellar.org](mailto:communityfund@stellar.org), or (for a faster response), send a message in #scf-general in the Stellar Developers Discord.
+Email [communityfund@stellar.org](mailto:communityfund@stellar.org), or (for a faster response), send a message in `#scf-general` in the Stellar Developers Discord.
 
 </details>
 

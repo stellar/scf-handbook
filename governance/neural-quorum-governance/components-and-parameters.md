@@ -18,7 +18,7 @@ Neural Governance uses the abstractions of Voting Neurons, which are arranged an
 
 The outputs from all Voting Neurons are aggregated together in layers, and then passed as an input to the next layer, until a final value is reached.
 
-<figure><img src="../../.gitbook/assets/components-and-parameters/neural_governance_framework.png"/></figure>
+<figure><img src="../../.gitbook/assets/nqg/neural-governance-framework.png"/></figure>
 
 Neural Governance at a glance: In this stylized implementation, User Vote Power starts with a default voting power (such as zero), which gets replaced by the voting power that is computed by aggregating the Reputation and Past Voting Neurons' weighted outputs. This is then fed to the Trust Neuron, which will then provide the Final User Vote Power.
 
@@ -40,7 +40,7 @@ The key neurons in the initial implementation are:
 * [Trust Graph](components-and-parameters.md#id-1.1.2.4.-trust-graph-neuron)
 * [Trust Loss](components-and-parameters.md#id-1.2.4.-trust-loss-neuron)
 
-<figure><img src="../../.gitbook/assets/components-and-parameters/new_neurons_setup.png"/></figure>
+<figure><img src="../../.gitbook/assets/nqg/new-neurons-setup.png"/></figure>
 
 Out of the above, the Trust Graph Neuron carries significant relative weight. With Quorum Delegation, this makes SCF’s governance mechanism primarily trust-based. This has been a deliberate choice from the beginning, as SCF’s existing community prior to implementing NQG had been based on trust informally, and because ‘human trust’ has the capability to bridge multiple forms of reputation (e.g. quality of contributions, engagement within a community, and general sense), and can thus manage complexity of the system. Managing complexity is important in NQG, because the more neurons (data inputs) you add, the more parameters and weighting attribution methods you need to adjust, the more chance of unclarity and confusion on how the system calculates the final vote.
 
@@ -98,7 +98,7 @@ In the graph below, we chose arbitrary values (a = 0, k = 1, c = 1, q = 1, b = 1
 
 Additionally, if you are a team member of a project that's being voted on in a given round, you are not allowed to vote, but this neuron treats you as if you had voted 100% actively, so you don't lose your participation bonus.
 
-<figure><img src="../../.gitbook/assets/components-and-parameters/round_weight_graph.png"/></figure>
+<figure><img src="../../.gitbook/assets/nqg/round-weight-graph.png"/></figure>
 
 {% hint style="info" %}
 Example: User A voted in round 42, from the graph above we can see weight for this round is 1.0. In this round user A submitted 68 Yes/No votes, and 32 Delegate votes, so 68% active votes. The final weight of round 42 for this user will be 1.0 x 68% = 0.68.
@@ -118,7 +118,7 @@ $$
 
 In the graph below, we chose arbitrary values (a = (k/e^5), k = 3, c = 1, q = 1, b = 1, n = 1, o = 5) to add mild effects to the Voting History bonus influenced by the number of rounds.
 
-<figure><img src="../../.gitbook/assets/components-and-parameters/voting_history_output_bonus.png"/></figure>
+<figure><img src="../../.gitbook/assets/nqg/voting-history-output-bonus.png"/></figure>
 
 {% hint style="info" %}
 Example: Alice has voted in 5 rounds: SCF#32, 34, 36, 42, 44. We look at the first graph, take the corresponding weight for each round, and apply the active voting bonus for each round. Assume Alice always votes 100% actively, so we get values 0.375, 0.6, 0.85, 1.0, 1.0. We sum the weights and get a value of 3.825. Then we look at the second graph for the value of 3.825 at the X axis, and see that on the Y axis the corresponding bonus will be 0.75 — this is Alice’s Voting History Neuron bonus. 
@@ -156,10 +156,10 @@ $$
 
 In the graph below, we chose values (a = -5, k = 5, c = 1, q = 1, b = 0.4, n = 1, o = 0). The curve is centered on the origin, so a user with no points gets a bonus of exactly 0, and equal sums of positive and negative points result in bonuses that are exact negatives of each other.
 
-<figure><img src="../../.gitbook/assets/components-and-parameters/vote_quality_curve.png"/></figure>
+<figure><img src="../../.gitbook/assets/nqg/vote-quality-curve.png"/></figure>
 
 {% hint style="info" %}
-**Example**: In previous rounds, a user voted for one project that went live on Stellar within 6 months, and one that is on testnet after 6 months, so the sum of his points will be 0.3 - 0.1 = 0.2. We then look at the graph for the value of 0.2 on the X axis, and see that the corresponding bonus is ≈ 0.2 — around zero the curve is almost linear, and it only flattens out for users with a large sum of points.
+**Example**: In previous rounds, a user voted for one project that went live on Stellar within 6 months, and one that is on Testnet after 6 months, so the sum of his points will be 0.3 - 0.1 = 0.2. We then look at the graph for the value of 0.2 on the X axis, and see that the corresponding bonus is ≈ 0.2 — around zero the curve is almost linear, and it only flattens out for users with a large sum of points.
 {% endhint %}
 
 #### **1.2.4. Trust Graph Neuron**
@@ -173,7 +173,7 @@ In the graph below, we chose values (a = -5, k = 5, c = 1, q = 1, b = 0.4, n = 1
 * PageRank — calculates an initial trust score based on how many users trust a given user, which is then normalized to a range from 0 to 3 based on the scores of all users.
 * Highly Trusted Bonus - additional bonus if given user is trusted by a highly trusted user
 
-<figure><img src="../../.gitbook/assets/components-and-parameters/trust_graph_neuron.png"/></figure>
+<figure><img src="../../.gitbook/assets/nqg/trust-graph-neuron.png"/></figure>
 
 **1.2.4.1 Normalized PageRank**
 
@@ -226,7 +226,7 @@ Quorum Delegation (QD) allows users to passively vote by delegating their choice
 2. If enough ranked delegates actively vote, their decision forms a Quorum Vote automatically for the user. If not enough ranked delegates actively vote,
 3. The outcome of the Quorum Vote is weighted by the delegating member’s voting weight, and sent as input for the final vote tally.
 
-<figure><img src="../../.gitbook/assets/components-and-parameters/delegations_logic.png"/></figure>
+<figure><img src="../../.gitbook/assets/nqg/delegations-logic.png"/></figure>
 
 In the example above, the quorum consists of 10 anonymous users of which 6 vote "Yes", 2 vote "No", 1 abstains, and 1 does not participate. The quorum participation threshold is 3/5 (6 users). Since "Yes" exceeds a simple majority (4 votes), the user automatically votes "Yes".
 

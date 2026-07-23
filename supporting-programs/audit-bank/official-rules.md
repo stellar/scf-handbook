@@ -11,7 +11,7 @@ The Soroban Security Audit Program (the “Program”) is structured to enhance 
 The following audit firms have been pre-approved by the Stellar Development Foundation to participate in the Soroban Security Audit Bank. Additional audit firms coming soon.
 
 * [Certora](https://www.certora.com/): Specializes in Web3 security providing both audits and formal verification of smart contracts based on mathematical reasoning of code.
-* [Code4rena](https://code4rena.com/): Code4rena is a competitive audit platform where 100+ top security researchers review your code per audit, uncovering high-severity bugs before deployment—so you can launch to mainnet with confidence.
+* [Code4rena](https://code4rena.com/): Code4rena is a competitive audit platform where 100+ top security researchers review your code per audit, uncovering high-severity bugs before deployment—so you can launch to Mainnet with confidence.
 * [ChainSecurity](https://www.chainsecurity.com/): Founded in 2017, ChainSecurity is a leading smart contract auditing firm specializing in securing complex code that powers critical Web3 infrastructures.
 * [Halborn](https://halborn.com/): Founded in 2019, Halborn provides world-class security assessments and consulting for Web3 and Fortune 500 clients—protecting against crypto-specific threats like smart contract exploits, social engineering, and infrastructure breaches.
 * [Oak Security](https://oaksecurity.io/): Securing Web3 since 2017, Oak Security has completed over 600 audits without a single exploit. Oak Security’s signature ‘blinded’ process guarantees that every line of code is reviewed by multiple auditors in parallel. Fast, robust, secure.
@@ -27,7 +27,7 @@ The following audit firms have been pre-approved by the Stellar Development Foun
 
 #### **Phase 1: Intake & Eligibility Submission**
 
-Projects interested in participating must submit an audit request using a provided intake form. This intake form is provided to SCF-funded projects which have reached testnet stage or are already on mainnet. This form will detail the division of audit costs between SDF and the projects, and will require detailed information about the project, including:
+Projects interested in participating must submit an audit request using a provided intake form. This intake form is provided to SCF-funded projects which have reached Testnet stage or are already on Mainnet. This form will detail the division of audit costs between SDF and the projects, and will require detailed information about the project, including:
 
 * Project description and purpose
 * Smart contract and technical architecture details
@@ -97,7 +97,7 @@ To ensure accountability and efficient resource allocation, projects may be requ
 
 <table><thead><tr><th>Audit Stage</th><th>Traction Threshold</th><th width="127.91796875">Co-Payment %</th><th width="258.55078125">Description</th></tr></thead><tbody><tr><td>Initial Audit</td><td>None for priority categories</td><td>5% with potential refund*</td><td>Covers initial audit to ensure baseline security for newly developed protocols.</td></tr><tr><td>Growth Audit</td><td>>$10,000,000 TVL or equivalent</td><td>0%</td><td>Focused on scaling projects with moderate traction to validate ongoing security. May include more extensive auditing (e.g. formal verification)</td></tr><tr><td>Scale Audit</td><td>>$100,000,000 TVL or equivalent</td><td>0%</td><td>Targets high-value projects nearing maturity to ensure robust security measures. May include more extensive auditing (e.g. formal verification)</td></tr><tr><td>Pre-Traction Follow Up Audits<br></td><td>N/A</td><td><p>20% for the pre-traction follow-up audit, 50% for the second pre-traction</p><p>follow-up audit</p></td><td>If additional audits are needed in addition to the Initial Audit and the project hasn’t achieved traction required for Growth and Scale Audit yet, SDF partly covers the first two follow-up audits. </td></tr></tbody></table>
 
-\*If the project is able to successfully address all critical, high, and medium issues identified by the Audit Firm within  20 business days, the 5% co-payment of the Initial Audit will be refunded back to the project.&#x20;
+\*If the project is able to successfully address all critical, high, and medium issues identified by the Audit Firm within 20 business days, the 5% co-payment of the Initial Audit will be refunded back to the project.&#x20;
 
 ## Participant Eligibility
 
@@ -106,8 +106,8 @@ In order to be eligible for an audit, projects must meet the following criteria:
 * Projects must have been funded by SCF. Companies with other commercial grants from the SDF are not eligible for participation in the audit bank.
 * Projects must pass KYC and sanction checks.
 * Projects must be in an [eligible priority category or meet non-priority traction criteria](official-rules.md#eligible-categories).
-* Projects must have completed the development of the code portions within the audit scope, be nearly mainnet-ready, and require an audit within 4–6 weeks.&#x20;
-* Projects must have conducted extensive tests on their code and deployed it on testnet for validation.
+* Projects must have completed the development of the code portions within the audit scope, be nearly Mainnet-ready, and require an audit within 4–6 weeks.&#x20;
+* Projects must have conducted extensive tests on their code and deployed it on Testnet for validation.
 * As part of their application, projects must submit the results of one of the “self-service tooling” options to include a list of all identified vulnerabilities and a remediation plan for fixing identified critical, high, and medium severity vulnerabilities prior to audit start.
 * Projects must include a STRIDE threat model for the project as part of their application.&#x20;
 * Projects must be able to be responsive during the entirety of the audit.

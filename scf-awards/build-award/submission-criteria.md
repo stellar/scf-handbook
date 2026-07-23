@@ -100,7 +100,7 @@ Your proposed budget must:
 
 #### Tranche Structure
 
-Your application must include three tranches of deliverables. The final tranche should be your mainnet launch. Define your own path with your other deliverables, but make sure milestones make sense for your proposed build. One suggestion is to organize your tranches as:
+Your application must include three tranches of deliverables. The final tranche should be your Mainnet launch. Define your own path with your other deliverables, but make sure milestones make sense for your proposed build. One suggestion is to organize your tranches as:
 
 * **Tranche 1:** MVP
 * **Tranche 2:** Testnet

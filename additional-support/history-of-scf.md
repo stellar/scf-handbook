@@ -69,7 +69,7 @@ During the [5th round of the Stellar Build Challenge](https://web.archive.org/we
 
 [XLM hit its all-time high to date on Jan 04, 2018](https://coinmarketcap.com/currencies/stellar/historical-data/). There was suddenly a much higher interest in the Stellar network, and we saw this reflected in SBC #6. 324 projects were submitted to this round, more than all the other previous SBCs combined! 113 winners were awarded 2.7M XLM, five times the prize pool of the previously planned 550K. Among the high-quality entries were popular SDKs [Stellar's Python SDK](https://stellar-sdk.readthedocs.io/) and [Stellar iOS SDK](https://github.com/Soneso/stellar-ios-mac-sdk), Stellar node explorer, [StellarBeat](https://stellarbeat.io/), and Stellar educational platform [Lumenauts.com](https://www.lumenauts.com/).
 
-<figure><img src="../.gitbook/assets/Frame 4.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/scf-history/sbc-submissions-meme.png" alt=""><figcaption></figcaption></figure>
 
 While the increased number of submissions was great, we struggled to keep up with the demand. There was only one person to handle the initial review rounds, with Jed McCaleb making the final decisions. As the [blog post announcing the results](https://stellar.org/blog/sixth-stellar-build-challenge-results) indicates:&#x20;
 
@@ -153,7 +153,7 @@ The selection and voting processes also changed. Of all entries, nominated proje
 \
 A key component of the new community vote was flaggable quadratic voting. Community voting used to be one-dimensional, leaning towards a linear distribution that made it impossible to recognize exceptional projects—either positively or negatively. Implemented by popular blockchain funding programs, including [Gitcoin](https://gitcoin.co/), quadratic voting promises to be better at capturing community sentiment and enables the community to help police bad actors and thwart manipulation.
 
-<figure><img src="../.gitbook/assets/Frame 4 (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/scf-history/flaggable-quadratic-voting-meme.png" alt=""><figcaption></figcaption></figure>
 
 **How it worked:**
 
@@ -165,7 +165,7 @@ Voting was live and open, which meant that you could see how many votes a projec
 
 A new website, [communityfund.stellar.org](https://communityfund.stellar.org/), was also introduced (look at those cute astronauts!). The site contained all SCF rules, including details about each fund and how to submit your project. GalacticTalk was still used sparingly, but the new site was the primary place to see and vote on projects.
 
-<figure><img src="../.gitbook/assets/Frame 4 (2).png" alt=""><figcaption><p>communityfund.stellar.org during SCF#6 and SCF#7</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/scf-history/communityfund-site-scf-6-7.png" alt=""><figcaption><p>communityfund.stellar.org during SCF#6 and SCF#7</p></figcaption></figure>
 
 ### **SCF#6 - The Lab Fund for developers to experiment**
 
@@ -205,7 +205,7 @@ The new changes worked: [SCF#8 received 68 submissions](https://medium.com/stell
 
 Before SCF #9’s submission deadline, SDF held two exciting events: 1) the first Blockchain Bootcamp to support Stellar-based fintechs operating in Africa, and 2) a virtual Techstars Startup Weekend Latam with Stellar and Visa aiming to boost innovation in Latin America. The majority of participants in both events applied to the Stellar Community Fund, which led to an increase in diverse participation.
 
-The last two SCF rounds of 2021 funded long-lasting projects including [Alfred Pay](https://communityfund.stellar.org/projects/alfred-pay), [GetPaid](https://communityfund.stellar.org/projects/getpaid),  [Quidroo](https://communityfund.stellar.org/projects/quidroo), [Stellar Global](https://communityfund.stellar.org/projects/stellar-global), [SkyHitz](https://communityfund.stellar.org/projects/skyhitz), [Tip Me](https://communityfund.stellar.org/projects/tip-me-the-global-tip), and[ xBull Market](https://communityfund.stellar.org/projects/xbull-market) as well as [several SDKs and tools](https://communityfund.stellar.org/projects?tab=round-9). But you don’t need to win the SCF to gain value—bootcamp participant and previous SCF candidate [Stax](https://communityfund.stellar.org/projects/stax-africa-s-offline-payment-superapp) recently received a [Matching Fund Grant ](https://stellar.org/press-releases/fintech-stax-gets-additional-backing-from-stellar-development-foundation-to-build-affordable-borderless-payment-solution-in-africa)of $500,000 because of their experience! The increase in both quality and amount of submissions wasn’t the only win: Discord helped the SCF become more organized, allowing for more project-specific discussion and feedback conversations, which increased the overall community participation and size. The SCF server grew to almost 1,800 members, a \~235% increase from the \~500 members on Keybase.
+The last two SCF rounds of 2021 funded long-lasting projects including [Alfred Pay](https://communityfund.stellar.org/projects/alfred-pay), [GetPaid](https://communityfund.stellar.org/projects/getpaid), [Quidroo](https://communityfund.stellar.org/projects/quidroo), [Stellar Global](https://communityfund.stellar.org/projects/stellar-global), [SkyHitz](https://communityfund.stellar.org/projects/skyhitz), [Tip Me](https://communityfund.stellar.org/projects/tip-me-the-global-tip), and[ xBull Market](https://communityfund.stellar.org/projects/xbull-market) as well as [several SDKs and tools](https://communityfund.stellar.org/projects?tab=round-9). But you don’t need to win the SCF to gain value—bootcamp participant and previous SCF candidate [Stax](https://communityfund.stellar.org/projects/stax-africa-s-offline-payment-superapp) recently received a [Matching Fund Grant ](https://stellar.org/press-releases/fintech-stax-gets-additional-backing-from-stellar-development-foundation-to-build-affordable-borderless-payment-solution-in-africa)of $500,000 because of their experience! The increase in both quality and amount of submissions wasn’t the only win: Discord helped the SCF become more organized, allowing for more project-specific discussion and feedback conversations, which increased the overall community participation and size. The SCF server grew to almost 1,800 members, a \~235% increase from the \~500 members on Keybase.
 
 ### **SCF #10 - Pitching projects to the community**
 
@@ -308,13 +308,13 @@ With smart contract functionality live on Stellar, SCF 6.0 marked a shift toward
 
 The fund expanded from a single-track program into an umbrella of specialized programs and initiatives designed to support projects at different stages of development. This new structure reflected the increasingly diverse needs of builders in a Soroban-enabled ecosystem. In tandem, the SCF team grew from just two people during SCF 5.0 to a six-person Ecosystem Growth team managing SCF and its supporting programs.
 
-To support the surge of Soroban projects deploying to mainnet, SCF introduced new post-development award programs that provided liquidity incentives, RPC/indexer credits, and pathways to go-to-market acceleration. Startup Camp was revitalized as SCF Kickstart to help teams refine their use cases ahead of submission, and a new vertical launched to support community-led education and onboarding.
+To support the surge of Soroban projects deploying to Mainnet, SCF introduced new post-development award programs that provided liquidity incentives, RPC/indexer credits, and pathways to go-to-market acceleration. Startup Camp was revitalized as SCF Kickstart to help teams refine their use cases ahead of submission, and a new vertical launched to support community-led education and onboarding.
 
 SCF governance also became more decentralized and automated through the continued rollout of Neural Quorum Governance, enabling community members and ecosystem experts to play a more direct role in award allocation decisions.
 
 ***
 
-<figure><img src="../.gitbook/assets/Frame 4 (3).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/scf-history/scf-evolution-panels.png" alt=""><figcaption></figcaption></figure>
 
 ***
 
