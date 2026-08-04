@@ -41,7 +41,7 @@ Rather than reinventing the wheel, this track focuses on composability: integrat
 
 Ensure you’re not overscoping your budget. Most integration partners on the list take less than a week (40 hours) of development time to integrate. Find more information about your chosen integration partner [here](https://airtable.com/appymB1sbp5uidiGe/shrQFLSRUqxI7tBdT).
 
-<table><thead><tr><th width="122.6484375">Scope</th><th width="375.43359375">Example</th><th>Suggested Budget</th></tr></thead><tbody><tr><td>Small</td><td>one simple integration (wallet, SDP, MGI)</td><td>$25K–$50K</td></tr><tr><td>Medium</td><td>moderate scope: one larger integration (DeFi protocol) or two small ones</td><td>$50K–$100K</td></tr><tr><td>Large</td><td>complex integrations: Wallet + DeFi protocol + on-ramp, anchor + DEX, or cross-chain bridge deployment.</td><td>$100K–$150K</td></tr></tbody></table>
+<table><thead><tr><th width="122.6484375">Scope</th><th width="375.43359375">Example</th><th>Suggested Budget</th></tr></thead><tbody><tr><td>Small</td><td>one simple integration (wallet, SDP, MGI)</td><td>$25,000–$50,000</td></tr><tr><td>Medium</td><td>moderate scope: one larger integration (DeFi protocol) or two small ones</td><td>$50,000–$100,000</td></tr><tr><td>Large</td><td>complex integrations: Wallet + DeFi protocol + on-ramp, anchor + DEX, or cross-chain bridge deployment.</td><td>$100,000–$150,000</td></tr></tbody></table>
 
 Feel free to use the above table as a guide for creating your budget. Your budget items should mainly be related to your integration costs, but some costs for “connective tissue” are permitted.
 

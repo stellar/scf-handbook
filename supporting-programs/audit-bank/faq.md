@@ -1,6 +1,6 @@
 # FAQ
 
-Check out the FAQ to answer all your questions! If you can't find your answer, ask it in the #scf-general channel on the [Stellar Developers Discord](https://discord.gg/stellardev), and someone will help you shortly.
+Check out the FAQ to answer all your questions! If you can't find your answer, ask it in the `#scf-general` channel on the [Stellar Developers Discord](https://discord.gg/stellardev), and someone will help you shortly.
 
 <details>
 
@@ -22,7 +22,7 @@ Prior to an eligible project's initial audit, the project must pay 5% of its fir
 
 <summary>When should I audit my project?</summary>
 
-Projects should request an audit if they are [eligible](official-rules.md#participant-eligibility), and are close to launching on Stellar mainnet, demonstrate technical maturity, including stable code, comprehensive documentation, and readiness for review—typically after completing the [SCF Build testnet tranche](../../scf-awards/build-award/#structure-and-timeline-scf-build-award).
+Projects should request an audit if they are [eligible](official-rules.md#participant-eligibility), and are close to launching on Stellar Mainnet, demonstrate technical maturity, including stable code, comprehensive documentation, and readiness for review—typically after completing the [SCF Build Testnet tranche](../../scf-awards/build-award/#structure-and-timeline-scf-build-award).
 
 </details>
 
@@ -38,7 +38,7 @@ Projects should request an audit if they are [eligible](official-rules.md#partic
 
 <summary>Can I request more than one audit?</summary>
 
-Complimentary follow-up audits are available at significant traction milestones, such as $10M and $100M Total Value Locked. If you haven’t met these milestones yet but need an additional audit, a co-payment will be required (20% of total audit cost for 2nd audit, 50% of total audit cost for 3rd audit). See details [here](official-rules.md#audit-co-payment-system).
+Complimentary follow-up audits are available at significant traction milestones, such as $10,000,000 and $100,000,000 Total Value Locked. If you haven’t met these milestones yet but need an additional audit, a co-payment will be required (20% of total audit cost for 2nd audit, 50% of total audit cost for 3rd audit). See details [here](official-rules.md#audit-co-payment-system).
 
 </details>
 

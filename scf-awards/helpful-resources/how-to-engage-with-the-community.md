@@ -22,7 +22,7 @@ Here are three tips to effectively ask for feedback:
 
 #### 📶  |  Use channels accordingly
 
-Avoid sending direct messages unless someone has explicitly requested it. Use your own channel to post in-depth content and link to it in the #project-announcements or #self-promotion channels to ask questions. You can also invite people to start the discussion in your channel.
+Avoid sending direct messages unless someone has explicitly requested it. Use your own channel to post in-depth content and link to it in the `#project-announcements` or `#self-promotion` channels to ask questions. You can also invite people to start the discussion in your channel.
 
 #### ✍️  |  Be specific
 

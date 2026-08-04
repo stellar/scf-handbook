@@ -20,7 +20,7 @@ Delegates are [compensated per engagement](quarterly-governance-process.md#deleg
 
 ## Quarterly Cycle
 
-Typically, the SCF quarterly governance review cycle starts 9–10 weeks before the Submission Deadline of the first round of the quarter. Exact dates for each quarter can be found in the SCF Dashboard and are announced in the #governance channel in the [Stellar Dev Discord](http://discord.gg/stellardev).
+Typically, the SCF quarterly governance review cycle starts 9–10 weeks before the Submission Deadline of the first round of the quarter. Exact dates for each quarter can be found in the SCF Dashboard and are announced in the `#governance` channel in the [Stellar Dev Discord](http://discord.gg/stellardev).
 
 <table><thead><tr><th>Phase</th><th width="429.4296875">Core Outputs</th><th>Deadline (t = Round Submission Deadline)*</th></tr></thead><tbody><tr><td>1. Delegate Nomination &#x26; Signal Intake</td><td><ul><li>Pilot candidate list</li><li>Submission form released to ecosystem and SDF for needs signaling (use cases, tooling gaps, partner requests)</li></ul></td><td>t - 8 weeks</td></tr><tr><td>2. Delegate Selection &#x26; Retro</td><td><ul><li>List of Selected Delegates (onchain)</li><li>Quarterly retro summarizing prior quarter outcomes, adoption gaps, and ecosystem needs signals (leveraged using Scoring Process)</li></ul></td><td>t - 7 weeks</td></tr><tr><td>3. Ecosystem Needs Deliberation</td><td><ul><li>Delegate-led deliberation on retro findings</li><li>Agreement on what should change or be prioritized this quarter (use cases, markets, enablers, integrations)</li><li>Initial shortlist of priority ecosystem needs</li></ul></td><td>t - 6 weeks</td></tr><tr><td>4. Resource Updating and Creation</td><td><ul><li>Updated Integration Track use cases list</li><li>Vetting and updating of Partner Building Blocks (existing + incoming)</li><li>Creation of RFPs for priority tooling / protocol gaps</li></ul></td><td>t - 5 weeks</td></tr><tr><td>5. Ecosystem Direction Publication</td><td><ul><li>Legal review as necessary</li><li>Community Vote on Soroban Governor</li><li>Launch quarterly “What to Build on Stellar in Q[x] 2026” report, authored by Delegates</li></ul></td><td>t - 3 weeks</td></tr></tbody></table>
 
@@ -28,7 +28,7 @@ Typically, the SCF quarterly governance review cycle starts 9–10 weeks before 
 
 ### **1. Delegate Nomination & Signal Intake**
 
-Nominations take place during the Nomination phase in the #governance channel on the [Stellar Dev Discord](http://discord.gg/stellardev), where eligible candidates inform the community of:
+Nominations take place during the Nomination phase in the `#governance` channel on the [Stellar Dev Discord](http://discord.gg/stellardev), where eligible candidates inform the community of:
 
 * Their name
 * Track(s) they want to participate in
@@ -45,7 +45,7 @@ In order to be selected as a delegate, nominated Pilots who are not SDF employee
 
 Delegates who are also SDF employees do not get specifically compensated for their delegate responsibilities, do not need to meet above criteria and are there primarily to support the overall process. The ratio of community delegates to SDF delegates should not be below 70% for each quarter to ensure sufficient decentralization of the process.
 
-After the onchain selection period has ended, the results are published in corresponding thread in the #governance channel on the [Stellar Dev Discord](https://discord.com/invite/stellardev) and all selected delegates are asked to confirm their participation in that round.
+After the onchain selection period has ended, the results are published in corresponding thread in the `#governance` channel on the [Stellar Dev Discord](https://discord.com/invite/stellardev) and all selected delegates are asked to confirm their participation in that round.
 
 #### Quarterly Retro
 
@@ -53,7 +53,7 @@ The SCF Quarterly Retro should summarize prior quarter outcomes, adoption gaps, 
 
 ### 3. Ecosystem Needs Deliberation
 
-Once all delegates have confirmed, three private threads will be created in the #verified-panel for each track to kick off the Ecosystem Needs Deliberation phase. Starting with sharing the Quarterly Retro for everyone to read through, the panel discusses in-thread async as well as on a final meeting to complete all deliberation deliverables for that track.
+Once all delegates have confirmed, three private threads will be created in the `#verified-panel` for each track to kick off the Ecosystem Needs Deliberation phase. Starting with sharing the Quarterly Retro for everyone to read through, the panel discusses in-thread async as well as on a final meeting to complete all deliberation deliverables for that track.
 
 #### Deliberation Deliverables per Track
 

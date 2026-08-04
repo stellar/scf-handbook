@@ -1,6 +1,6 @@
 # Stellar Liquidity Award
 
-Financial protocols who have completed an audit and have a live implementation on Stellar mainnet can be invited to submit proposals to request a Liquidity Award to support bootstrapping their initial liquidity needs.&#x20;
+Financial protocols who have completed an audit and have a live implementation on Stellar Mainnet can be invited to submit proposals to request a Liquidity Award to support bootstrapping their initial liquidity needs.&#x20;
 
 **To get started:**
 
