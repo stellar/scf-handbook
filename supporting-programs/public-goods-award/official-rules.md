@@ -153,13 +153,13 @@ By applying to the SCF Public Goods Award Program, Participants consent to the u
 
 #### 3.2 Disclaimers & Limitations of Liability
 
-‍In addition to the disclaimers, limitation of liability, and indemnities agreed to in the main[ SDF Terms of Service](https://stellar.org/terms-of-service), Participants also specifically agree to release and hold harmless SDF and its respective affiliates, employees, and agents from any and all liability or any injury, loss or damage of any kind arising from or in connection with SDF and its promotion, or any Awards granted in connection with SDF.
+‍In addition to the disclaimers, limitation of liability, and indemnities agreed to in the main [SDF Terms of Service](https://stellar.org/terms-of-service), Participants also specifically agree to release and hold harmless SDF and its respective affiliates, employees, and agents from any and all liability or any injury, loss or damage of any kind arising from or in connection with SDF and its promotion, or any Awards granted in connection with SDF.
 
 #### 3.3 General Conditions
 
 SDF reserves the right, in their sole discretion, to cancel, suspend and/or modify the SCF Public Goods Award Program, or any part of the Official Rules for any reason.
 
-The SCF Public Goods Award Program is governed by the[ SDF Terms of Service](https://www.stellar.org/terms-of-service) and these Official Rules. If there is any conflict or inconsistency between the SDF Terms of Service and the Official Rules, these Official Rules will prevail. If there is any discrepancy or inconsistency between the terms and conditions of the Official Rules and disclosures or other statements contained in any SCF Public Goods Award Program materials, including but not limited to the SCF Public Goods Award Program Proposal Form, and/or the Stellar.org website, then these Official Rules shall prevail.
+The SCF Public Goods Award Program is governed by the [SDF Terms of Service](https://www.stellar.org/terms-of-service) and these Official Rules. If there is any conflict or inconsistency between the SDF Terms of Service and the Official Rules, these Official Rules will prevail. If there is any discrepancy or inconsistency between the terms and conditions of the Official Rules and disclosures or other statements contained in any SCF Public Goods Award Program materials, including but not limited to the SCF Public Goods Award Program Proposal Form, and/or the Stellar.org website, then these Official Rules shall prevail.
 
 The terms and conditions of the Official Rules are subject to change at any time, including the rights or obligations of the Participants and SDF. SDF will post the terms and conditions of the amended Official Rules on the Stellar.org website. To the fullest extent permitted by law, any amendment will become effective at the time specified in the posting of the amended Official Rules or, if no time is specified, the time of posting.
 
@@ -167,7 +167,7 @@ SDF’s failure to enforce any term of the Official Rules shall not constitute a
 
 #### 3.4 Data Privacy
 
-SDF collects personal information from Participants when they enter the SCF Public Goods Award Program. The information collected is subject to the privacy policy located here:[ https://www.stellar.org/privacy-policy](https://www.stellar.org/privacy-policy)
+SDF collects personal information from Participants when they enter the SCF Public Goods Award Program. The information collected is subject to the privacy policy located here: [stellar.org/privacy-policy](https://www.stellar.org/privacy-policy)
 
 #### 3.5 Contact
 

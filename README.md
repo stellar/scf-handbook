@@ -60,7 +60,7 @@ If your project passes the eligibility review, you may be invited to apply for a
 
 * [Stellar Developers Discord](https://discord.gg/stellardev) - participate in discussions, ask questions, and get updates and event information
 * [Stellar Community Medium](https://medium.com/stellar-community) - check out the latest community blog posts
-* [Get Verified ](governance/verified-members/)- become an SCF Verified member to vote for award allocation, support projects, and participate in governance
+* [Get Verified](governance/verified-members/) - become an SCF Verified member to vote for award allocation, support projects, and participate in governance
 
 #### ❓ | Have questions?
 
@@ -77,7 +77,7 @@ _July 2026_
 
 _April 2026_
 
-* Estimated development time for each partner added to [integration track list,](scf-awards/build-award/integration-track/integration-list.md) with more info [here.](https://airtable.com/appymB1sbp5uidiGe/shrQFLSRUqxI7tBdT) Teams should use these to scope their budgets appropriately, and delegates will cross-reference them when reviewing
+* Estimated development time for each partner added to [integration track list](scf-awards/build-award/integration-track/integration-list.md), with more info [here](https://airtable.com/appymB1sbp5uidiGe/shrQFLSRUqxI7tBdT). Teams should use these to scope their budgets appropriately, and delegates will cross-reference them when reviewing
 * Additional guidelines added around "what makes a strong Open Track submission" section.
 * Additional guidelines and requirements added for [RFP submissions](scf-awards/build-award/rfp-track.md).
 * RFP track delegates agreed to push Q2 RFPs to SCF #44. There will be no open RFPs for the SCF #43 submission window.

@@ -50,7 +50,7 @@ If you're looking to fund development and launch of a usable application or prot
 1. **Submit the interest form on the SCF Website**\
    Go to [communityfund.stellar.org](http://communityfund.stellar.org) and tell us a little about what you’re building in the interest form. This is where you’ll tell us what Build Award track you’re interested in, and if you were referred by someone from the Stellar community. These inquiries are reviewed on a rolling basis. If you meet requirements, you will be invited to submit to an open SCF round and given the round deadline via email. If you want to ensure you’re considered to be a part of a specific round, get your interest form in as soon as possible.<br>
 2. **Referral Confirmation and Eligibility Review**\
-   SCF relies heavily on signals from our referrers to determine eligibility. If you listed an SCF referrer, they’ll be asked to confirm that referral and to provide any relevant context about your project. Though a referral is not mandatory to receive an SCF award, SCF relies heavily on referral signals. [Learn more about the referral program here.](./#scf-build-referral-program)\
+   SCF relies heavily on signals from our referrers to determine eligibility. If you listed an SCF referrer, they’ll be asked to confirm that referral and to provide any relevant context about your project. Though a referral is not mandatory to receive an SCF award, SCF relies heavily on referral signals. Learn more about the referral program [here](./#scf-build-referral-program).\
    \
    If you don’t have an SCF referrer, your project will still go through an initial review to determine if you’re currently eligible to submit to SCF.<br>
 3. **Invited to submit to SCF Build**\
@@ -102,7 +102,7 @@ Any follow-on awards may also require additional legal and business due diligenc
 
 **🔄 Ongoing KYC/KYB**
 
-SDF may require you to re-complete KYC/KYB or additional due diligence at any point during your award. This can be triggered by material changes to your company’s business, leadership team, or primary point of contact, or for any other reasonable concern. If requested, you must complete the process promptly or your remaining payments may be paused or terminated. See the [Official Rules ](../instawards/official-rules.md)for full details.
+SDF may require you to re-complete KYC/KYB or additional due diligence at any point during your award. This can be triggered by material changes to your company’s business, leadership team, or primary point of contact, or for any other reasonable concern. If requested, you must complete the process promptly or your remaining payments may be paused or terminated. See the [Official Rules](../instawards/official-rules.md) for full details.
 
 **Who Needs to Complete KYC?**
 

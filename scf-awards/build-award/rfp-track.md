@@ -18,7 +18,7 @@ description: >-
 
     → Better fit for [Instawards](../instawards/)
 * Teams building apps, protocols, or integrations for end users\
-  → Consider either the [Open Track ](open-track.md)or [Integration Track](integration-track/), depending on your focus
+  → Consider either the [Open Track](open-track.md) or [Integration Track](integration-track/), depending on your focus
 * Teams proposing a tooling idea not aligned with an [active RFP](rfp-track.md#current-open-rfps)\
   → Wait for a future RFP that matches your concept
 
