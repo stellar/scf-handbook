@@ -21,7 +21,7 @@ The following audit firms have been pre-approved by the Stellar Development Foun
 * [Veridise](https://veridise.com/): Offers rigorous smart contract and ZK circuit audits backed by deep blockchain security expertise and advanced in-house vulnerability detection tooling.
 * [Zellic](https://www.zellic.io/): Zellic is a leading security research firm specializing in blockchain and cryptography, led by world-class white-hat professionals and trusted by top projects for uncompromising security.
 
-## Probationary Audit Firms
+### Probationary Audit Firms
 
 The following audit firms have joined us for initial engagements, and we're working closely with them to ensure alignment on process, quality, and ecosystem fit. Projects paired with these firms receive the same level of support and oversight from our team as any other Audit Bank engagement.
 
