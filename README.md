@@ -60,7 +60,7 @@ If your project passes the eligibility review, you may be invited to apply for a
 
 * [Stellar Developers Discord](https://discord.gg/stellardev) - participate in discussions, ask questions, and get updates and event information
 * [Stellar Community Medium](https://medium.com/stellar-community) - check out the latest community blog posts
-* [Get Verified ](governance/verified-members/)- become an SCF Verified member to vote for award allocation, support projects, and participate in governance
+* [Get Verified](governance/verified-members/) - become an SCF Verified member to vote for award allocation, support projects, and participate in governance
 
 #### ❓ | Have questions?
 

@@ -102,7 +102,7 @@ Any follow-on awards may also require additional legal and business due diligenc
 
 **🔄 Ongoing KYC/KYB**
 
-SDF may require you to re-complete KYC/KYB or additional due diligence at any point during your award. This can be triggered by material changes to your company’s business, leadership team, or primary point of contact, or for any other reasonable concern. If requested, you must complete the process promptly or your remaining payments may be paused or terminated. See the [Official Rules ](../instawards/official-rules.md)for full details.
+SDF may require you to re-complete KYC/KYB or additional due diligence at any point during your award. This can be triggered by material changes to your company’s business, leadership team, or primary point of contact, or for any other reasonable concern. If requested, you must complete the process promptly or your remaining payments may be paused or terminated. See the [Official Rules](../instawards/official-rules.md) for full details.
 
 **Who Needs to Complete KYC?**
 
