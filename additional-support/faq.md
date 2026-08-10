@@ -20,7 +20,7 @@ SCF is the Stellar Community Fund - an open-application awards program that leve
 
 <summary>Who is eligible to apply for SCF?</summary>
 
-SCF has a [number of programs](../scf-awards/) meant for projects at many stages of development, but generally, the SCF Build Award is for teams with significant existing traction. As a general rule, all projects should be building on Stellar, and should not fall within [ineligible criteria. ](../scf-awards/official-rules-for-submissions.md#general-rules)Individuals, Teams of Individuals, and Entities are all encouraged to submit for SCF.
+SCF has a [number of programs](../README.md) meant for projects at many stages of development, but generally, the SCF Build Award is for teams with significant existing traction. As a general rule, all projects should be building on Stellar, and should not fall within [ineligible criteria. ](../scf-awards/official-rules-for-submissions.md#general-rules)Individuals, Teams of Individuals, and Entities are all encouraged to submit for SCF.
 
 </details>
 
