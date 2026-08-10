@@ -20,7 +20,7 @@ SCF is the Stellar Community Fund - an open-application awards program that leve
 
 <summary>Who is eligible to apply for SCF?</summary>
 
-SCF has a [number of programs](https://app.gitbook.com/s/4IGHJeoWQzABoSBkKBxt/scf-awards) meant for projects at many stages of development, but generally, the SCF Build Award is for teams with significant existing traction. As a general rule, all projects should be building on Stellar, and should not fall within [ineligible criteria. ](../scf-awards/official-rules-for-submissions.md#general-rules)Individuals, Teams of Individuals, and Entities are all encouraged to submit for SCF.
+SCF has a [number of programs](https://app.gitbook.com/s/4IGHJeoWQzABoSBkKBxt/scf-awards) meant for projects at many stages of development, but generally, the SCF Build Award is for teams with significant existing traction. As a general rule, all projects should be building on Stellar, and should not fall within [ineligible criteria](../scf-awards/official-rules-for-submissions.md#general-rules). Individuals, Teams of Individuals, and Entities are all encouraged to submit for SCF.
 
 </details>
 
@@ -105,7 +105,7 @@ Short answer: yes. Long answer: most projects will begin in one of the three ava
 
 <summary><strong>What are the evaluation criteria for applications?</strong></summary>
 
-General application criteria can be found [here](../scf-awards/build-award/submission-criteria.md)[.](../scf-awards/official-rules-for-submissions.md)
+General application criteria can be found [here](../scf-awards/build-award/submission-criteria.md).
 
 </details>
 
@@ -146,7 +146,7 @@ General application criteria can be found [here](../scf-awards/build-award/submi
 
 <summary>What are the reporting requirements if my project is funded?</summary>
 
-The [SCF Build Award](../scf-awards/build-award/) is split into 4 total tranches of funding, so you will need to report back on your progress in order to receive your total budget. You can find more information on this in the [SCF Build section of the handbook.](../scf-awards/build-award/)
+The [SCF Build Award](../scf-awards/build-award/) is split into 4 total tranches of funding, so you will need to report back on your progress in order to receive your total budget. You can find more information on this in the [SCF Build section of the handbook](../scf-awards/build-award/).
 
 </details>
 
@@ -162,7 +162,7 @@ We understand that unforeseen circumstances can sometimes affect a project's pro
 
 <summary>Are there any restrictions on how the funding can be used?</summary>
 
-The different SCF programs have different requirements for funding, so be sure you carefully review program-specific guidelines before submitting. General guidelines for all projects can be found [here.](../scf-awards/official-rules-for-submissions.md)
+The different SCF programs have different requirements for funding, so be sure you carefully review program-specific guidelines before submitting. General guidelines for all projects can be found [here](../scf-awards/official-rules-for-submissions.md).
 
 </details>
 
@@ -223,7 +223,7 @@ For more information on how this would work for tiers, [click here](../governanc
 
 <summary>How can I get more involved with SCF from a governance and structure perspective?</summary>
 
-You can start by getting verified as a community member [here.](https://communityfund.stellar.org/tiers) As you move up the tiers, more opportunities become available to you, including participating in Community Vote, influencing future SCF structure changes, and serving on Category-Specific Delegate Panels.
+You can start by getting verified as a community member [here](https://communityfund.stellar.org/tiers). As you move up the tiers, more opportunities become available to you, including participating in Community Vote, influencing future SCF structure changes, and serving on Category-Specific Delegate Panels.
 
 </details>
 
@@ -233,7 +233,7 @@ You can start by getting verified as a community member [here.](https://communit
 
 <summary>Where can I find resources to help with my application?</summary>
 
-This handbook provides the most up-to-date information about category-specific eligibility, program structure, and program guidelines. More information (including past SCF Awardees) can be found on the [SCF Website.](https://communityfund.stellar.org/)
+This handbook provides the most up-to-date information about category-specific eligibility, program structure, and program guidelines. More information (including past SCF Awardees) can be found on the [SCF Website](https://communityfund.stellar.org/).
 
 </details>
 
