@@ -76,7 +76,7 @@ Current employees of SDF are not eligible to receive any Referral Rewards.
 
 8.1 Status Changes. SCF may update a Referrer’s participation status (including marking a Referrer as inactive, suspended, or removed) based on such Referrer’s inactivity, non-responsiveness, prior Quality Flags on referrals, material policy non-compliance, or program changes.
 
-8.2 Termination. SCF may discontinue a Referrer’s participation in the Referral Program, or modify or suspend the Referral Program (in part or in whole),  at any time with or without notice, subject to applicable law and internal policy.
+8.2 Termination. SCF may discontinue a Referrer’s participation in the Referral Program, or modify or suspend the Referral Program (in part or in whole), at any time with or without notice, subject to applicable law and internal policy.
 
 #### 9. Disclaimers
 

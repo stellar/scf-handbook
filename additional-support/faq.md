@@ -4,7 +4,7 @@ icon: question
 
 # FAQ
 
-Check out the FAQ to answer all your questions! If you can't find your answer, ask it in the #scf-general channel on the [Stellar Developers Discord](https://discord.gg/stellardev), and someone will help you shortly.
+Check out the FAQ to answer all your questions! If you can't find your answer, ask it in the `#scf-general` channel on the [Stellar Developers Discord](https://discord.gg/stellardev), and someone will help you shortly.
 
 ### General
 
@@ -72,7 +72,7 @@ You can find step-by-step submission instructions for each program here in the h
 
 <summary>Who reviews projects and votes for project allocation?</summary>
 
-* Projects are reviewed by a rotating delegate panel made up of SDF employees and trusted Stellar Community members. Anyone can become an SCF Delegate Panelist by earning the Pilot Role, which represents a significant commitment to the Stellar Ecosystem and to the Stellar Community Fund.
+* Projects are reviewed by a rotating delegate panel made up of SDF employees and trusted Stellar community members. Anyone can become an SCF Delegate Panelist by earning the Pilot Role, which represents a significant commitment to the Stellar Ecosystem and to the Stellar Community Fund.
 * SCF operates using a verified member system where individuals unlock different abilities as they move through the tiers. SCF Pathfinders are eligible to participate in Community Vote by delegating their votes to trusted delegates. SCF Navigators are able to vote directly for projects. SCF Pilots can vote directly for projects, and nominate themselves to be part of the Delegate Panel. Delegates carry the heaviest voting weight, based on delegation and quorum
 
 </details>
@@ -186,7 +186,7 @@ Any such follow-on awards may also require additional legal and business due dil
 
 <summary>How can I connect with other applicants and community members?</summary>
 
-Join the [Stellar Developers Discord Server](https://discord.gg/stellardev) to connect with other folks in the Stellar Community. This is a great way to ask project-specific questions, find partners to collaborate with, and get feedback prior to submitting.
+Join the [Stellar Developers Discord Server](https://discord.gg/stellardev) to connect with other folks in the Stellar community. This is a great way to ask project-specific questions, find partners to collaborate with, and get feedback prior to submitting.
 
 </details>
 
@@ -241,7 +241,7 @@ This handbook provides the most up-to-date information about category-specific e
 
 <summary>Who can I ask if I have more questions?</summary>
 
-Email [communityfund@stellar.org](mailto:communityfund@stellar.org), or (for a faster response), send a message in #scf-general in the Stellar Developers Discord.
+Email [communityfund@stellar.org](mailto:communityfund@stellar.org), or (for a faster response), send a message in `#scf-general` in the Stellar Developers Discord.
 
 </details>
 

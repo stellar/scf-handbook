@@ -115,7 +115,7 @@ Instawards are typically issued in predefined tiers and are always tied to a tim
 * The scope must be achievable within 30 days or less, barring special circumstances
 * Progress is measured against the agreed deliverables, not future plans
 
-Applicants are encouraged to reach out to your Chapter Lead for guidance on  aligning your scope to an appropriate Instaward amount.
+Applicants are encouraged to reach out to your Chapter Lead for guidance on aligning your scope to an appropriate Instaward amount.
 
 Most proposals successfully accepted by SDF begin with an initial Instaward in the range of $1,000 – $5,000 USD, paid in XLM, depending on scope and readiness. In select cases, where a scope is especially clear, execution-ready, and with past performance that is indicative of forward momentum, a certain follow-on funding may be eligible and may increase the total funding amount up to $15,000 paid in XLM in the aggregate over time or up to two (2) follow-on disbursements.
 

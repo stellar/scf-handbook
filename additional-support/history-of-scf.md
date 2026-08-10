@@ -18,13 +18,13 @@ Find all statistics on [communityfund.stellar.org/stats](https://communityfund.s
 
 Throughout the years, SCF has been iterated on many times based on community feedback. Here's a summary of the key version upgrades, explained in detail later on.
 
-* [**SBC— Where it All Began**](history-of-scf.md#stellar-build-challenge-where-it-all-began) (_SBC #1–5, 2016-2019)_\
+* [**SBC— Where it All Began**](history-of-scf.md#stellar-build-challenge-where-it-all-began) (_SBC #1–5, 2016–2019)_\
   The Stellar Build Challenge launched by SDF founder Jed McCaleb as a no-strings-attached funding for projects to grow the Stellar ecosystem with long-lasting developers, community members, and companies.&#x20;
-* [**SCF 1.0 — Dawn of Community-Powered Funding**](history-of-scf.md#scf-1.0-dawn-of-community-powered-funding) (_SCF #1–5, 2019-2020)_\
+* [**SCF 1.0 — Dawn of Community-Powered Funding**](history-of-scf.md#scf-1.0-dawn-of-community-powered-funding) (_SCF #1–5, 2019–2020)_\
   SCF replaced the centralized Stellar Build Challenge, introducing community voting. Each year, 12M XLM was distributed across quarterly rounds, empowering all community members to nominate and vote on projects.
-* [**SCF 2.0 — Demonstrating Real Ecosystem Growth**](history-of-scf.md#scf-2.0-demonstrating-real-ecosystem-growth) (_SCF #6–7, 2020-2021)_\
-  Then, funding was segmented into a ‘Lab Fund’ for smaller, experimental projects and a ‘Seed Fund’ for scaling companies. Award allocation was streamlined through a mix of community and panel-driven selections. SCF #7’s awards ranged from $200–350K in XLM\* to develop important projects, demonstrating SCF’s capacity to effectively boost large-scale ecosystem growth.
-* [**SCF 3.0 — Streamlined Entrepreneurial Support**](history-of-scf.md#scf-3.0-discord-budget-requests-and-entrepreneurial-focus) (_SCF #8–11, 2021-2022)_\
+* [**SCF 2.0 — Demonstrating Real Ecosystem Growth**](history-of-scf.md#scf-2.0-demonstrating-real-ecosystem-growth) (_SCF #6–7, 2020–2021)_\
+  Then, funding was segmented into a ‘Lab Fund’ for smaller, experimental projects and a ‘Seed Fund’ for scaling companies. Award allocation was streamlined through a mix of community and panel-driven selections. SCF #7’s awards ranged from $200,000–$350,000 in XLM\* to develop important projects, demonstrating SCF’s capacity to effectively boost large-scale ecosystem growth.
+* [**SCF 3.0 — Streamlined Entrepreneurial Support**](history-of-scf.md#scf-3.0-discord-budget-requests-and-entrepreneurial-focus) (_SCF #8–11, 2021–2022)_\
   Instead of voting on the amount a project would receive, projects specified their budget request in USD (the final payout was still in XLM\*), and needed to pass a selection panel before moving onto community vote. Voting shifted to a straightforward yes/abstain system, reducing vote manipulation. Noteworthy initiatives from this phase included the introduction of round-based Project Pitches as well as dedicated startup-focused bootcamps focusing initially on Africa, then globally.
 * [**SCF 4.0 — Bigger, Better, Faster, Soroban**](history-of-scf.md#scf-4.0-bigger-better-faster-soroban) (_SCF #12–19, 2023)_\
   With the introduction of smart contract functionality on Stellar (Soroban), SCF expanded significantly, increasing the award amounts, funded projects and round frequency over 5 times. This allowed for rapid development cycles, accommodating more projects per round. No longer was SCF a competition–any eligible project accepted by the selection panel received 10% of their requested budget (also referred to as Proof of Intent). Upon finishing those deliverables, the project went through a larger community vote for the remaining 90%.
@@ -45,9 +45,9 @@ Developers were encouraged to submit projects in one of four categories: anchors
 Note: To get data from SBC we took a ride on the WayBackMachine and dug into some ancient blog posts, Reddit threads and outdated spreadsheets. We're still in the process of verifying the award payments mentioned in the blogs. Therefore, the SBC award statistics below, may not be entirely accurate.&#x20;
 {% endhint %}
 
-<table><thead><tr><th width="110">Round</th><th width="125">Submissions</th><th width="117">Awarded</th><th width="158">Awarded in XLM</th><th>Awarded in USD</th><th width="118">Start date</th><th>End Date</th></tr></thead><tbody><tr><td>SBC #1</td><td>40</td><td>20</td><td>62,400,000</td><td>-</td><td>6/28/2016</td><td>10/1/2016</td></tr><tr><td>SBC #2</td><td>47</td><td>40</td><td>50,000,000</td><td>-</td><td>10/3/2016</td><td>2/13/2017</td></tr><tr><td>SBC #3</td><td>62</td><td>16</td><td>30,500,000</td><td>-</td><td>2/13/2017</td><td>5/22/2017</td></tr><tr><td>SBC #4</td><td>45</td><td>23</td><td>7,950,000</td><td>-</td><td>5/20/2017</td><td>8/21/2017</td></tr><tr><td>SBC #5</td><td>50</td><td>35</td><td>5,700,000</td><td>-</td><td>8/21/2017</td><td>1/2/2018</td></tr><tr><td>SBC #6</td><td>324</td><td>113</td><td>2,700,000</td><td>-</td><td>1/2/2018</td><td>4/16/2018</td></tr><tr><td>SBC #7</td><td>107</td><td>53</td><td>1,620,000</td><td>-</td><td>5/21/2018</td><td>9/7/2018</td></tr><tr><td><strong>Total</strong></td><td><a data-footnote-ref href="#user-content-fn-1"><strong><code>675</code></strong></a></td><td><a data-footnote-ref href="#user-content-fn-1"><strong><code>300</code></strong></a></td><td><a data-footnote-ref href="#user-content-fn-1"><strong>160,870,000</strong></a></td><td>-</td><td></td><td></td></tr></tbody></table>
+<table><thead><tr><th width="110">Round</th><th width="125">Submissions</th><th width="117">Awarded</th><th width="158">Awarded in XLM</th><th>Awarded in USD</th><th width="118">Start date</th><th>End Date</th></tr></thead><tbody><tr><td>SBC #1</td><td>40</td><td>20</td><td>62,400,000</td><td>-</td><td>6/28/2016</td><td>10/1/2016</td></tr><tr><td>SBC #2</td><td>47</td><td>40</td><td>50,000,000</td><td>-</td><td>10/3/2016</td><td>2/13/2017</td></tr><tr><td>SBC #3</td><td>62</td><td>16</td><td>30,500,000</td><td>-</td><td>2/13/2017</td><td>5/22/2017</td></tr><tr><td>SBC #4</td><td>45</td><td>23</td><td>7,950,000</td><td>-</td><td>5/20/2017</td><td>8/21/2017</td></tr><tr><td>SBC #5</td><td>50</td><td>35</td><td>5,700,000</td><td>-</td><td>8/21/2017</td><td>1/2/2018</td></tr><tr><td>SBC #6</td><td>324</td><td>113</td><td>2,700,000</td><td>-</td><td>1/2/2018</td><td>4/16/2018</td></tr><tr><td>SBC #7</td><td>107</td><td>53</td><td>1,620,000</td><td>-</td><td>5/21/2018</td><td>9/7/2018</td></tr><tr><td><strong>Total</strong></td><td><strong><code>675</code></strong></td><td><strong><code>300</code></strong></td><td><strong>160,870,000</strong></td><td>-</td><td></td><td></td></tr></tbody></table>
 
-[After the pilot’s submission period ended in October 2016](https://web.archive.org/web/20170905181433/https://www.stellar.org/blog/build-winners-fa16/), a panel of judges consisting of SDF members and the Stellar community voted for their favorite projects. Of the 40 projects submitted (at a time when the ecosystem was virtually non-existent), 20 projects received a total of 62,400,000 XLM! That seems like a huge amount now, but at the time [this article](https://web.archive.org/web/20170905181433/https://www.stellar.org/blog/build-winners-fa16/) was written, the lumen was only worth fractions of a cent and ended up being worth around $169K. Still not a bad payday!
+[After the pilot’s submission period ended in October 2016](https://web.archive.org/web/20170905181433/https://www.stellar.org/blog/build-winners-fa16/), a panel of judges consisting of SDF members and the Stellar community voted for their favorite projects. Of the 40 projects submitted (at a time when the ecosystem was virtually non-existent), 20 projects received a total of 62,400,000 XLM! That seems like a huge amount now, but at the time [this article](https://web.archive.org/web/20170905181433/https://www.stellar.org/blog/build-winners-fa16/) was written, the lumen was only worth fractions of a cent and ended up being worth around $169,000. Still not a bad payday!
 
 The second and third SBCs built on the pilot’s success. [SBC #2](https://medium.com/@StellarOrg/50-million-lumens-awarded-for-the-second-stellar-build-challenge-fa7656513970) ended in February 2017 and received 47 submissions, 40 of which were awarded 50M XLM. [SBC #3](https://medium.com/@StellarOrg/30-million-lumens-awarded-for-the-third-stellar-build-challenge-9e5429735ff4) ended in May 2017, with 16 submissions receiving 30.5M XLM.
 
@@ -69,7 +69,7 @@ During the [5th round of the Stellar Build Challenge](https://web.archive.org/we
 
 [XLM hit its all-time high to date on Jan 04, 2018](https://coinmarketcap.com/currencies/stellar/historical-data/). There was suddenly a much higher interest in the Stellar network, and we saw this reflected in SBC #6. 324 projects were submitted to this round, more than all the other previous SBCs combined! 113 winners were awarded 2.7M XLM, five times the prize pool of the previously planned 550K. Among the high-quality entries were popular SDKs [Stellar's Python SDK](https://stellar-sdk.readthedocs.io/) and [Stellar iOS SDK](https://github.com/Soneso/stellar-ios-mac-sdk), Stellar node explorer, [StellarBeat](https://stellarbeat.io/), and Stellar educational platform [Lumenauts.com](https://www.lumenauts.com/).
 
-<figure><img src="../.gitbook/assets/Frame 4.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/scf-history/sbc-submissions-meme.png" alt=""><figcaption></figcaption></figure>
 
 While the increased number of submissions was great, we struggled to keep up with the demand. There was only one person to handle the initial review rounds, with Jed McCaleb making the final decisions. As the [blog post announcing the results](https://stellar.org/blog/sixth-stellar-build-challenge-results) indicates:&#x20;
 
@@ -143,7 +143,7 @@ The current system wasn’t designed for that kind of volume, which meant the te
 
 _**SCF #6 - 7**_
 
-After five rounds of experience and tons of feedback from participants and voters, the team made some [significant changes to SCF](https://medium.com/stellar-community/stellar-community-fund-2-0-4b67d62005ec). There are two main audiences submitting to SCF, each with a distinct goal for funding: 1) full-fledged companies who are interested in kick-starting development on Stellar, and 2) community developers wanting to get paid for building smaller, more experimental projects and tools. Both are valuable, but treating them the same led to undersupporting the first and overpaying the second: a business can’t get far on $5k, and a tinker project shouldn’t get $50k.
+After five rounds of experience and tons of feedback from participants and voters, the team made some [significant changes to SCF](https://medium.com/stellar-community/stellar-community-fund-2-0-4b67d62005ec). There are two main audiences submitting to SCF, each with a distinct goal for funding: 1) full-fledged companies who are interested in kick-starting development on Stellar, and 2) community developers wanting to get paid for building smaller, more experimental projects and tools. Both are valuable, but treating them the same led to undersupporting the first and overpaying the second: a business can’t get far on $5,000, and a tinker project shouldn’t get $50,000.
 
 1. The **Lab Fund** with the goal to inspire experimental use cases, open-source software, documentation, events, market presence, and real-world stress tests. Planned to be held four times per year, with 500K XLM being split between \~12 projects.
 2. The **Seed Fund** with the goal to help viable, innovative, first-mover businesses and utilities get started on Stellar. Planned to be held two times per year, with 5,000,000 XLM being split between 3–5 projects.
@@ -153,7 +153,7 @@ The selection and voting processes also changed. Of all entries, nominated proje
 \
 A key component of the new community vote was flaggable quadratic voting. Community voting used to be one-dimensional, leaning towards a linear distribution that made it impossible to recognize exceptional projects—either positively or negatively. Implemented by popular blockchain funding programs, including [Gitcoin](https://gitcoin.co/), quadratic voting promises to be better at capturing community sentiment and enables the community to help police bad actors and thwart manipulation.
 
-<figure><img src="../.gitbook/assets/Frame 4 (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/scf-history/flaggable-quadratic-voting-meme.png" alt=""><figcaption></figcaption></figure>
 
 **How it worked:**
 
@@ -165,7 +165,7 @@ Voting was live and open, which meant that you could see how many votes a projec
 
 A new website, [communityfund.stellar.org](https://communityfund.stellar.org/), was also introduced (look at those cute astronauts!). The site contained all SCF rules, including details about each fund and how to submit your project. GalacticTalk was still used sparingly, but the new site was the primary place to see and vote on projects.
 
-<figure><img src="../.gitbook/assets/Frame 4 (2).png" alt=""><figcaption><p>communityfund.stellar.org during SCF#6 and SCF#7</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/scf-history/communityfund-site-scf-6-7.png" alt=""><figcaption><p>communityfund.stellar.org during SCF#6 and SCF#7</p></figcaption></figure>
 
 ### **SCF#6 - The Lab Fund for developers to experiment**
 
@@ -183,7 +183,7 @@ Even though we learned a ton in the Lab Fund, the Seed Fund (SCF#7) was a real g
 
 After two months of deliberation, a [panel of 20 judges narrowed the field to eight finalists](https://medium.com/stellar-community/announcing-stellar-community-seed-fund-1-finalists-3e9e95d41793?source=collection_detail----89c348dcf743-----22-----------------------) (not the 3-5 originally planned due to a four-way tie for fifth place). Learning from the Lab Fund, the team made necessary, although unannounced, changes to open up voting to only a select group of SDF and community members (about 50 handpicked at the time). This abrupt decision-making received some pushback but ultimately resulted in a better and fairer approach than all previous SCF rounds.
 
-Each of the eight finalists walked away with $200K-350K worth of XLM, amounts SCF had never given away before, setting the tone for yet another iteration of community funding.
+Each of the eight finalists walked away with $200,000–$350,000 worth of XLM, amounts SCF had never given away before, setting the tone for yet another iteration of community funding.
 
 ## **SCF 3.0 - Discord, budget requests, and entrepreneurial focus**
 
@@ -205,7 +205,7 @@ The new changes worked: [SCF#8 received 68 submissions](https://medium.com/stell
 
 Before SCF #9’s submission deadline, SDF held two exciting events: 1) the first Blockchain Bootcamp to support Stellar-based fintechs operating in Africa, and 2) a virtual Techstars Startup Weekend Latam with Stellar and Visa aiming to boost innovation in Latin America. The majority of participants in both events applied to the Stellar Community Fund, which led to an increase in diverse participation.
 
-The last two SCF rounds of 2021 funded long-lasting projects including [Alfred Pay](https://communityfund.stellar.org/projects/alfred-pay), [GetPaid](https://communityfund.stellar.org/projects/getpaid),  [Quidroo](https://communityfund.stellar.org/projects/quidroo), [Stellar Global](https://communityfund.stellar.org/projects/stellar-global), [SkyHitz](https://communityfund.stellar.org/projects/skyhitz), [Tip Me](https://communityfund.stellar.org/projects/tip-me-the-global-tip), and[ xBull Market](https://communityfund.stellar.org/projects/xbull-market) as well as [several SDKs and tools](https://communityfund.stellar.org/projects?tab=round-9). But you don’t need to win the SCF to gain value—bootcamp participant and previous SCF candidate [Stax](https://communityfund.stellar.org/projects/stax-africa-s-offline-payment-superapp) recently received a [Matching Fund Grant ](https://stellar.org/press-releases/fintech-stax-gets-additional-backing-from-stellar-development-foundation-to-build-affordable-borderless-payment-solution-in-africa)of $500k because of their experience! The increase in both quality and amount of submissions wasn’t the only win: Discord helped the SCF become more organized, allowing for more project-specific discussion and feedback conversations, which increased the overall community participation and size. The SCF server grew to almost 1,800 members, a \~235% increase from the \~500 members on Keybase.
+The last two SCF rounds of 2021 funded long-lasting projects including [Alfred Pay](https://communityfund.stellar.org/projects/alfred-pay), [GetPaid](https://communityfund.stellar.org/projects/getpaid), [Quidroo](https://communityfund.stellar.org/projects/quidroo), [Stellar Global](https://communityfund.stellar.org/projects/stellar-global), [SkyHitz](https://communityfund.stellar.org/projects/skyhitz), [Tip Me](https://communityfund.stellar.org/projects/tip-me-the-global-tip), and[ xBull Market](https://communityfund.stellar.org/projects/xbull-market) as well as [several SDKs and tools](https://communityfund.stellar.org/projects?tab=round-9). But you don’t need to win the SCF to gain value—bootcamp participant and previous SCF candidate [Stax](https://communityfund.stellar.org/projects/stax-africa-s-offline-payment-superapp) recently received a [Matching Fund Grant ](https://stellar.org/press-releases/fintech-stax-gets-additional-backing-from-stellar-development-foundation-to-build-affordable-borderless-payment-solution-in-africa)of $500,000 because of their experience! The increase in both quality and amount of submissions wasn’t the only win: Discord helped the SCF become more organized, allowing for more project-specific discussion and feedback conversations, which increased the overall community participation and size. The SCF server grew to almost 1,800 members, a \~235% increase from the \~500 members on Keybase.
 
 ### **SCF #10 - Pitching projects to the community**
 
@@ -234,7 +234,7 @@ Significant changes had been made to make this major ecosystem growth possible:
 
 * **Increased Round Frequency:** SCF moved from bi-annual to monthly, effectively speeding up round frequency by 6 times.&#x20;
 * **Removing Upper Cap on Funding Pool:** The upper limit each round was lifted to remove the competition aspect from SCF and allow for more flexibility for varying inbound per round.&#x20;
-* **Proof of Intent:** Projects could request up to $150K in XLM\* to fund development for \~3 months, and any eligible project was accepted by a panel consisting of both SDF and community members to receive 10% of their requested budget (also referred to as Proof of Intent). Upon finishing those deliverables, the project was to go through Community Vote for the remaining 90%.
+* **Proof of Intent:** Projects could request up to $150,000 in XLM\* to fund development for \~3 months, and any eligible project was accepted by a panel consisting of both SDF and community members to receive 10% of their requested budget (also referred to as Proof of Intent). Upon finishing those deliverables, the project was to go through Community Vote for the remaining 90%.
 * **Community Vote became non-determinitive, but onchain:** The simple voting system used in prior rounds didn't always prove effective in determining which projects should receive funding. This was a large risk perceived in order to grow Soroban's ecossytem. To reduce this risk, Community Vote lost it's determinitive power to solely signal award allocation. On-chain voting allowed the community to have transparency in the voting process, while keeping the individual voters’ identity hidden.
 * **Changing Platform**: Moving award management to a dedicated platform (Submittable) to streamline operations.&#x20;
 * **Move to the Stellar Developers Discord**: To provide improved developer support to projects submitting, the SCF Discord moved over as the 'Community Fund' category to the [Stellar Developers Discord](https://discord.gg/stellardev).&#x20;
@@ -290,7 +290,7 @@ Spanning two time zones, the bootcamp also boasted a remarkable lineup of 30+ me
 
 _**SCF #20 - SCF #29**_
 
-Two types of awards were introduced to reduce issues experienced with the earlier Proof of Intent model: a one-time Activation Award up to $50K decided by the selection panel for first-timers to build an initial MVP in 1-1.5 months, and once the activation deliverables were deemed complete, the project can request a Community Award up to $100K in XLM to further build out their project in the following 2-3 months.
+Two types of awards were introduced to reduce issues experienced with the earlier Proof of Intent model: a one-time Activation Award up to $50,000 decided by the selection panel for first-timers to build an initial MVP in 1–1.5 months, and once the activation deliverables were deemed complete, the project can request a Community Award up to $100,000 in XLM to further build out their project in the following 2–3 months.
 
 SCF started to adopt Neural Quorum Governance to support the signaling award allocation, initiating a move towards more inclusive, scalable, and reputation-based governance within the Stellar Community Fund. \
 \
@@ -308,13 +308,13 @@ With smart contract functionality live on Stellar, SCF 6.0 marked a shift toward
 
 The fund expanded from a single-track program into an umbrella of specialized programs and initiatives designed to support projects at different stages of development. This new structure reflected the increasingly diverse needs of builders in a Soroban-enabled ecosystem. In tandem, the SCF team grew from just two people during SCF 5.0 to a six-person Ecosystem Growth team managing SCF and its supporting programs.
 
-To support the surge of Soroban projects deploying to mainnet, SCF introduced new post-development award programs that provided liquidity incentives, RPC/indexer credits, and pathways to go-to-market acceleration. Startup Camp was revitalized as SCF Kickstart to help teams refine their use cases ahead of submission, and a new vertical launched to support community-led education and onboarding.
+To support the surge of Soroban projects deploying to Mainnet, SCF introduced new post-development award programs that provided liquidity incentives, RPC/indexer credits, and pathways to go-to-market acceleration. Startup Camp was revitalized as SCF Kickstart to help teams refine their use cases ahead of submission, and a new vertical launched to support community-led education and onboarding.
 
 SCF governance also became more decentralized and automated through the continued rollout of Neural Quorum Governance, enabling community members and ecosystem experts to play a more direct role in award allocation decisions.
 
 ***
 
-<figure><img src="../.gitbook/assets/Frame 4 (3).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/scf-history/scf-evolution-panels.png" alt=""><figcaption></figcaption></figure>
 
 ***
 
@@ -341,7 +341,5 @@ As SCF evolves, the goal remains the same: to be the most effective launch mecha
 SCF is ever evolving, and new structure ideas and additions are under active discussion. You’re invited to participate! Join the[ Stellar Developers Discord](http://discord.gg/stellardev) (and make sure you’re opting in for the Community Fund role) and become[ SCF verified](https://stellarcommunityfund.gitbook.io/scf-handbook/community-involvement/governance/how-to-become-verified).
 
 {% hint style="info" %}
-If you've been part of the Stellar Community for a while and some of what is documented here seems inaccurate, let us know through the [Stellar Developers Discord ](https://discord.gg/stellardev)or email us at communityfund@stellar.org. We strive to have a complete, candid, and transparent historic overview we can learn from as we work on future iterations of SCF.&#x20;
+If you've been part of the Stellar community for a while and some of what is documented here seems inaccurate, let us know through the [Stellar Developers Discord ](https://discord.gg/stellardev)or email us at communityfund@stellar.org. We strive to have a complete, candid, and transparent historic overview we can learn from as we work on future iterations of SCF.&#x20;
 {% endhint %}
-
-[^1]: 
