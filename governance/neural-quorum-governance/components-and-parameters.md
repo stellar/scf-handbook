@@ -92,7 +92,7 @@ $$
 y = a+( k - a )(c + q * e(-b*(x - o)) )(1/n)
 $$
 
-<sup><sub>This formula was proposed by BlockScience (learn more about requirements and parameters<sub></sup> [<sup><sub>here<sub></sup>](https://hackmd.io/@blockscience/SkBilx67A) <sup><sub>and the parameter effects of<sub></sup> [<sup><sub>logistical curves on Wikipedia<sub></sup>](https://en.wikipedia.org/wiki/Generalised_logistic_function)<sup><sub>).<sub></sup> <sup><sub>_a_<sub></sup> <sup><sub> </sup><sup><sub>= the left horizontal asymptote,<sub></sup> <sup><sub> </sup><sup><sub>_k_<sub></sup> <sup><sub> </sup><sup><sub>= the right horizontal asymptote,<sub></sup> <sup><sub> </sup><sup><sub>_c_<sub></sup> <sup><sub> </sup><sup><sub>= 1,<sub></sup> <sup><sub> </sup><sup><sub>_q_<sub></sup> <sup><sub> </sup><sup><sub>= is related to the value<sub></sup> <sup><sub> </sup><sup><sub>_Y_<sub></sup><sup><sub>(0),<sub></sup> <sup><sub> </sup><sup><sub>_b_<sub></sup> <sup><sub> </sup><sup><sub>= the growth rate,<sub></sup> <sup><sub> </sup><sup><sub>_n_<sub></sup> <sup><sub> </sup><sup><sub>= affects near which asymptote maximum growth occurs,<sub></sup> <sup><sub> </sup><sup><sub>_o_<sub></sup> <sup><sub> </sup><sup><sub>= X axis offset (current round # - 10),<sub></sup> <sup><sub> </sup><sup><sub>_x_<sub></sup> <sup><sub> </sup><sup><sub>= current round #<sub></sup>
+<sub>This formula was proposed by BlockScience (learn more about requirements and parameters <a href="https://hackmd.io/@blockscience/SkBilx67A">here</a> and the parameter effects of <a href="https://en.wikipedia.org/wiki/Generalised_logistic_function">logistic curves on Wikipedia</a>). <em>a</em> = the left horizontal asymptote, <em>k</em> = the right horizontal asymptote, <em>c</em> = 1, <em>q</em> = is related to the value <em>Y</em>(0), <em>b</em> = the growth rate, <em>n</em> = affects near which asymptote maximum growth occurs, <em>o</em> = X axis offset (current round # - 10), <em>x</em> = current round #</sub>
 
 In the graph below, we chose arbitrary values (a = 0, k = 1, c = 1, q = 1, b = 1, n = 4, o = `[current_round - 8]`) to add mild effects influenced by round importance over the number of rounds. Weights for each round a user voted in are multiplied by that user's percentage of active votes. It is set to always be at least 50%, because not all tiers are allowed to vote actively. 
 
@@ -185,7 +185,7 @@ $$
 PR(A) = \frac{1-d}{n} + d \sum_{B \in M(A)} \frac{PR(B)}{L(B)}
 $$
 
-<sup><sub>PR(A) - page rank value for user A, d - damping factor, in our case 0.85 (typical, commonly used value), n - number of users, BM(A) - some other user B that belongs to the set of all users trusting user A, PR(B) - page rank value for user B, L(B) - number of users trusted by user B<sub></sup>
+<sub>PR(A) - page rank value for user A, d - damping factor, in our case 0.85 (typical, commonly used value), n - number of users, BM(A) - some other user B that belongs to the set of all users trusting user A, PR(B) - page rank value for user B, L(B) - number of users trusted by user B</sub>
 
 So for user A, we take 1-dn, add our damping factor multiplied by the sum of all trust scores of users trusting our user A, divided by how many users they trust. This means that trust from someone trusting less users is worth more.
 
