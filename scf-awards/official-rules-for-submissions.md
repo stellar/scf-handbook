@@ -80,7 +80,7 @@ SDF’s failure to enforce any term of the Official Rules shall not constitute a
 
 **5.4 Data Privacy**
 
-SDF collects personal information from Participants when they enter any SCF Award Programs or Initiatives. The information collected is subject to the privacy policy located here: [https://www.stellar.org/privacy-policy](https://www.stellar.org/privacy-policy)
+SDF collects personal information from Participants when they enter any SCF Award Programs or Initiatives. The information collected is subject to the privacy policy located here: [stellar.org/privacy-policy](https://www.stellar.org/privacy-policy)
 
 5.5 Independence of Funded Projects
 
