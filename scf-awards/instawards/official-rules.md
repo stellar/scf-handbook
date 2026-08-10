@@ -4,7 +4,7 @@
 
 The Instawards Program (the “Instawards”) offers small and accelerated funding opportunities designed to support early execution by builders who are actively engaged in the Stellar ecosystem through their local Stellar Ambassador Chapter (such builders and any other program applicants, collectively the “Applicants”). The Instawards are intended to support clearly scoped, short-duration work that helps a project move meaningfully forward on Stellar. The specific rules and terms below (“Instawards Rules”) supplement the [SCF Official Rules for Submissions](../official-rules-for-submissions.md), which are incorporated herein by reference, and help define the relationship among Stellar Development Foundation (“SDF”, “we”, or “us”), Stellar Community Fund (together with its governance body, “SCF”) and the Applicants.
 
-Instawards don’t have a standard open application process, but opportunities to apply can be made available by the local Ambassador Chapter leads (collectively, the “Chapter Leads”). Instawards require consistent community engagement, collaboration, and demonstrated execution readiness. The following Instawards Rules set forth the general framework governing the Instawards and are subject to amendment or modification by SDF from time to time, in its sole discretion. By applying, the Applicants represent and warrant that you have read and understood the Instawards Rules, the SCF Official Rules and the SCF Handbook, have consulted any necessary independent advisors and agree to comply with all applicable terms and requirements. Applicants are encouraged to review the Instawards Rules regularly.
+Instawards don’t have a standard open application process, but opportunities to apply can be made available by the local Ambassador Chapter leads (collectively, the “Chapter Leads”). Instawards require consistent community engagement, collaboration, and demonstrated execution readiness. The following Instawards Rules set forth the general framework governing the Instawards and are subject to amendment or modification by SDF from time to time, in its sole discretion. By applying, the Applicants represent and warrant that you have read and understood the Instawards Rules, the SCF Official Rules, and the SCF Handbook, have consulted any necessary independent advisors and agree to comply with all applicable terms and requirements. Applicants are encouraged to review the Instawards Rules regularly.
 
 ### 2. Eligibility
 
@@ -53,7 +53,7 @@ Your Chapter Lead may provide support or help initiate the submission process.
 {% step %}
 ### Await review and/or approval
 
-Submitted scopes will be reviewed and vetted for approval, feedback or rejection – typically within 3-5 business days.
+Submitted scopes will be reviewed and vetted for approval, feedback, or rejection – typically within 3-5 business days.
 {% endstep %}
 
 {% step %}
@@ -121,7 +121,7 @@ Most proposals successfully accepted by SDF begin with an initial Instaward in t
 
 Submission of any interest form, project proposal, or application does not guarantee that a project or an Applicant will receive funding. All Instawards are subject to evaluation in accordance with the SCF Official Rules, the Instawards Rules, and the discretion of SDF and/or SCF. Applicants acknowledge that funding decisions are final and that SDF is not liable for any expectations of funding that are not met.
 
-### 7. Selection, Disbursement and KYC
+### 7. Selection, Disbursement, and KYC
 
 After submitting an Instaward application under the guidance of your respective Chapter Lead, the Applicants will be required to identify the Chapter Lead who assists with the submission. SDF will review submitted requests on a rolling basis and determine the next steps, which may include approval, feedback, or rejection, typically within 3-5 business days. All decisions are final and are made at SDF’s sole discretion.
 
