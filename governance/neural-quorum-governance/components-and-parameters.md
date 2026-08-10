@@ -101,9 +101,9 @@ Additionally, if you are a team member of a project that's being voted on in a g
 <figure><img src="../../.gitbook/assets/nqg/round-weight-graph.png"/></figure>
 
 {% hint style="info" %}
-Example: User A voted in round 42, from the graph above we can see weight for this round is 1.0. In this round user A submitted 68 Yes/No votes, and 32 Delegate votes, so 68% active votes. The final weight of round 42 for this user will be 1.0 x 68% = 0.68.
+Example: User A voted in round 42; from the graph above we can see weight for this round is 1.0. In this round user A submitted 68 Yes/No votes, and 32 Delegate votes, so 68% active votes. The final weight of round 42 for this user will be 1.0 x 68% = 0.68.
 
-User B voted in round 42, from the graph above we can see weight for this round is 1.0. In this round user B submitted 0 Yes/No votes, and 100 Delegate votes, so 0% active votes. The final weight of round 42 for this user will be 1.0 x 50% = 0.5.
+User B voted in round 42; from the graph above we can see weight for this round is 1.0. In this round user B submitted 0 Yes/No votes, and 100 Delegate votes, so 0% active votes. The final weight of round 42 for this user will be 1.0 x 50% = 0.5.
 {% endhint %}
 {% endstep %}
 
@@ -193,7 +193,7 @@ After that we perform a min-max normalization to ensure that scores of all users
 
 #### **1.2.4.2 Highly Trusted Bonus**
 
-After calculating PageRank scores, we take users with top 10% scores, those are considered highly trusted individuals. Then for each highly trusted user, we take the list of users they trust, and give everyone an additional bonus of 15% of their own score. If someone is trusted by multiple highly trusted users, he will get this bonus multiple times.
+After calculating PageRank scores, we take users with top 10% scores; those are considered highly trusted individuals. Then for each highly trusted user, we take the list of users they trust, and give everyone an additional bonus of 15% of their own score. If someone is trusted by multiple highly trusted users, he will get this bonus multiple times.
 
 Note: Keep in mind that even though we perform normalization after the PageRank, adding this HTB can result in the trust score of some users being higher than 3.0. This is an important change from the original implementation of the system, which was designed in a way so all 3 neurons should output values in range 0.0 - 1.0. We believe this isn't a flaw, because it makes the trust have a bigger impact on the overall NQG score, which is desired.
 

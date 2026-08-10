@@ -31,7 +31,7 @@ Throughout the years, SCF has been iterated on many times based on community fee
 * [**SCF 5.0 — Empowering Community Governance**](history-of-scf.md#scf-5.0-empowering-community-governance) (_SCF #20 — SCF #29, 2024)_\
   In replacement of the Proof of Intent model, two types of awards were introduced: first-timers can apply for an Activation Award selected by a panel to build out an initial MVP, followed by a larger Community Award voted on by the wider community to further build out their project. SCF started to adopt Neural Quorum Governance to support the signaling award allocation, initiating a move towards more inclusive, scalable, and reputation-based governance within the Stellar Community Fund.
 * SCF 6.&#x30;**— A Pluralist Approach to Ecosystem Growth**\
-  With smart contract functionality live on Stellar, there's a new need — and a new opportunity — to improve the Stellar Community Fund (SCF) so that it not only fosters new innovation, but also incentivizes project launch and growth. Ecosystem experimentation has proven fruitful, many are ready to build for adoption, and SCF needs to adjust its strategy to match.
+  With smart contract functionality live on Stellar, there's a new need — and a new opportunity — to improve the Stellar Community Fund (SCF) so that it not only fosters new innovation, but also incentivizes project launch and growth. Ecosystem experimentation has proven fruitful; many are ready to build for adoption, and SCF needs to adjust its strategy to match.
 
 ## **Stellar Build Challenge - Where it all began**
 
@@ -55,7 +55,7 @@ SBC was no longer an experiment but a thriving program working to grow the Stell
 
 ### **SBC #4 + #5 - The age of GalacticTalk**
 
-[GalacticTalk](https://galactictalk.org/d/2-galactic-talk-the-new-stellar-forum) started as a forum to organize discussions better than the Stellar Slack channel (where the community gathered before Keybase and Discord), and was an immediate hit with the community: Jed himself even used it to [announce the first SBC](https://galactictalk.org/d/5-2b-lumens-will-be-awarded-to-projects-built-on-stellar).
+[GalacticTalk](https://galactictalk.org/d/2-galactic-talk-the-new-stellar-forum) started as a forum to organize discussions better than the Stellar Slack channel (where the community gathered before Keybase and Discord) and was an immediate hit with the community; Jed himself even used it to [announce the first SBC](https://galactictalk.org/d/5-2b-lumens-will-be-awarded-to-projects-built-on-stellar).
 
 <figure><img src="https://lh4.googleusercontent.com/YWw0ETAL3fT_1TfealX6zDzJvF8ZK1MABrzbdrGylb78O2BuKX6LC7GTi9bRn_2Rc96KBkiQtzd6vpACchXmjjLHe4FgbGb7HzB1LpoFCW0LU523lb5xJHpKt-nyY3BCSD_i14yDsm-OdMoH5aUrwWpXNrFWilLjwR0_WxOJozF6BY0h6PbAEKho_w" alt=""><figcaption><p>Screenshot from <a href="https://galactictalk.org/t/april-2017?sort=top">galactictalk.org</a></p></figcaption></figure>
 
@@ -135,7 +135,7 @@ Voter manipulation happened in previous SCF rounds, but it was manageable: ineli
 
 <figure><img src="https://lh5.googleusercontent.com/IXYwbGxLNYCwj8rJoxje2XizuAxMNq5H_cK1QqXWVTNi8BUZFo6wb7k0CUh4nrYR7m_JzjOv6wQS7JUJWiMtpER5k1wnN33lKRZDGXmf3gUP1PD6-lyXD7dL8RhJuId00U9hKzSvKjQxBpDlfxVLVNKfSdkOgukiq2QOqy-Ghnhlk9bj0yTdCzC86w" alt=""><figcaption><p>Graph showing voter manipulation in the final Award phases of different SCF rounds, Aug 12, 2020 on <a href="https://medium.com/stellar-community/stellar-community-fund-round-5-finals-postmortem-b7b627531fff">Stellar Community Medium</a></p></figcaption></figure>
 
-The current system wasn’t designed for that kind of volume, which meant the team spent days and nights combing through thousands of votes and making lots of tough calls. To keep things fair, all accounts with duplicate IPs, zero proofs, inactivity, or bounty hunter proofs were removed. As were accounts created after the nomination voting started. One particularly suspicious project was disqualified, and another two took its place to reflect community sentiment. These were by far the most dramatic steps SDF took to preserve the integrity of SCF, as a decentralized, open, hands-off approach was always preferred. SCF, as it was designed at the time, wasn’t well suited to deal with manipulation of this magnitude.
+The current system wasn’t designed for that kind of volume, which meant the team spent days and nights combing through thousands of votes and making lots of tough calls. To keep things fair, all accounts with duplicate IPs, zero proofs, inactivity, or bounty hunter proofs were removed. As were accounts created after the nomination voting started. One particularly suspicious project was disqualified, and another two took its place to reflect community sentiment. These were by far the most dramatic steps SDF took to preserve the integrity of SCF; a decentralized, open, hands-off approach was always preferred. SCF, as it was designed at the time, wasn’t well suited to deal with manipulation of this magnitude.
 
 
 

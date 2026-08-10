@@ -30,7 +30,7 @@ Notwithstanding the foregoing paragraphs, the Content provided in response to a 
 
 By checking the box on the form for Legal Acknowledgements, you are agreeing and acknowledging the following:&#x20;
 
-* You have read and understood, and are agreeing to the [Rules and Eligibility Guidelines](https://stellarcommunityfund.gitbook.io/scf-handbook/supporting-programs/public-goods-award/official-rules) for submitting to the SCF Public Goods Award Program; and you represent that your project meets all the requirements and eligibility guidelines therein;
+* You have read and understood and are agreeing to the [Rules and Eligibility Guidelines](https://stellarcommunityfund.gitbook.io/scf-handbook/supporting-programs/public-goods-award/official-rules) for submitting to the SCF Public Goods Award Program, and you represent that your project meets all the requirements and eligibility guidelines therein;
 * You have read and understood and are agreeing to the [Privacy Policy ](https://www.stellar.org/privacy-policy)and the [Terms of Service ](https://www.stellar.org/terms-of-service)of SDF, and understand and agree that the Privacy Policy and the Terms of Service are hereby incorporated by reference;&#x20;
 * You represent that your project and submission is an original work and that you own all right, title and interest to the project as of the date hereof;&#x20;
 * You represent that neither your project nor submission includes or will include any content that is unlawful, breaches any third party rights or is otherwise in violation of or contrary to any applicable laws or regulations;&#x20;
