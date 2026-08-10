@@ -20,7 +20,7 @@ Your Team or Organization must appoint and authorize at least 2 Eligible Individ
 **1.3 An “Eligible Individual” is a natural person who:**
 
 * Is 18 years of age or older;
-* Is not a citizen of, located in, or otherwise normally residing in Cuba, Iran, North Korea,any Russian-controlled region of Ukraine, or any other country or region subject to sanctions by the US Department of Treasury Office of Foreign Asset Control (“OFAC”), as may be updated from time to time;
+* Is not a citizen of, located in, or otherwise normally residing in Cuba, Iran, North Korea, any Russian-controlled region of Ukraine, or any other country or region subject to sanctions by the US Department of Treasury Office of Foreign Asset Control (“OFAC”), as may be updated from time to time;
 * is not identified on the Specially Designated Nationals or Blocked Persons list provided by OFAC; and
 * Does not reside in a jurisdiction where the transfer and holding of cryptocurrency is illegal or would require a special license or authorization that the such person does not possess.
 
