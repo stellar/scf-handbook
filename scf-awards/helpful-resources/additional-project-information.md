@@ -32,7 +32,7 @@ Show readers that you’ve done the research.
 * What are the threats and opportunities (government regulations, technology, economy, etc.)?
 
 {% hint style="info" %}
-Tip: Use a[ SWOT Analysis](https://www.businessnewsdaily.com/4245-swot-analysis.html) to identify your project's weaknesses and potential threats, its strengths, and the potential opportunities you plan to exploit.
+Tip: Use a [SWOT Analysis](https://www.businessnewsdaily.com/4245-swot-analysis.html) to identify your project's weaknesses and potential threats, its strengths, and the potential opportunities you plan to exploit.
 {% endhint %}
 
 #### [⚔️](https://emojipedia.org/crossed-swords/)  **| Competition**&#x20;
@@ -62,4 +62,3 @@ Not focused on marketing yet? We still recommend telling readers how you will ge
 
 If you’re building a tool or SDK, your users will likely be developers. Will you do outreach on Discord? Or target a particular programming language community? Start with thinking about the marketing channels you use daily.
 {% endhint %}
-
