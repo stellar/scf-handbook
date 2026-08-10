@@ -14,7 +14,7 @@ The SCF Public Good Award program will roll-out in several incremental stages ba
 
 **Current stage: Soft-Launch**
 
-* Eligibility: The Soft-Launch stage allows teams to propose eligible tools and services for the SCF Public Goods Award with existing validation from the Stellar community.&#x20;
+* Eligibility: The Soft-Launch stage allows teams to propose eligible tools and services for the SCF Public Goods Award with existing validation from the Stellar community.
 * Platforms: Airtable for Proposal Submission and [Soroban Governor for voting](https://testnet.governance.script3.io/CCT2UWMPL3R7Z5FTN6DZJ7JAC62QEPPGGN7OXG3IBH6OTVLBHE3UCOC5/about/).
 * Network: Testnet
 * Proposal types: Snapshot only
@@ -30,17 +30,17 @@ As the community and proposal teams have little to no issues with the program an
 
 * **Launch (Testnet)**: Ability to propose new eligible proposals (including previous Stellar Infrastructure Grant recipients). Proposal submission will be included into the SCF Dashboard.
 * **Launch (Mainnet):** After an extensive audit, contracts launched on Mainnet. Can include experimentation using the onchain treasury and call data proposals, as well as further decentralizing the council.
-* **Full Launch**: Onchain treasury processes all public good award payments based on community vote.&#x20;
+* **Full Launch**: Onchain treasury processes all public good award payments based on community vote.
 
 ### 1.2 Program Phases
 
-For the Soft-Launch phase, the Proposal Discussion phase has no defined deadline for Proposal Submission based on quarterly timelines.&#x20;
+For the Soft-Launch phase, the Proposal Discussion phase has no defined deadline for Proposal Submission based on quarterly timelines.
 
 <table><thead><tr><th>Phase</th><th width="339.59375">Description</th><th>Duration</th></tr></thead><tbody><tr><td>1️⃣ Proposal Initiation</td><td>If a project meets eligibility requirements, they should make this known to a member from SDF (e.g. Anke, Gemma, or Emir). If approved to submit, the Proposal Form will be shared for the project to fill out. </td><td>Ongoing</td></tr><tr><td>2️⃣ Eligibility Review</td><td>The Council reviews the Proposal Form for Eligibility, supported by the SDF Legal team who will review KYC, and Due Diligence for basic eligibility.</td><td>~3–5 business days</td></tr><tr><td>3️⃣ Proposal Discussion</td><td>After proposals are submitted, an entry in <code>#projects</code> in the Stellar Dev Discord is created by the Proposer to gather final feedback on the proposal.</td><td>>1 week</td></tr><tr><td>4️⃣ Onchain Submission</td><td>Eligible Pilots submit proposals via Soroban Governor.</td><td>Within 2 business days post-approval</td></tr><tr><td>4️⃣ Council Review</td><td>Council has a veto window to reject non-compliant proposals.</td><td>72 hours</td></tr><tr><td>5️⃣ <br>Onchain Vote<br><br>Council Review</td><td>Pilots vote on proposals using NQG scores.<br><br>Council has a veto window to reject non-compliant proposals.</td><td>~3 days</td></tr><tr><td>6️⃣ Award Distribution – Tranche 1</td><td>First 50% of award distributed after vote approval and payment setup.</td><td>~1 week</td></tr><tr><td>7️⃣ Resubmission</td><td>Projects reapply with updates, impact evidence, and new goals.</td><td>Every three months</td></tr><tr><td>8️⃣ Panel &#x26; Council Review</td><td>Review of past deliverables and proposed next steps.</td><td>~1 week</td></tr><tr><td>9️⃣ Award Distribution – Tranche 2</td><td>Second 50% of award distributed after successful review.</td><td>~1 week</td></tr></tbody></table>
 
 #### 1️⃣ | Proposal Initiation
 
-Submission to the Public Goods Award is currently not open application to prevent spam, and allow the program to scale according to needs.&#x20;
+Submission to the Public Goods Award is currently not open application to prevent spam, and allow the program to scale according to needs.
 
 If a project meets [eligibility requirements](official-rules.md#program-eligibility-criteria), they should make this known to a member from SDF in Discord (e.g. Anke, Gemma, or Emir), along with the following information:<br>
 
@@ -52,11 +52,11 @@ If a project meets [eligibility requirements](official-rules.md#program-eligibil
 * Budget request (up to $50,000 in XLM\*) and deliverables
 * KYC and Due Diligence questionnaire (if not completed before)
 
-If approved to submit, the Proposal Form will be shared for the project to complete their Proposal.&#x20;
+If approved to submit, the Proposal Form will be shared for the project to complete their Proposal.
 
 #### 2️⃣ | Eligibility Review
 
-The Council reviews the completed Proposal, verifies KYC and Due Diligence questionnaire if not completed before, and confirms the team meets the eligibility criteria.&#x20;
+The Council reviews the completed Proposal, verifies KYC and Due Diligence questionnaire if not completed before, and confirms the team meets the eligibility criteria.
 
 #### 3️⃣  | Proposal Discussion
 

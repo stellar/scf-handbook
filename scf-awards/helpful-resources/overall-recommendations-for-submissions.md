@@ -4,7 +4,7 @@ icon: pen-to-square
 
 # Overall recommendations for Submissions
 
-Most readers from the delegate and voting panel will not read through every submission word for word. In most cases, they will understand your submission at a high level and the value it provides. If that sounds interesting, they will take a closer look.&#x20;
+Most readers from the delegate and voting panel will not read through every submission word for word. In most cases, they will understand your submission at a high level and the value it provides. If that sounds interesting, they will take a closer look.
 
 Follow these four recommendations to help make your submission worth exploring:
 
@@ -20,7 +20,7 @@ Present the value of your project in the first sentence using clear and concise 
 
 ### 💡  |  Explain what differentiates your solution
 
-You want to start an NFT marketplace? Great! But how will you hold your own against popular competitors like OpenSea? What’s going to be distinctive about your solution? And why and how will you use Stellar?&#x20;
+You want to start an NFT marketplace? Great! But how will you hold your own against popular competitors like OpenSea? What’s going to be distinctive about your solution? And why and how will you use Stellar?
 
 Also, be honest by including the challenges and threats you're facing. If we think of a problem you don’t mention within the first few minutes of reading your submission, we’ll assume it’s because you haven’t thought of it.
 
@@ -34,7 +34,7 @@ Also, be honest by including the challenges and threats you're facing. If we thi
 
 User feedback and validation are highly valuable during all stages of development. It dictates your revenue and influences how you should build your project. For readers of your submission, knowing that users already like your solution increases the credibility of your project. Any traction you can already show can improve your submission tremendously, and remember, numbers are key!
 
-If you have an established company that already has users, you can showcase user validation through user acquisition and retention, sales, reviews, and more. &#x20;
+If you have an established company that already has users, you can showcase user validation through user acquisition and retention, sales, reviews, and more.
 
 If you're just starting out, getting feedback can be more difficult, but not impossible! Try building a simple MVP for testing purposes only (something bare-boned with the essential features) and have friends and family that somewhat fit the target audience profile test it and give feedback.
 
@@ -50,7 +50,7 @@ Include your project’s social media information (Discord, Twitter, LinkedIn) t
 
 
 
-> The following pages give guidance for specific sections of the submission form:&#x20;
+> The following pages give guidance for specific sections of the submission form:
 >
 > * [Set the right budget](/broken/pages/bLIhyyLQD86TNRnNQz9U)
 > * Make your project stand out by adding the right [additional project information](additional-project-information.md)

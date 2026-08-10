@@ -1,8 +1,8 @@
 # Community Guidelines
 
-### **Do's**&#x20;
+### **Do's**
 
-#### 👏  |  Be constructive&#x20;
+#### 👏  |  Be constructive
 
 Constructive feedback consists of three elements: what went right or wrong, why it was or wasn’t effective, and what can be improved to make it better. It's great to say, "your project is excellent," but you have more effect when saying, "I liked \[feature] of your project because \[reason why]. I suggest looking into \[improvement] to make it even better".
 

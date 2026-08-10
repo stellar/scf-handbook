@@ -1,6 +1,6 @@
 # Public Goods Award
 
-The SCF Public Good Award is designed to support community-maintained public goods—such as key infrastructure and tools for ecosystem visibility, data, and governance—that directly strengthen the Stellar ecosystem.&#x20;
+The SCF Public Good Award is designed to support community-maintained public goods—such as key infrastructure and tools for ecosystem visibility, data, and governance—that directly strengthen the Stellar ecosystem.
 
 Managed through Soroban Governor with voting power weighted by [Neural Quorum Governance (NQG)](../../governance/neural-quorum-governance/), the SCF Public Good Award allows [SCF verified community members](../../governance/verified-members/) to propose and allocate funding of up to $50,000 in XLM\* per proposal per quarter—reflecting real ecosystem demand and enabling shared ownership of the growth and resilience of the Stellar ecosystem.\
 \

@@ -1,10 +1,10 @@
 # Official Rules
 
-Each Participant needs to meet the Participant Eligibility Rules, the application and evaluation criteria, as well as the General Rules (altogether known as “Official Rules”).&#x20;
+Each Participant needs to meet the Participant Eligibility Rules, the application and evaluation criteria, as well as the General Rules (altogether known as “Official Rules”).
 
 ### Structure
 
-Financial protocols who have completed an audit and have a live implementation on Stellar Mainnet can be invited to submit proposals to request a Liquidity Award of up to $100,000 of XLM\* total to support bootstrapping their initial liquidity needs.&#x20;
+Financial protocols who have completed an audit and have a live implementation on Stellar Mainnet can be invited to submit proposals to request a Liquidity Award of up to $100,000 of XLM\* total to support bootstrapping their initial liquidity needs.
 
 #### Award Types
 
@@ -13,7 +13,7 @@ Financial protocols who have completed an audit and have a live implementation o
 | Base Liquidity Award         | $50,000 in XLM\*                |
 | Supplemental Liquidity Award | An additional $50,000 in XLM\*  |
 
-#### Program Phases&#x20;
+#### Program Phases
 
 <table><thead><tr><th width="217.54296875">Phase or Module</th><th width="505.9609375">Function</th></tr></thead><tbody><tr><td>Rolling inbound prospects</td><td>Based on available data from past SCF awards, Projects which pass the <a href="official-rules.md#eligibility-criteria">application criteria</a>, will be sent a form to apply for Liquidity Program awards. </td></tr><tr><td>Pre-Screen</td><td>Once the Projects complete the application form (including a Due Diligence form), the application is pre-screened for completeness. </td></tr><tr><td>Individual Review (including Risk Assessment)</td><td>Each application that passed the pre-screen phase will be sent to available reviewers (both from SDF and community delegates), who will evaluate each submission according to the <a href="official-rules.md#reviewer-evaluation-criteria">evaluation criteria</a>, and perform a risk assessment.</td></tr><tr><td>Collective Review</td><td>If necessary, reviewers convene (either async or on a call) to come to a consensus on who should receive awards.</td></tr><tr><td>Legal Due Diligence</td><td>After reviewer approval, projects will undergo a final legal Due Diligence check. </td></tr><tr><td>Test Transaction</td><td>Approved Projects will be sent a test transaction to the Stellar address they specified. </td></tr><tr><td>Award Distribution</td><td>Once the test transaction amount has been confirmed, the award will be sent to their Stellar address. </td></tr><tr><td>Follow-up / Check-in</td><td>There will be regular checks to see how the Projects are performing., and Projects are required to deliver monthly activity reports for 6 months post award distribution as part of the award requirements</td></tr></tbody></table>
 
@@ -50,9 +50,9 @@ In order to also qualify for the Supplemental Liquidity Award, Projects must hav
 2. Teams of Eligible Individuals (“Teams”); and
 3. Organizations (including corporations, not-for-profit corporations, and other nonprofit organizations, limited liability companies, partnerships, and other legal entities) that consist of Eligible Individuals and that are duly organized or incorporated and in good standing at the time of submission (“Organizations”).
 
-(the above Eligible Individuals, Teams, and Organizations are referred to collectively as “Participants”).&#x20;
+(the above Eligible Individuals, Teams, and Organizations are referred to collectively as “Participants”).
 
-In any individual Round, an Eligible Individual may not join more than one Team or Organization and an Eligible Individual who is part of a Team or Organization may not also enter the program on an individual basis.&#x20;
+In any individual Round, an Eligible Individual may not join more than one Team or Organization and an Eligible Individual who is part of a Team or Organization may not also enter the program on an individual basis.
 
 #### 1.2 If a Team or Organization is applying:
 
