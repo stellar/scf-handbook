@@ -4,14 +4,14 @@ Each Participant needs to meet the Participant Eligibility Rules, the applicatio
 
 ### Structure
 
-Financial protocols who have completed an audit and have a live implementation on Stellar mainnet can be invited to submit proposals to request a Liquidity Award of up to $100,000 of XLM\* total to support bootstrapping their initial liquidity needs.&#x20;
+Financial protocols who have completed an audit and have a live implementation on Stellar Mainnet can be invited to submit proposals to request a Liquidity Award of up to $100,000 of XLM\* total to support bootstrapping their initial liquidity needs.&#x20;
 
 #### Award Types
 
 | Award Type                   | Amount (Range)               |
 | ---------------------------- | ---------------------------- |
-| Base Liquidity Award         | $50K in XLM\*                |
-| Supplemental Liquidity Award | An additional $50k in XLM\*  |
+| Base Liquidity Award         | $50,000 in XLM\*                |
+| Supplemental Liquidity Award | An additional $50,000 in XLM\*  |
 
 #### Program Phases&#x20;
 
@@ -21,13 +21,13 @@ Financial protocols who have completed an audit and have a live implementation o
 
 In order to be invited to submit an application to the Liquidity Awards Program and qualify for an initial Liquidity Award, Projects must meet the following criteria:
 
-* **Business Criteria**: Projects must have a fully functioning financial protocol/application deployed on Stellar mainnet that demonstrates a viable use case, business model, and show potential for adoption from either users and/or community.
+* **Business Criteria**: Projects must have a fully functioning financial protocol/application deployed on Stellar Mainnet that demonstrates a viable use case, business model, and show potential for adoption from either users and/or community.
 * **Technical Criteria**: Projects must have a completed valid security audit from an SDF recognized audit firm, with any outstanding vulnerabilities and issues resolved.
 * **Legal Criteria**: Projects must have passed SDF’s KYC, Risk Assessment, and Due Diligence checks.<br>
 
 In order to also qualify for the Supplemental Liquidity Award, Projects must have met the initial Liquidity Award criteria as stated above, received an initial Liquidity Award and then also meet the following criteria:
 
-* Supplemental Liquidity Award Criteria: Projects that are able to attract liquidity into their projects and are able to show 7-day consecutive TVL (of recognized asset(s)) greater than $250K.
+* Supplemental Liquidity Award Criteria: Projects that are able to attract liquidity into their projects and are able to show 7-day consecutive TVL (of recognized asset(s)) greater than $250,000.
 
 #### Reviewer Evaluation Criteria
 

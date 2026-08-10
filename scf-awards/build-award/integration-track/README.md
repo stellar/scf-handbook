@@ -4,7 +4,7 @@
 
 The Integration Track supports applications leveraging existing building blocks on Stellar to enable everyday financial services, creating a plug-and-play experience for builders submitting to the SCF.
 
-Rather than reinventing the wheel, this track focuses on composability — integrating wallets, assets, on- and off-ramps, and DeFi protocols to create a more connected, user-ready ecosystem.
+Rather than reinventing the wheel, this track focuses on composability: integrating wallets, assets, on- and off-ramps, and DeFi protocols to create a more connected, user-ready ecosystem.
 
 #### ✅ Who This Track Is For
 
@@ -12,7 +12,7 @@ Rather than reinventing the wheel, this track focuses on composability — integ
   * Stellar wallets
   * Anchors or on/off-ramps
   * DEXs and DeFi protocols
-* Builders who want to combine ecosystem pieces, not build new ones.&#x20;
+* Builders who want to combine ecosystem pieces, not build new ones.
 
 #### 🚫 Who This Track Is Not For
 
@@ -39,11 +39,11 @@ Rather than reinventing the wheel, this track focuses on composability — integ
 
 #### Budget Recommendations
 
-Ensure you’re not overscoping your budget. Most integration partners on the list take less than a week (40 hours) of development time to integrate. Find more information about your chosen integration partner [here](https://airtable.com/appymB1sbp5uidiGe/shrQFLSRUqxI7tBdT).&#x20;
+Ensure you’re not overscoping your budget. Most integration partners on the list take less than a week (40 hours) of development time to integrate. Find more information about your chosen integration partner [here](https://airtable.com/appymB1sbp5uidiGe/shrQFLSRUqxI7tBdT).
 
-<table><thead><tr><th width="122.6484375">Scope</th><th width="375.43359375">Example</th><th>Suggested Budget</th></tr></thead><tbody><tr><td>Small</td><td>one simple integration (wallet, SDP,, MGI)</td><td>$25K–$50K</td></tr><tr><td>Medium</td><td>moderate scope: one larger integration (DeFi protocol) or two small ones</td><td>$50K–$100K</td></tr><tr><td>Large</td><td>complex integrations: Wallet + DeFi protocol + on-ramp, anchor + DEX, or cross-chain bridge deployment.</td><td>$100K–$150K</td></tr></tbody></table>
+<table><thead><tr><th width="122.6484375">Scope</th><th width="375.43359375">Example</th><th>Suggested Budget</th></tr></thead><tbody><tr><td>Small</td><td>one simple integration (wallet, SDP, MGI)</td><td>$25,000–$50,000</td></tr><tr><td>Medium</td><td>moderate scope: one larger integration (DeFi protocol) or two small ones</td><td>$50,000–$100,000</td></tr><tr><td>Large</td><td>complex integrations: Wallet + DeFi protocol + on-ramp, anchor + DEX, or cross-chain bridge deployment.</td><td>$100,000–$150,000</td></tr></tbody></table>
 
-Feel free to use the above table as a guide for creating your budget. Your budget items should mainly be related to your integration costs, but some costs for “connective tissue” are permitted.&#x20;
+Feel free to use the above table as a guide for creating your budget. Your budget items should mainly be related to your integration costs, but some costs for “connective tissue” are permitted.
 
 * Use the Budget Guidelines to format your ask
 * Split into 3 tranches using SCF’s milestone model
@@ -53,16 +53,17 @@ Feel free to use the above table as a guide for creating your budget. Your budge
 
 ### Process & Timeline
 
-1. Submit the SCF Interest form and indicate your interest in the Integration Track.&#x20;
+1. Submit the SCF Interest form and indicate your interest in the Integration Track.
 
-| Important: If you were referred by a member of the SCF community, make sure to include their unique referral code on this form.  |
-| -------------------------------------------------------------------------------------------------------------------------------- |
+| Important: If you were referred by a member of the SCF community, make sure to include their unique referral code on this form. |
+| ------------------------------------------------------------------------------------------------------------------------------- |
 
 2. Eligible teams will be invited to submit to an upcoming Build round. Submit your Build form before the deadline and choose the Integration Track.<br>
 3. Submissions are reviewed by 2 reviewers from that quarter’s Category Delegate Panel.<br>
 4. If reviewers agree Yes or No, the project moves forward. If reviewers disagree, a third reviewer is added to break the tie. At this stage, teams may be asked to meet with reviewers to go over their submission in more depth.<br>
 5. Some teams may receive requested minor changes to their submission before funding.<br>
-6. After making any requested changes, awarded submissions receive their first tranche of funding.
+6. After making any requested changes, awarded submissions receive their first tranche of funding.<br>
+7. Once funded, each subsequent tranche must be submitted within 90 days of the previous payment. Teams that miss a deadline without notifying the SCF team in advance forfeit the remainder of their award. See Tranches & Deliverables and the Official Rules for full details.
 
 ***
 

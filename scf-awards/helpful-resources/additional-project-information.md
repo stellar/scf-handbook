@@ -19,7 +19,7 @@ Assure readers you are set up for scalable growth.&#x20;
 * Are you on the hunt for further funding?
 
 {% hint style="info" %}
-If you’re building a tool or SDK, this may not apply to you - that's okay!
+If you’re building a tool or SDK, this may not apply to you—that's okay!
 {% endhint %}
 
 #### &#x20;[🔎](https://emojipedia.org/magnifying-glass-tilted-right/) **| Market & Industry Research**&#x20;

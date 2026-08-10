@@ -20,375 +20,252 @@ description: >-
 * Teams building apps, protocols, or integrations for end users\
   → Consider either the [Open Track ](open-track.md)or [Integration Track](integration-track/), depending on your focus
 * Teams proposing a tooling idea not aligned with an [active RFP](rfp-track.md#current-open-rfps)\
-  →  Wait for a future RFP that matches your concept
+  → Wait for a future RFP that matches your concept
 
 #### 📋 Requirements
 
-* The submission must address an [open RFP](rfp-track.md#current-open-rfps) from the current quarter—read the RFP carefully and respond directly to its needs.&#x20;
-  * Your proposal does not need to address all points of the RFP, but you should articulate reasoning for a limited scope.&#x20;
+* The submission must address an [open RFP](rfp-track.md#current-open-rfps) from the current quarter—read the RFP carefully and respond directly to its needs.
+  * Your proposal does not need to address all points of the RFP, but you should articulate reasoning for a limited scope.
 * You must clearly show:
   * Why you’re a good fit to solve this (provide examples of past dev-focused work, and share open-sourced repos if possible)
   * What makes your solution technically strong
-  * Clear, testable milestones&#x20;
+  * Clear, testable milestones
   * How your tool will be maintained post-launch
   * A high-level visual diagram (Mermaid or similar) and a plain-English explanation of the technical stack.
-* Provide a clear explanation on how your project will be decentralized—if not, why?&#x20;
-* Explain what infrastructure the project runs on.&#x20;
+* Provide a clear explanation on how your project will be decentralized—if not, why?
+* Explain what infrastructure the project runs on.
 * Provide an explanation of plans for user tracking and efforts to limit and protect users
 * Commitment to regularly updating the community on project status
-* Your project should use the most recent stable release of the Stellar tech stack&#x20;
+* Your project should use the most recent stable release of the Stellar tech stack
 * Include licensing scheme and commitment to building in the open
   * Consider using Open Source Software like Matrix and decentralized networks (Mastodon / BlueSky) to communicate with your audience
 
-#### Current Open RFPs&#x20;
+#### Current Open RFPs
 
-_**May 11, 2026: New Q2 RFPs are open for submissions for SCF #**_**43!**
+_**July 23, 2026: New Q3 RFPs are open for submissions for SCF #**_**45! More coming soon.**
 
 RFPs are sourced from ideas submitted by the Stellar ecosystem, selected by Delegates through the [SCF Quarterly Process](quarterly-governance-process.md), and published here at the start of each quarter:
 
 <details>
 
-<summary><strong>Trustline onboarder</strong></summary>
+<summary>Stellar-compatible LayerZero DVN</summary>
 
-### Trustline onboarder
+### Stellar-compatible LayerZero DVN
 
-_Added: Q2 2026_
+#### 1. Scope of Work
 
-#### **1. Scope of Work**
+Fund one or more teams already operating production DVNs on LayerZero V2 to extend their verification service to Stellar. The deliverable is a Stellar-deployed DVN contract plus the corresponding off-chain verifier infrastructure, configured to verify LayerZero messages on Stellar pathways and accept attestations to Stellar's ULN302 message library. The expected outcome is that applications building omnichain assets and applications across Stellar and other LayerZero-supported chains have a meaningful choice of independent DVNs to compose into their Security Stack -- involving more DVNs improves security.
 
-Develop a standard (with reference implementation) that enables exchanges, brokers, and wallets to onboard users into Stellar assets without requiring manual trustline setup. The solution should either (a) authorize trustlines on behalf of users via a standard interface, (b) use a temporary intermediate account that auto-configures trustlines, or (c) auto-generate a claimable balance so recipient accounts receive funds without prior trustline setup. A public-facing landing page ("Welcome to Stellar" / activate-assets flow) is in scope as part of the reference implementation.
+#### 2. Background & Context
 
-#### **2. Background & Context**
+LayerZero V2 is an omnichain messaging protocol that connects 80+ blockchains. At the core of its security model are Decentralized Verifier Networks (DVNs) -- independent entities that pick up the PacketSent event on a source chain, verify the message hash using their own security logic (ZK proof, TEE, K-of-N consensus, native bridge, light client, or other), and submit an attestation to the destination chain's message library. Applications choose any number of DVNs to compose into their Security Stack under an X-of-Y-of-N model. There are currently 60+ DVNs in the marketplace, including teams like Polyhedra, Google Cloud, Blockdaemon, Nethermind, P2P, FCAT, and LayerZero Labs.
 
-CEXes and institutional partners (e.g., Societe Generale working with Bitpanda) consistently struggle to let users withdraw native Stellar assets because the trustline requirement creates unintuitive UX -- users receive prompts from their wallet or exchange to "create a trustline" without context, which blocks withdrawal flows. With classic assets on Stellar (not Soroban), issuers cannot be MiCA-compliant without an authorization layer. This friction is a recurring blocker for asset issuers launching on Stellar and for exchanges that need predictable withdrawal UX. Existing tools (e.g., Stellar Light, eurcv.theaha.co) point to the shape of the solution but no standard exists. CAP-73 (authorize trustline) is relevant prior art.
+LayerZero V2's Stellar implementation has been built on Soroban in Rust and is currently undergoing multiple security audits (see [Code4Rena audit, April 2026](https://code4rena.com/audits/2026-04-layerzero-stellar-endpoint)). The Stellar implementation preserves LayerZero's four-step messaging flow (Send -> Verify -> Commit -> Execute) and uses the Abstract Account pattern for DVN and Executor contracts to work within Soroban's reentrancy prohibition. At least one reference DVN (LzDVN with secp256k1 multisig) is in place, but for Stellar to be a credible omnichain destination, the LayerZero DVN marketplace on Stellar needs additional independent verifiers.
 
-#### **3. Requirements**
+Why this matters for Stellar in 2026: stablecoins, RWAs, and institutional assets increasingly require cross-chain mobility. LayerZero is a widely used omnichain messaging layer (USDT0, PYUSD, Ondo's tokenized assets, and many others use the OFT standard for native cross-chain liquidity). Leading asset issuers such as USDT0, Paxos, BitGo, Solv, and Ethena are preparing to launch on Stellar via LayerZero, and additional DVN providers can be an important resource to these companies. For Stellar-native assets to participate in this liquidity, and for assets from other chains to settle on Stellar with predictable security guarantees, applications need to be able to choose from multiple DVNs on Stellar pathways -- the more diverse the selection, the better.
 
-The RFP should define a standard -- plus reference implementation -- that addresses the trustline onboarding problem. At minimum, submissions should cover:
+Stellar-specific implementation considerations (from the LayerZero V2 Stellar audit notes) that any DVN implementer must address:
 
-* A well-defined standard for trustline authorization (leveraging CAP-73 or an equivalent approach) that custodians, wallets, exchanges, and asset issuers can implement predictably, supporting a full institutional asset lifecycle.
-* A reference implementation that demonstrates the standard end-to-end, including the issuer-side authorization flow and the recipient-side activation flow.
-* A default landing page flow for brokers, CEXes, and similar platforms where users are redirected to activate assets (akin to eurcv.theaha.co) -- open source and customizable.
-* Alternative mechanism support: submissions may additionally propose temporary intermediate accounts with pre-configured trustlines, or automatic claimable-balance creation when a transfer arrives at an un-trustlined account.
-* MiCA compliance considerations: the authorization layer should make it possible for regulated issuers to meet MiCA requirements for classic assets.
-* Open source (full repository, permissive license).
+* Address format conversion: LayerZero uses fixed bytes32; Stellar uses variable-length addresses. The DVN must handle this conversion correctly.
+* TTL-based storage: Soroban storage entries have time-to-live. DVN state (e.g., recent message hashes, signer sets) must use the protocol's hybrid extension strategy to avoid losing critical state to eviction.
+* Soroban resource limits: Soroban limits reads to 200 per transaction. DVN attestation flows must stay within this limit -- especially during batch verification -- and more generally must operate within Stellar's current network limits (see [https://lab.stellar.org/network-limits](https://lab.stellar.org/network-limits)) including instruction, memory, and write-entry caps.
+* No reentrancy: Soroban prohibits reentrancy. The DVN should use the Abstract Account pattern (custom \_\_check\_auth) rather than self-calls, consistent with the existing LzDVN reference implementation.
 
-#### **4. Evaluation Criteria**
+#### 3. Requirements
 
-Technical capability -- experience with Stellar operations, CAP standards authoring or implementation, and wallet/exchange integration patterns.
+This RFP is intended for teams that already operate a production DVN on LayerZero V2. Greenfield DVN proposals (teams new to LayerZero) are out of scope -- those should be directed to LayerZero Labs directly. Core requirements:
 
-* Relevant experience -- prior work on asset onboarding, account setup, or authorization flows in Stellar or comparable ecosystems.
-* Ecosystem alignment -- willingness and ability to coordinate with custodians, wallet providers, exchanges, and issuers, as well as DeFi protocols during the design phase.
-* Standard quality -- clarity, completeness, and adoptability of the proposed standard.
-* Ability to deliver within the required timeline.
-* Coherent integration plan -- concrete commitments from at least one wallet and one exchange/broker to adopt the reference implementation.
+* Existing production DVN on LayerZero V2 -- the team must currently operate a DVN on at least one mainnet pathway, with a track record of message verification visible on LayerZero Scan or equivalent. The Stellar deployment is an extension of an existing service, not a new entity.
+* Stellar DVN contract deployment -- a Soroban-based DVN contract deployed on Stellar mainnet (and testnet, in the prior tranche) that conforms to LayerZero V2's DVN interface and the Stellar implementation's Abstract Account pattern. The contract must accept attestations from the team's off-chain verifier and submit them to Stellar's ULN302 message library.
+* Off-chain verifier infrastructure for Stellar pathways -- the team's existing off-chain verification service extended to (a) listen to Stellar's RPC for outbound PacketSent events, and (b) submit attestations to destination chains when messages originate on Stellar, and accept attestations from source chains when messages are destined for Stellar. Verification logic should remain consistent with the team's existing service (ZK, TEE, multisig, or other) so applications get a predictable security guarantee across pathways.
+* Pathway coverage: minimum viable set -- at submission, the team must commit to supporting DVN pathways between Stellar and at least the top LayerZero chains by total value transferred (Ethereum, Arbitrum, Base, Optimism, Polygon, Avalanche, Solana, BNB Chain). Additional pathway coverage as the team's existing deployments expand.
+* Operational commitments -- uptime, message latency, and incident response SLAs consistent with the team's existing DVN service on other chains. The team must commit to maintaining the Stellar deployment for at least 24 months post-launch, with a minimum of 2 nodes in the initial setup.
+* LayerZero Labs coordination -- the team must coordinate with LayerZero Labs on integration into the official DVN provider listing and confirm pathway deployment per LayerZero's contract reference. Listing on [docs.layerzero.network/v2/deployments/dvn-addresses](https://docs.layerzero.network/v2/deployments/dvn-addresses) is a hard deliverable.
+* Open monitoring -- the team should publish basic operational telemetry (verifications served, error rate, latency p50/p95) on a public dashboard or equivalent so the Stellar ecosystem can independently assess the service.
+* Security audit of the Stellar DVN contract -- the Soroban DVN contract must pass a security audit before mainnet activation. Each awarded team is expected to arrange and fund their own audit as part of the grant, since the on-chain DVN implementation is relatively small and scoped. The Stellar Audit Bank remains available for strategic exceptions but is not the default routing.
 
-#### **5. Expected Deliverables**
+#### 4. Evaluation Criteria
 
-* Published standard (CAP or SEP, as appropriate) with rationale and reference flows.
-* Reference implementation: issuer-side authorization tooling and recipient-side activation UI ("Welcome to Stellar" landing page).
-* SDK or libraries for wallets and exchanges to integrate.
-* Documentation and integration guide.
-* Test suite.
-* Example integrations with at least one wallet and one exchange/broker.
-* Production-ready version.
+* Existing DVN track record (hard prerequisite) -- demonstrated production operation of a LayerZero V2 DVN on at least one mainnet pathway, with verifiable on-chain attestation history. Submissions from teams without an existing DVN service will not be considered.
+* Verification mechanism quality -- the underlying verification approach (ZK proofs, TEE, K-of-N consensus, light client, or other). Submissions should explain how their mechanism handles Stellar-specific properties (e.g., finality timing, reorg behavior, fee/gas economics).
+* Operational reliability -- uptime track record, latency metrics, and incident history from the team's existing DVN deployments. Public metrics or third-party data preferred over self-reported.
+* Soroban / Stellar technical capability -- demonstrated ability to ship production Soroban contracts, ideally with a contributor or partner who has shipped on Stellar before. Teams without Stellar experience should describe their onboarding plan and any Stellar engineering partnerships.
+* Pathway commitment -- the breadth of LayerZero pathways the team commits to supporting from launch and their stated expansion roadmap. Broader coverage is preferred but not at the expense of operational quality.
+* Security and audit history -- prior security audits of the team's existing DVN infrastructure, any historical incidents and their resolution, and a credible plan for the Stellar contract audit.
+* Verification mechanism diversity -- the awarded set will explicitly aim for a mix of verification mechanisms (e.g., one ZK, one TEE, one multisig) rather than the top N applicants regardless of mechanism. Mechanism diversity is a security property for OApps composing their Security Stack, and matters to incoming issuers.
+* Long-term commitment -- the team's stated commitment to maintain the Stellar deployment beyond the initial 24-month window, including how Stellar pathway operations are funded post-grant.
+
+#### 5. Expected Deliverables
+
+* Soroban DVN contract deployed on Stellar testnet, conforming to the LayerZero V2 Stellar implementation's DVN interface and Abstract Account pattern.
+* Off-chain verifier service extended to support Stellar pathways (inbound and outbound), running on the team's existing DVN infrastructure.
+* Soroban DVN contract deployed on Stellar mainnet, with security audit complete and findings remediated.
+* Listing on LayerZero's official DVN provider directory for Stellar pathways, with documented pathway coverage.
+* Public operational telemetry endpoint (verifications served, error rate, latency).
+* Documentation: integration guide for OApps that want to include this DVN in their Stellar Security Stack.
+* 24-month maintenance commitment, with a stated plan for post-grant sustainability.
 
 </details>
 
 <details>
 
-<summary><strong>Passkey UI</strong></summary>
+<summary>X402 Facilitator with Bazaar (discovery) support</summary>
 
-### Passkey UI
-
-_Added: Q2 2026_
+### X402 Facilitator with Bazaar (discovery) support
 
 #### 1. Scope of Work
 
-Develop a documented set of passkey usage patterns for Stellar smart accounts, paired with a minimal, composable passkey SDK and a small set of reference UI components. The highest-value deliverable is documentation of what works reliably across devices, browsers, and hardware, what breaks, and what fallbacks wallets should use -- with the SDK and reference code built around those findings rather than the other way around. The SDK is explicitly intended to be adopted into stellar-wallet-kit so wallet teams can integrate passkey-based authentication for Soroban smart accounts without building UI or compatibility logic from scratch.
+Build a production ready [x402](https://x402.org/) facilitator for Stellar, running on both testnet and mainnet, shipped under a permissive open source license so it works as a managed hosted provider and as a codebase anyone can fork and self host. Alongside it, build a Stellar native [Bazaar](https://docs.x402.org/extensions/bazaar) discovery layer so agents can find, price, and pay for x402 protected services on Stellar without a pre existing integration.
 
-#### 2. Background & Context
+**Three outcomes define success:**
 
-Passkey-based authentication is a key unlock for user-friendly Soroban smart accounts, but today every team building with passkeys on Stellar (e.g., Stellar Passport from Bastian) is building UI from scratch. Existing reference material (kalepail/smart-account-kit and similar repos) is functional but monolithic -- teams report that these kits include too much surface area and are difficult to extract a minimal, composable layer from.
+1. A facilitator other teams can rely on, live on stellar:testnet and stellar:pubnet. Both networks are committed deliverables, not one or the other.
+2. A permissive OSI Approved License. The ecosystem must not depend on a single hosted operator.
+3. A working Bazaar for Stellar. This is the highest value part of the RFP and should carry the largest share of the budget.
 
-Community feedback in the SCF Pilots discussion is that the ecosystem needs a minimal, neat SDK rather than another big repository, and that the hard part is less about the interface and more about reliable usage patterns across devices, browsers, and hardware. Ishan's framing on this: "the highest-value deliverable is documenting what works reliably, what breaks, and what fallbacks wallets should use." Without that body of knowledge codified somewhere, every new wallet team rediscovers the same compatibility gotchas independently.
+Respondents should build on the Apache-2.0 [@x402/stellar](https://www.npmjs.com/package/@x402/stellar) package rather than reimplement verify and settle. Settlement on Stellar is largely solved; the novel work is discovery, the agent facing interface, the upto scheme upstream, and conformance that holds as the spec moves.
 
-The deliverable is explicitly positioned to be adopted into stellar-wallet-kit. Ishan's reasoning: if these passkey primitives had been in stellar-wallet-kit from the start, ecosystem adoption would have been significantly higher. Building the SDK with that integration as a hard requirement avoids the risk of shipping something technically sound but not actually used.
+**Deliverable Categories:**
 
-#### 3. Requirements
+* Offchain service components (facilitator verify and settle, discovery catalog and search index, MCP discovery server)
+* Upstream contribution to the x402 package: Stellar support for the upto payment scheme
+* Tooling / SDK support (seller helpers for discovery metadata, buyer and agent helpers for querying the Bazaar)
+* Documentation
+* Integration examples
+* Audit readiness
 
-The deliverable is deliberately small-scoped, with deliverables ordered by value: documentation first, SDK and UI components built around the documentation's findings. Core requirements:
+### 2. Background & Context
 
-* Usage-pattern guide and compatibility matrix (highest-priority deliverable) -- a documented body of knowledge covering the main device / browser / hardware variability cases: what works reliably, what doesn't, and recommended fallbacks. Web at minimum (Chrome, Safari, Firefox); mobile guidance where passkey support diverges. This is the load-bearing deliverable -- the SDK and UI components are built to embody its conclusions.
-* Minimal passkey SDK -- narrow API surface, no bundled opinions on framework, state management, or wallet architecture. The SDK should distill the useful passkey/account pieces from existing work (including kalepail/smart-account-kit and his other passkey kit, where appropriate) into a minimal composable layer that wallet teams can actually adopt.
-* Reusable UI components for the common passkey flows (create passkey, sign transaction, recover), designed to be drop-in for wallets without forcing a design system.
-* Integration with stellar-wallet-kit (hard requirement) -- the SDK must be adopted into stellar-wallet-kit, not delivered as a parallel package. This introduces external coordination dependency with the stellar-wallet-kit maintainers, but is necessary to ensure ecosystem adoption rather than building something that sits unused.
-* Cross-platform support: web (Chrome, Safari, Firefox) at minimum; mobile guidance where passkey support diverges.
-* Open source, permissive license.
+x402 turns HTTP 402 into a machine native payment flow: a client requests a resource, the server replies 402 with terms, the client signs a payment authorization and retries, and a facilitator verifies and settles onchain before the resource is returned. The buyer is software, typically an agent paying per request with no account or API key.
 
-#### 4. Evaluation Criteria
+Stellar suits this well. A settlement costs about 0.0023 XLM, a fraction of a cent, which is what makes per request micropayments viable when the fee would otherwise exceed the payment. USDC, PYUSD, and other stablecoins are first class assets reachable from Soroban through the Stellar Asset Contract. Settlement uses Soroban's authorization model: the client signs an auth entry permitting a specific contract call, and the facilitator submits it and covers the fee.
 
-* Technical capability -- hands-on experience with WebAuthn / passkeys in production, not just demo code. Demonstrated ability to navigate device / browser / hardware compatibility issues is a strong differentiator.
-* Documentation quality -- since the highest-value deliverable is a usage-pattern guide, submissions should describe how they will produce, validate, and maintain that documentation. A pattern guide that goes stale within 6 months is worse than no guide at all.
-* Relevant experience -- prior work on wallet UI, SDK design, or authentication flows; a track record of small, well-maintained libraries is a strong signal.
-* Ecosystem alignment -- willingness and ability to coordinate with stellar-wallet-kit maintainers (hard requirement -- this RFP cannot be delivered as a parallel package), and with existing wallet teams (Meridian Pay, Freighter, others). Also: willingness to coordinate with Tyler on his passkey kit to avoid duplication.
-* API design quality -- the SDK must feel minimal and composable; submissions that propose large frameworks should be weighted lower.
-* Ability to deliver within a relatively short timeline.
-* Coherent integration plan with stellar-wallet-kit, including evidence of a conversation with the stellar-wallet-kit maintainers about the integration approach.
+Stellar already has working exact settlement in several places, including the Apache-2.0 @x402/stellar package and the free public ["Built on Stellar" facilitator](https://developers.stellar.org/docs/build/agentic-payments/x402/built-on-stellar). What it does not have is a native Bazaar. The Bazaar is what turns isolated paid endpoints into something an agent can shop: sellers declare machine readable metadata, the facilitator catalogs any resource carrying the discovery extension, and buyers query a catalog and a search endpoint. Several facilitators run their own Bazaar compatible catalogs, so today a Stellar denominated service is only as discoverable as whichever multi-chain facilitator happens to carry it.
 
-#### 5. Expected Deliverables
+Discovery in x402 is still evolving, and that shapes this RFP. The Bazaar extension was formalized in v2 and the discovery conventions are still moving under the x402 Foundation: endpoint shapes, filters, metadata fields, and cataloging behavior have all changed and will change again. This has two consequences. Respondents are being asked to build against a moving target, so conformance and upkeep are graded as heavily as the initial build (see 3.2 and 3.6). And the work is worth doing now rather than waiting, because the item spec is open, any facilitator may run its own index, and the conventions are being set by the implementations that exist while they are still fluid. SDF is a Premier member of the x402 Foundation with a Governing Board seat, so a bidder does not have to chase spec direction or maintainer review alone.
 
-* Usage-pattern guide and compatibility matrix covering device / browser / hardware variability, known issues, and recommended fallbacks. Published in a maintainable format with a clear update cadence.
-* Minimal passkey SDK adopted into stellar-wallet-kit (not delivered as a separate npm package).
-* Reusable UI components (framework-agnostic or framework-specific -- decision documented with rationale).
-* Reference integration demonstrating the SDK in use within stellar-wallet-kit.
-* Documentation: API docs for the SDK + usage examples + integration guide for wallet teams adopting it.
-* Test suite covering passkey flow correctness across the documented compatibility matrix.
+### 3. Requirements
+
+**3.1 Facilitator**
+
+* Implement x402 verify and settle for Stellar per the current v2 spec and CAIP-2 identifiers, on both `stellar : testnet` and `stellar : pubnet`. Build on @x402/stellar, which already supports both networks.
+* Expose the standard surface: verify, settle, and supported.
+* Validate Soroban auth entries strictly: correctly signed, authorizing exactly the declared call, asset, amount, and recipient, not replayed, not expired. Support classic keypairs and custom `__check_auth` accounts.
+* Support any SEP-41 token, USDC by default, with correct handling of 7 decimal amounts.
+* Sponsor network fees so the buyer needs only the payment asset and no XLM, and advertise this correctly via `extra.areFeesSponsored`.
+* Be non custodial. The facilitator never takes custody and is never the source of funds. Tampering with a payment must fail signature verification.
+* Testnet must be free and usable without friction. Mainnet pricing is the operator's business decision, but any fee must be configurable rather than hard wired so a self hoster can change or remove it. Document the business model.
+* Caller authentication, metering, and rate limiting are the respondent's design choice. Document the mechanism and make it configurable.
+* Package the hosted and self hosted paths so both are straightforward, including [self facilitation](https://github.com/x402-foundation/x402/tree/main/examples/typescript/servers/self-facilitation) inside a resource server.
+
+**3.2 Bazaar discovery layer**
+
+The core new capability. Submissions should reference specific spec behaviors, not just cite the extension.
+
+* `GET /discovery/resources` for paginated catalog browsing, with the spec's `type`, `payTo`, `network`, `extensions`, `limit`, and `offset` filters.
+* `GET /discovery/search` taking a natural language `query`, with cursor pagination and the `partialResults` flag. Search quality is a deliverable, not a detail: this means real ranking, and submissions must describe both their retrieval approach and how they will evaluate result quality over time. It is the hardest part of the scope and the part existing catalogs most often leave unimplemented.
+* Automatic cataloging. When the facilitator receives a PaymentPayload carrying the discovery extension, it validates `info` against the supplied `schema` and catalogs the resource with no separate registration step. Manual registration may exist as a secondary path only, since anything requiring a seller to act after payment gets skipped.
+* Catalog both HTTP endpoints and MCP tools. The spec treats MCP tools as a first class resource type, keyed on the tuple of `resource.url` and `input.toolName`.
+* Enforce catalog integrity. The facilitator is a trust boundary: clients echo the `resource` block into the payment payload, so a hostile client can attempt to poison the catalog with forged service metadata or a crafted `routeTemplate`. Implement the spec's soft drop validation and validate `routeTemplate` including percent decoding before traversal checks.
+* Report cataloging outcomes via the `EXTENSION-RESPONSES` header, so a seller can tell whether a listing landed and why not.
+* Track the spec as it changes. The catalog, search, and cataloging behavior must follow the x402 discovery conventions as the Foundation evolves them rather than freezing on the award date. Submissions must say how they will monitor spec changes and ship conformance updates, and commit to doing so through the grant period.
+* Interoperate with the wider x402 discovery ecosystem. Stellar listings should be representable consistently with how other facilitators represent theirs, so Stellar is not a walled garden.
+* Seller side helpers so a resource server can declare discovery metadata correctly, including per parameter descriptions that make an endpoint legible to an agent, with minimal boilerplate.
+* Keep the index off-chain by default. An onchain Soroban registry is an optional stretch, not a baseline: it adds rent that must be extended or entries are evicted, and per payment anchoring adds a second transaction that roughly doubles settlement cost. If proposed, respondents must say who bears that cost and keep it off the per payment hot path.
+
+**3.3 Agent facing MCP interface**
+
+* An MCP discovery server that lets an agent search the Stellar Bazaar and make a paid call from inside an agent runtime, wrapping the discover, pay, retry loop behind MCP tools (for example a resource search tool and a paid call proxy).
+* Structured, deterministic inputs and outputs, with machine readable error codes. Every rejection carries a non null reason so an agent can reason about failure instead of parsing prose.
+
+**3.4 Settlement schemes: exact and upto**
+
+* `exact` is already specified for Stellar in [scheme\_exact\_stellar.md](https://github.com/x402-foundation/x402/blob/main/specs/schemes/exact/scheme_exact_stellar.md) and must be supported.
+* [upto](https://github.com/x402-foundation/x402/blob/main/specs/schemes/upto/scheme_upto.md) (authorize up to a cap, settle actual usage) is the fit for metered services such as token billing. It has EVM and SVM implementation specs but no Stellar one, so this work includes authoring `scheme_upto_stellar.md` as well as the implementation, contributed upstream so the whole ecosystem benefits. Describe how it composes with Stellar smart account spending policies to keep an agent inside a budget. Respondents must state whether their upto design ships a Soroban contract. SEP-41 allowances alone (approve / transfer\_from) cannot enforce the recipient binding and single-settlement guarantees the upto spec requires so a contract-free design must document its weaker trust model explicitly.
+* Coordinate the upstream contribution through the x402 Technical Steering Committee. SDF's board seat is available to unblock maintainer review.
+* `batch-settlement` is named as planned phase two work, not part of this grant, since on Stellar it needs a Soroban escrow contract, a voucher store, double spend prevention, and its own audit. `auth-capture` is also deferred, as `upto` covers the metered case. Do not foreclose either.
+
+**3.5 Stellar specific considerations**
+
+Submissions should show they understand these, not just name them.
+
+* Auth entries, not pre signed transactions. The facilitator builds and submits the invocation, and the buyer's wallet must support auth entry signing.
+* Ledger based expiration. Validity is bounded by `signatureExpirationLedger`, roughly 12 ledgers or 60 seconds by default, derived from `maxTimeoutSeconds`.
+* Trustlines. An account needs a trustline to a SEP-41 asset before it can receive it. Onboarding and examples must account for this. See AHA Labs’ Trustline Onboarder RFP
+* Soroban resource limits. Verify, settle, and any registry operations must stay within per transaction read, write, instruction, and memory limits.
+* Throughput. Agent traffic is bursty. Describe how sequence number bottlenecks are avoided under load, for example channel accounts.
+* TTL. If an onchain registry is included, its entries need a rent and extension strategy. The per request schemes hold no persistent onchain state, so this applies only to an optional registry.
+
+**3.6 Non-functional requirements**
+
+* **A Permissive OSI Approved License.** Every dependency must be compatible with permissive redistribution and with operating the code as a network service. No AGPL or other strong copyleft in the dependency path: notably the OpenZeppelin Relayer, its x402 plugin, and the relayer SDK are AGPL-3.0-or-later and are out as a base. Confirm dependency licenses and flag anything uncertain.
+* **Conformance is a hard acceptance criterion.** Correct settlement plus a non conformant wire format produces an unusable service, so acceptance is tested at the wire level. Reviewers will point stock SDK code at the deliverable rather than read a conformance claim. Acceptance requires an unmodified canonical client completing a payment end to end on both networks, `/supported` emitting the Stellar extra contract including `areFeesSponsored`, the spec `payload: {transaction}` format accepted verbatim, a passing run of the x402 repo's [e2e suite](https://github.com/x402-foundation/x402/tree/main/e2e) for both networks, a published settled transaction hash per network per scheme, and a non null reason on every rejection.
+* **Security.** Strict payload verification, a settlement path resistant to replay and front running, and a discovery index that does not let anyone spoof another seller's listing or pricing.
+* **Audit via the** [**Audit Bank**](../../supporting-programs/audit-bank/)**.** A third party security review before the mainnet production tag, covering the settlement path, auth entry validation, the discovery trust boundary, and any registry contract. For costing: v1 ships no new Soroban contract, so this is a review of an offchain service and its cryptographic validation rather than a full contract audit.
+* **UX.** A developer should get from docs to a paid, discoverable endpoint appearing in the Bazaar in well under an hour.
+* **Performance and availability.** Discovery queries are fast lookups, verify and settle latency suits interactive agent use, public endpoints target 99 percent or better uptime, with a stated story for degraded settlement or indexing.
+* **Maintenance.** State how conformance is maintained after the grant, for example a maintenance commitment or a clean handoff so the community can keep it current.
+
+### 4. Evaluation Criteria
+
+* **Technical capability.** Demonstrated understanding of the x402 v2 spec, the Bazaar extension, and Soroban's authorization model. Reference specific behaviors (discovery filters, `routeTemplate validation`, `areFeesSponsored`, auth entry expiration), not just the protocol.
+* **Discovery design.** A concrete design for catalog, search, and automatic cataloging, a real answer on natural language search quality and how it is evaluated, and a credible interoperability story.
+* **Conformance discipline and upkeep.** Evidence the team treats wire level conformance as first class, plus a plan to stay current as the discovery conventions evolve. Prior conformance runs, spec contributions, or interop bug reports are strong signals. Drift, not inability, is the failure mode this screens for.
+* **Relevant experience.** Payment infrastructure, API gateways or facilitators, agent tooling such as MCP servers, or Soroban contracts. Teams that have shipped against x402 are a strong signal.
+* **Security and audit history.** A track record of shipping audited infrastructure and clear threat modeling, given this handles real payments.
+* **Ecosystem alignment.** Willingness to build on @x402/stellar, coordinate with SDF and the teams behind existing Stellar facilitator work, contribute upto upstream, and align with wallet teams on auth entry signing.
+* **Ability to deliver within the required timeline,** with a coherent plan for how sellers and agents actually adopt this alongside existing Stellar x402 tooling.
+
+### 5. Expected Deliverables
+
+* Open source, permissively licensed, self hostable x402 facilitator for Stellar (verify, settle, supported) on both testnet and mainnet, built on @x402/stellar, packaged as a managed provider that others can also fork or self facilitate.
+* Stellar Bazaar discovery layer: `GET /discovery/resources` with the spec's filters, `GET /discovery/search` with working natural language ranking, and automatic cataloging for both HTTP and MCP resources.
+* MCP discovery server exposing search and paid call tools to agents.
+* upto scheme merged upstream into the x402 package with its `scheme_upto_stellar.md` network spec.
+* SDK and helper libraries: seller side discovery metadata helpers, buyer and agent side helpers for querying and paying.
+* Conformance report: e2e results for both networks, settled transaction hashes per network per scheme, and a demonstration of an unmodified canonical client completing a payment.
+* A role based developer guide modeled on the [Algorand x402 developer hub](https://algorand.co/agentic-commerce/x402/developers), organized around what the reader is building, with at least a seller path, a buyer and agent path, and an operator path. Each links live testnet examples so a developer can run the flow. Contributed to Stellar Developer Docs.
+* At least two end to end example integrations, for instance a paid API that becomes discoverable and gets paid by an agent, and an MCP driven agent that discovers and pays with no pre baked integration.
+* Test suite covering verification, settlement (`exact` and `upto`), discovery, and the MCP interface.
+* Security review report with resolved findings.
+* Production ready service with an operational runbook and monitoring.
+
+### Appendix: References
+
+**Specs.** Protocol repo and SDKs: [https://github.com/x402-foundation/x402](https://github.com/x402-foundation/x402). Bazaar extension: [specs/extensions/bazaar.md](https://github.com/x402-foundation/x402/blob/main/specs/extensions/bazaar.md). Schemes: [scheme\_exact\_stellar](https://github.com/x402-foundation/x402/blob/main/specs/schemes/exact/scheme_exact_stellar.md), [upto](https://github.com/x402-foundation/x402/blob/main/specs/schemes/upto/scheme_upto.md), and [others](https://github.com/x402-foundation/x402/tree/main/specs/schemes) for context. Facilitator paths: [https://docs.x402.org/core-concepts/facilitator](https://docs.x402.org/core-concepts/facilitator).
+
+**Build on this.** [@x402/stellar](https://www.npmjs.com/package/@x402/stellar), Apache-2.0, supports both Stellar networks. [stellar/x402-stellar](https://github.com/stellar/x402-stellar) has SDF's tools, examples, and a reference facilitator example.
+
+**Do not use.** The free [Built on Stellar facilitator](https://developers.stellar.org/docs/build/agentic-payments/x402/built-on-stellar) runs exact on both networks via the [OpenZeppelin Relayer x402 plugin](https://docs.openzeppelin.com/relayer/guides/stellar-x402-facilitator-guide). Unusable code base to use or study: AGPL-3.0-or-later, and AGPL's network clause applies to a service serving third parties. See 3.6.
+
+**Conformance baseline.** The public x402.org facilitator supports `stellar:testnet` with no API key and correctly returns `extra: {areFeesSponsored: true}`. Any behavior this RFP requires should be verifiable by pointing the same stock client at both it and the deliverable. Respondents are encouraged to test existing multi-chain facilitators the same way before proposing, since advertised support and reachable support are not the same thing.
 
 </details>
 
 <details>
 
-<summary><strong>Account Demolisher</strong></summary>
+<summary><strong>Coming Soon</strong></summary>
 
-### Account Demolisher
-
-_Added: Q2 2026_
-
-#### 1. Scope of Work
-
-Develop a production-ready Account Demolisher tool that allows users to cleanly close a Stellar account: close open positions (offers, LP stakes, DeFi positions), remove all trustlines, remove existing data entries, remove account extra signers (and change account the thresholds accordingly), optionally claim pending claimable balances, convert all tokens to XLM and merge the account -- sending all funds to a target destination (exchange or other wallet). The tool must support both classic Stellar operations and Soroban DeFi protocols(which the existing stellar.expert/demolisher tool does not).
-
-#### 2. Background & Context
-
-Stellar has over 10 million accounts on the network, many of them stale or abandoned ("zombie accounts"). Closing an account cleanly is currently a manual, multi-step process that most users cannot navigate, and CEXes periodically need to help users consolidate or withdraw remaining funds. Also none of major CEXes support ACCOUNT\_MERGE operation, which means that users cannot retrieve the remaining 1 XLM of the base account reserve, these funds are basically frozen on the ledger. An open-source precedent exists (stellar.expert/demolisher/public -- built by Orbit Lens) but has not been updated in some time and lacks Soroban support. Given the scale of the problem and the sensitivity of a tool that drains accounts, this RFP should be awarded to a well-known, trusted team, and the RFP assumes the existing open-source code is a starting point rather than a blocker.
-
-#### 3. Requirements
-
-Core requirements for a production Account Demolisher:
-
-* Check for existing sponsorships. An account sponsoring reserves for other accounts cannot be merged.
-* Check for multisig on the account - merging an account with multisig requires permissions from several key holders.
-* Check current signature scheme and thresholds and remove all extra singers while setting thresholds in a way that will allow further manipulations without permission of other signers.
-* Remove all trustlines on a given Stellar account.
-* Remove data entries set by account.
-* Optionally claim selected claimable balances.
-* Close all open positions: DEX offers, AMM / LP stakes, DeFi positions in the main Stellar protocols (Blend, Aquarius, Soroswap, etc.).
-* Sell all tokens (classic and Soroban) to a target base asset (XLM or user-specified) via best-available routing.
-* A user should have an option whether to send all current funds (if any non-XLM balances remain) to the third-party wallet or exchange.
-* Merge the account, sending all remaining funds to a target destination (exchange address or other wallet). The tool should use a temporary mediator account to transfer all remaining funds after the merge (CEXes do not support ACCOUNT\_MERGE operation).
-* The tool should provide an option to view active token allowances and retrieve active authorizations without removing the account. This helps users to secure their funds in case of allowance-based DeFi protocol exploits.
-* Soroban support -- full parity with classic assets.
-* The UI should support stellar-wallets-kit and direct secret key input. Merging multisig accounts might require gathering signatures from several key pairs, so the interface should support adding multiple secret keys or signing transactions with different Stellar wallets.
-* This tool should be implemented in a trust-minimization, non-custodial manner. All transactions should be signed on the client side. Secret keys should never be transferred to the server side. The tool should&#x20;
-* Safety features: confirmation flows, clear warnings and where possible, a dry-run / preview mode (for most accounts clearing all active entries will require several sequential transactions, so it will be challenging to create a clear dry-run output, would like to see the proposers approach here).
-* Open source, permissive license -- existing [stellar.expert/demolisher](http://stellar.expert/demolisher) code can be a starting point.
-* Production-grade UX -- this tool handles irreversible actions and must be trustworthy.
-
-#### 4. Evaluation Criteria
-
-* Technical capability -- demonstrated experience with Stellar classic operations, Soroban contract interaction, and DeFi protocol integration.
-* Relevant experience -- prior work on account management, DEX routing, or similar destructive-action tooling. Experience with the existing stellar.expert/demolisher codebase is a plus.
-* Security & audit history -- given the irreversible nature of account closure, the team must demonstrate a strong security track record.
-* Ecosystem reputation -- this tool will be used on real accounts with real balances; submissions from well-known ecosystem teams will be weighted accordingly.
-* Ability to deliver within the required timeline.
-* Coherent integration plan -- how the tool will be surfaced to users (standalone UI? wallet integration with stellar-wallets-kit? CEX partnership?).
-
-#### 5. Expected Deliverables
-
-* Production-ready frontend (web, at minimum).
-* Backend service / using one of the DeFi position API RFP recipients ([Octopos](https://communityfund.stellar.org/dashboard/submissions/recOh9tgSDRC3elBf) and [Orion](https://communityfund.stellar.org/dashboard/submissions/recPt6cTMzx8XmiNj))
-* Documentation.
-* Test suite, including adversarial / edge-case tests.
-* Security audit and remediation (can be done as part of Audit Bank)<br>
+###
 
 </details>
 
 <details>
 
-<summary><strong>Contract Source Verification Service</strong></summary>
+<summary><strong>Coming Soon</strong></summary>
 
-### Contract Source Verification Service
-
-_Added: Q2 2026_
-
-#### 1. Scope of Work
-
-Design and deliver a source code verification pipeline for Soroban smart contracts that proves a deployed Wasm was built from a specific, publicly inspectable source tree. Deliverables span:
-
-* Offchain service components: a public verification service that accepts source code submissions (tarballs or equivalent), rebuilds the Wasm in a deterministic environment, and links the resulting Wasm digest to the source artifact.
-* Tooling / SDK support: deterministic build tooling (e.g., a standardized Docker image or reproducible build workflow) that contract developers can adopt.
-* Integration examples: reference integrations showing how explorers, wallets, and other downstream tools query verification status and retrieve source tarballs.
-* Documentation: contributor-facing docs for developers submitting verifications and integrator-facing docs for tools consuming them.
-* Audit readiness: threat model, security review, and audit fixes prior to production handoff.
-
-**Explicitly out of scope:**
-
-* Make updates to the existing SEP-55 spec itself (see[ ecosystem/sep-0055.md](https://github.com/stellar/stellar-protocol/blob/master/ecosystem/sep-0055.md)). Coordination with SEP-55 evolution is expected.
-* Integration of verification metadata into SDF-owned tooling (stellar-cli, Stellar Lab). SDF-owned tooling will consume the RFP service's APIs; building out those integrations is handled in-house. The RFP deliverable must expose the right APIs to make that integration straightforward.
-* Explorer UI work on any specific third-party explorer (Stellar Expert, Chain.dev), though the service must expose what they need to consume.
-* Fully deterministic Rust compilation as a research effort. The RFP should use the best available reproducibility today.
-
-#### 2. Background & Context
-
-Soroban contracts currently have no way to prove that the source code displayed on explorers actually compiles to the deployed Wasm. The existing SEP-55 mechanism ([merged spec](https://github.com/stellar/stellar-protocol/blob/master/ecosystem/sep-0055.md)) relies on GitHub Actions attestations that confirm a workflow ran at a given commit, but the workflow itself can fetch external code, modify dependencies, or otherwise produce a Wasm that diverges from the linked source. The attestation proves build provenance, not source-to-bytecode correspondence.
-
-This gap has been raised repeatedly in the ecosystem:
-
-* SEP-55 spec discussion ([stellar/discussions/1573](https://github.com/orgs/stellar/discussions/1573)): OrbitLens has noted that without a fixed build pipeline, attestation-based verification "provides a false sense of security." The merged v0.4.0 explicitly scopes itself to providing "unfalsifiable evidence that a contract has been compiled automatically using a particular GitHub repository," not that the displayed source matches the deployed binary.
-* Post-deploy verification discussion ([stellar/discussions/1802](https://github.com/orgs/stellar/discussions/1802)): tracks ongoing work on alternatives to attestation-based verification.
-* Experimental work in progress:[ stellar-experimental/contract-verifications](https://github.com/stellar-experimental/contract-verifications) is an in-house prototype, but has not been built out to production.
-* Partner requirement: during launch prep, a major ecosystem partner demonstrated a malicious Wasm receiving "build verified" status while linking to unrelated source code. They cited Solana's foundation-provided Docker image as the model they expected ("makes the bytecode deterministic and doesn't rely on external tooling"). This was the immediate driver for removing the Stellar Lab source code tab ([laboratory/issues/2045](https://github.com/stellar/laboratory/issues/2045)) as a stopgap fix while a real solution is built.
-* Complementary CLI work: Leigh McCulloch's proposal ([stellar-cli#2506](https://github.com/stellar/stellar-cli/issues/2506)) adds a --docker option to stellar contract build and a stellar contract verify command. The build records the Docker image digest and CLI version in contract metadata, and the verify command rebuilds from source and compares output. This solves the build reproducibility layer from the cli, but leaves open how verification status gets displayed across explorers, Lab, and wallets without each consumer independently rebuilding every contract or delegating to a single centralized verifier. This RFP fills that gap.
-* Internal alignment on boundary: SDF engineering has previously flagged that tooling integration work (stellar-cli, Stellar Lab, and partnerships with explorers) is best handled in-house, while a public service that performs rebuilds and verifications is a natural fit for external funding. This RFP sits on the public-service side of that line.
-
-Downstream effects: explorers can't safely display source code, auditors can't rely on explorer-surfaced sources for review, and ecosystem partners are treating verification as a launch requirement.
-
-Other ecosystems have solved this via services like[ Sourcify](https://sourcify.dev) (EVM), which link deployed bytecode to reproducible source via tarball submission and rebuild. Stellar needs an equivalent that's either adapted from existing tooling or purpose-built for Soroban's toolchain. Respondents may propose either approach.
-
-**Reference links:**
-
-* Post-deploy verification discussion:[ https://github.com/orgs/stellar/discussions/1802](https://github.com/orgs/stellar/discussions/1802)
-* SEP-55 spec:[ https://github.com/stellar/stellar-protocol/blob/master/ecosystem/sep-0055.md](https://github.com/stellar/stellar-protocol/blob/master/ecosystem/sep-0055.md)
-* \[Prototype] Contract Source Verification using Docker without Attestation [https://github.com/orgs/stellar/discussions/1923](https://github.com/orgs/stellar/discussions/1923)
-* SEP-55 spec discussion:[ https://github.com/orgs/stellar/discussions/1573](https://github.com/orgs/stellar/discussions/1573)
-* Stellar Lab issue:[ https://github.com/stellar/laboratory/issues/2045](https://github.com/stellar/laboratory/issues/2045)
-* Reference solutions
-  * Stellar CLI reproducible builds proposal:[ https://github.com/stellar/stellar-cli/issues/2506](https://github.com/stellar/stellar-cli/issues/2506)
-  * In-house prototype:[ https://github.com/stellar-experimental/contract-verifications](https://github.com/stellar-experimental/contract-verifications)
-  * Solana’s solution [https://solana.com/docs/programs/verified-builds](https://solana.com/docs/programs/verified-builds)
-
-#### 3. Requirements
-
-**Functional requirements:**
-
-* Accept source code submissions (tarball or equivalent) tied to a target Wasm hash
-* Rebuild the submitted source in a controlled environment and compare the resulting Wasm to the deployed Wasm
-* Provide and maintain a controlled environement to build the submitted code.
-* Expose a free, public API for querying verification status by contract ID or Wasm hash, returning at minimum: verification status, linked source tarball URL, build metadata, and verification timestamp
-* Provide a verification result layer that explorers, Lab, wallets, and other consumers can query without performing their own rebuilds. Verification should be performed once and the result made available via API, so displaying verification status on a contract page is a cheap lookup rather than a full rebuild. This is a hard requirement: solutions that force every consumer to rebuild, or that rely on a single hardcoded verifier, do not meet the bar.
-* Support mainnet and testnet
-* Handle contracts deployed before verification service launch (retroactive verification for non-upgradable contracts is a priority requirement, given that many existing deployments cannot be redeployed)
-* Provide a CLI or developer-facing submission flow so contract authors can verify their own deployments. API should be shaped to allow integration with[ stellar-cli](https://github.com/stellar/stellar-cli)
-* Expose verification metadata in a form consumable by explorers (Stellar Expert, Chain.dev,[ Stellar Lab](https://github.com/stellar/laboratory)) and other downstream tools
-* Coexist with the existing SEP-55 attestation flow. Attestation-based verification and source-tarball verification should be surfaced as distinct trust levels
-
-**Non-functional requirements:**
-
-* Explain your approach in the post-deploy verification discussion thread:[ https://github.com/orgs/stellar/discussions/1802](https://github.com/orgs/stellar/discussions/1802)
-* Security: tarball storage must be tamper-evident; rebuild environment must be isolated from host; submitted code must not be able to exfiltrate secrets or affect other submissions
-* Audit: a third-party security audit is required before production launch; audit scope to include rebuild environment, tarball integrity, and API authentication
-* UX: a contract developer should be able to verify a deployed contract in under 15 minutes from reading the docs to seeing the verification appear
-* Decentralization of verification: the service architecture must allow multiple independent verifier instances to produce and publish results, so consumers aren't forced to trust a single party. Proposals should describe how disagreement between verifiers is surfaced and how a consumer picks a trusted set.
-* Performance: verification requests should complete or return a queued status within 5 minutes for standard contract sizes
-* Availability: the public query API should target 99%+ uptime
-* Compliance: service must be operable as a public good without KYC or gated access; no user data collection beyond what's necessary for abuse prevention
-* Openness: the service codebase must be open-source and self-hostable; production deployment should allow for community operation over time
-
-#### 4. Evaluation Criteria
-
-*   Technical capability: demonstrated experience building reproducible build pipelines and verification infrastructure
-
-    Display-layer design: clear answer to how downstream tools (explorers, Lab, wallets) consume verification status without running their own rebuilds
-*   Relevant experience: prior work on Sourcify or equivalent services on other chains, or deep Soroban / Rust toolchain experience
-
-    Security & audit history: track record of shipping audited infrastructure; clear threat modeling in the proposal
-* Ecosystem alignment: willingness to coordinate with explorer teams (Stellar Expert, Chain.dev), SDF tooling (stellar-cli, Stellar Lab), and the SEP-55 discussion in[ 1573](https://github.com/orgs/stellar/discussions/1573) and[ 1802](https://github.com/orgs/stellar/discussions/1802)
-* Ability to deliver within required timeline: realistic milestone plan, not over-promising
-* Coherent integration plan: clear story for how explorers and other consumers adopt the service, including API stability guarantees
-
-#### 5. Expected Deliverables
-
-* Verification service codebase, open-source and self-hostable
-* Public deployment of the service for mainnet/testnet
-* Deterministic build tooling (e.g., reference Docker image or reproducible workflow)
-* SDK or client library for querying verification status
-* Contract developer CLI or submission interface
-* Integration documentation for explorers and downstream tools
-* User documentation for contract developers, contributed to Stellar Developer Docs
-* Test suite covering verification logic, API, and rebuild environment
-* Security audit report and resolved findings (through Audit Bank)
-* Production-ready service with operational runbook and monitoring
-* At least one reference integration (ideally[ Stellar Lab](https://github.com/stellar/laboratory) or a cooperating explorer)
+###
 
 </details>
 
-<details>
-
-<summary><strong>OZ accounts policy builder</strong></summary>
-
-### OZ accounts policy builder
-
-_Added: Q2 2026_
-
-#### 1. Scope of Work
-
-Develop an AI-assisted toolkit (likely a combination of an MCP server and a Claude / agent skill) that helps developers and end users craft OpenZeppelin smart account policies and context rules from observed or simulated Stellar transactions. The core deliverable is a "record-and-generate" workflow: a user (or agent) executes a representative transaction sequence -- for example, claiming yield on Blend and converting it to USDC -- and the tool synthesizes a context rule plus the minimum set of policies that would permit exactly that flow, scoped tightly enough that a delegated third party (human or agent) can repeat the operation but cannot deviate from it. The deliverable is positioned as an MCP server / agent skill / developer tool, not a hosted service that auto-deploys policies on behalf of users. The tool generates reviewable policy code; deployment is always a separate, explicit step performed by the user (or by an agent operating under existing permissions).
-
-#### 2. Background & Context
-
-OpenZeppelin's [smart accounts framework](https://docs.openzeppelin.com/stellar-contracts/accounts/smart-account) for Stellar (built on Soroban smart accounts and the OZ accounts package) decomposes authorization into three composable elements: context rules (scope and lifetime bindings, e.g. "call transfer() on USDC for one year"), signers (the entities authorized to act), and policies -- enforcement modules that add programmable constraints like spending limits, multisig thresholds, or time windows. A single context rule can attach up to 5 policies, evaluated through a defined lifecycle (install / can\_enforce / enforce / uninstall).
-
-The expressive power of this design is significant: the same primitive supports subscription billing, agent delegation, social recovery, and corporate treasury rails. The tradeoff is authoring complexity. Today, writing a custom policy means writing a Soroban contract that implements the Policy trait correctly, segregates storage by both smart account address and context rule ID (for stateful policies), handles the install/enforce/uninstall lifecycle, and gets audited. That bar is too high for most application developers, and effectively prohibitive for end users who want to delegate a narrow capability to an agent or service.
-
-The most powerful unlock here is letting users start from a transaction they have already performed (or simulated). An AI-assisted toolkit can examine the effects of that transaction -- which contracts were called, which functions were invoked, which assets moved, in what amounts, in what order -- and from that derive a context rule plus the policies needed to permit a future invocation of that same flow, but only that flow. "Record this sequence, generate a policy that allows exactly this and nothing else."
-
-This sits at the intersection of three priorities for Stellar in 2026: AI / agent-readiness of the network, smart account adoption (C-addresses), and developer experience improvements that make Soroban's expressive capabilities practical to use. The output is also defensively useful -- agents acting under tightly scoped policies are categorically safer than agents holding full account keys, which matters as AI agents take on more autonomous on-chain roles.
-
-OpenZeppelin involvement: OZ has been consulted on this RFP and indicated interest in participating as a technical reviewer rather than a co-owner. Design decisions and generated-code quality should be validated with the OZ accounts package maintainers, but the deliverable is independent of OZ's own roadmap.
-
-Prior art: Tyler (kalepail on GitHub) has built [kalepail/pollywallet](https://github.com/kalepail/pollywallet) as a basic MVP demonstrating the core record-and-generate concept in under a week of work. A demo video is available at [https://youtu.be/vmFnCtkqQJA](https://youtu.be/vmFnCtkqQJA). Respondents should treat this as the existing starting point and scope their work around extending it to production-quality (audited synthesizer, MCP server, agent skill, wallet integration) rather than building from scratch.
-
-#### 3. Requirements
-
-The deliverable is a developer/end-user-facing toolkit, not a new contract primitive. At minimum, submissions should cover:
-
-* A transaction recording / observation layer that can ingest either (a) a real on-chain transaction by hash on mainnet/testnet or (b) a locally simulated transaction (e.g., from a Soroban simulation against a forked state). The layer must extract structured information about which contracts were invoked, which functions, with which arguments, and the resulting state changes / token movements.
-* A context rule + policy synthesizer that converts the recorded transaction(s) into a proposed context rule (scope: which contracts and functions; lifetime: how long the permission lasts) plus the smallest set of policies needed to constrain the rule (e.g. spending limits derived from the observed amounts, frequency limits, time bounds). The synthesizer should bias toward minimal permissions -- if a transaction sequence only ever calls two functions with two specific assets, the generated rule should not permit a third.
-* Generated policy code in Rust, suitable for compilation as a Soroban contract, leveraging existing OZ-provided policy primitives (simple\_threshold, weighted\_threshold, spending\_limit) wherever they suffice. The tool should compose existing policies first and only generate net-new policy contracts when the constraint cannot be expressed by combining standard ones. Where new policy code is generated, it must implement the Policy trait correctly, including proper storage segregation for stateful cases.
-* An MCP server that exposes the recording, synthesis, and verification capabilities to agents, so that an AI agent can both request a policy be drafted from a sample transaction and operate under that policy once installed. The MCP interface should be agent-friendly: structured inputs/outputs, deterministic behavior, machine-readable error codes. Get inspiration from the [Cloudflare Agent Setup](https://developers.cloudflare.com/agent-setup/) and how they handle plugins, mcp and skills.
-* An Agent skill (or equivalent for other agent frameworks) that wraps the MCP and gives an agent a high-level conversational entry point: "the user wants to grant permission to do X; here is a transaction they performed; draft a policy." The skill should know when to ask for clarification (e.g., "this transaction transferred 50 USDC -- should the policy cap at 50, or allow up to 100 over a week?"). Can be for Claude and similar tools.&#x20;
-* A simulation / dry-run harness that tests a generated policy against (a) the original recorded transaction (must permit), (b) a set of adjacent transactions that should be denied (e.g., same operations but different asset, larger amount, or out-of-window timing), so the user can verify the policy is neither too strict nor too permissive before installing it.
-* Integration with at least one existing Stellar wallet supporting OZ smart accounts (e.g., a wallet from the C-Address Tooling cohort) so the policy install flow is end-to-end demonstrable: record -> generate -> simulate -> sign -> install on a real smart account.
-* Documentation and examples covering at least three end-to-end policy generation walkthroughs from real Stellar use cases (Tyler suggested Blend yield-claim flows; other candidates include subscription billing on a SEP-41 token, delegated trading on Soroswap with bounded slippage).
-* Configurable composition / generation mode -- the synthesizer must support both modes: (a) configuring existing OZ policy contracts (simple\_threshold, weighted\_threshold, spending\_limit) where they can express the constraint, and (b) generating fresh policy contracts where they cannot. The user should be able to inspect and modify generated policy code before deployment, not be forced into a fully automatic flow.
-* Code-first, deploy-second workflow -- the tool produces human-readable, reviewable policy code as its primary output. Deployment is never automatic. The user (or a separately-authorized agent) reviews the generated code, optionally modifies it, and then deploys it as a discrete step.
-* Open source, permissive license.
-
-#### 4. Evaluation Criteria
-
-* Technical capability -- demonstrated experience with Soroban contract development, Rust, and ideally with OpenZeppelin's accounts framework specifically. Prior work building MCP servers or AI tooling is a strong differentiator.
-* Relevant experience -- prior projects involving authorization frameworks, account abstraction (Stellar or otherwise), or codegen tooling. Teams that have shipped agent-facing tooling (MCPs, agent skills) will be weighted more heavily.
-* Security & audit history -- this tool generates code that runs as authorization logic on user funds. Any team submitting must be able to articulate a clear story for verifying generated policies, including how the simulation harness tests deny-cases, and must commit to an audit of the synthesizer logic itself (not just sample outputs).
-* Coordination with OpenZeppelin -- OZ has been consulted on this RFP and indicated interest in participating as a technical reviewer (not a co-owner). Submissions should describe how they will engage OZ as a technical reviewer: sharing design decisions on policy library composition, getting feedback on generated code quality, and aligning on what primitives would be valuable to upstream into the OZ accounts package.
-* Ecosystem alignment -- commitment to integrate with at least one existing Stellar smart-account-supporting wallet and to coordinate with the C-Address Tooling cohort.
-* Ability to deliver within a relatively short timeline.
-* Coherent integration plan -- a clear story for how the toolkit fits into existing developer and agent workflows, not just a standalone demo.
-* Building on existing work -- submissions should explicitly address what they will adopt, extend, or replace from kalepail/pollywallet. Greenfield rewrites should be justified.
-
-#### 5. Expected Deliverables
-
-* MCP server (open source) implementing the recording, synthesis, simulation, and verification capabilities.
-* Claude skill (or equivalent agent integration) wrapping the MCP server with a conversational interface.
-* Policy synthesizer library (Rust + supporting tooling) that produces compilable Soroban policy code.
-* Simulation / dry-run harness with permit-case and deny-case test generation.
-* Reference integration with at least one Stellar smart-account-supporting wallet, demonstrating the end-to-end record -> generate -> simulate -> install -> use flow.
-* Three documented end-to-end walkthroughs (Blend yield, SEP-41 subscription, bounded Soroswap delegation, or equivalents).
-* Developer documentation: how to use the toolkit, how the synthesizer makes scoping decisions, how to extend it with new policy primitives.
-* Test suite covering the synthesizer's correctness on a range of input transaction shapes.
-* Security audit of the synthesizer + generated policy templates, with findings remediated.
-* Production-ready release with versioned MCP server endpoint and packaging for the Agent skill (e.g. for Claude + others).
-
-</details>
-
-If you have an need for a tool or infrastructure that would meet an immediate ecosystem need but isn't listed above, it could be a good idea for an SCF RFP — add it on the [Stellarlight Ideas page](https://ideas.stellarlight.xyz/) and discuss further in the [Stellar Dev Discord](https://discord.gg/stellardev)!
+If you have an need for a tool or infrastructure that would meet an immediate ecosystem need but isn't listed above, it could be a good idea for an SCF RFP—add it on the [Stellarlight Ideas page](https://ideas.stellarlight.xyz/) and discuss further in the [Stellar Dev Discord](https://discord.gg/stellardev)!
 
 #### 📅 Process & Timeline
 
 1. Submit the SCF Interest form and indicate your interest in the RFP Track.
 
 {% hint style="info" %}
-Important: If you were referred by a member of the SCF community, make sure to include their unique referral code on this form.&#x20;
+Important: If you were referred by a member of the SCF community, make sure to include their unique referral code on this form.
 {% endhint %}
 
 2. Eligible teams will be invited to submit to an upcoming Build round. Submit your Build form before the deadline and choose the RFP Track. In the submission form, clearly identify which open RFP you’re addressing.
@@ -396,4 +273,4 @@ Important: If you were referred by a member of the SCF community, make sure to i
 4. If reviewers agree Yes or No, the project moves forward. If reviewers disagree, a third reviewer is added to break the tie. At this stage, teams may be asked to meet with reviewers to go over their submission in more depth.
 5. Some teams may receive requested minor changes to their submission before funding.
 6. After making any requested changes, awarded submissions receive their first tranche of funding.
-
+7. Once funded, each subsequent tranche must be submitted within 90 days of the previous payment. Teams that miss a deadline without notifying the SCF team in advance forfeit the remainder of their award. See Tranches & Deliverables and the Official Rules for full details.

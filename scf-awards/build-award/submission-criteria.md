@@ -100,7 +100,7 @@ Your proposed budget must:
 
 #### Tranche Structure
 
-Your application must include three tranches of deliverables. The final tranche should be your mainnet launch. Define your own path with your other deliverables, but make sure milestones make sense for your proposed build. One suggestion is to organize your tranches as:
+Your application must include three tranches of deliverables. The final tranche should be your Mainnet launch. Define your own path with your other deliverables, but make sure milestones make sense for your proposed build. One suggestion is to organize your tranches as:
 
 * **Tranche 1:** MVP
 * **Tranche 2:** Testnet
@@ -134,4 +134,4 @@ If your project issues (or plans to issue) a fiat-backed digital asset:
 * Teams with outstanding Research or Academic Grants must fulfill all obligations before applying
 * Teams with active Marketing, Currency Support, or Infrastructure Grants cannot seek funding for overlapping work
 
-Teams that received a prior SCF Build Award may apply again, but must show significant progress on the previous project — at SDF’s discretion.
+Teams that received a prior SCF Build Award may apply again, but must show significant progress on the previous project—at SDF’s discretion.
