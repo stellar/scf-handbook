@@ -21,7 +21,7 @@ The SCF Referral Program (“Referral Program”) enables approved individuals o
 
 3.1 Independence of SCF Decisions. Referrals are an important part of the SCF application process and may be considered as part of the evaluation. However, referrals do not guarantee acceptance into SCF, selection, funding, or any other benefit. Funding decisions remain independent and subject to SCF governance, evaluation criteria, and final approvals in accordance with the rules set forth in the SCF Handbook.<br>
 
-3.2 No Undue Influence. Referrers shall not, directly or indirectly, represent, imply or suggest that their referral confers any advantage or rights to any SCF awards,influences SCF decisions, constitutes an endorsement, sponsorship or approval by SDF and/or SCF, or creates any agency relationship between SDF/SCF and Referrers, except to the extent explicitly provided by the referral mechanism as set forth in the Referral Rules herein.
+3.2 No Undue Influence. Referrers shall not, directly or indirectly, represent, imply or suggest that their referral confers any advantage or rights to any SCF awards, influences SCF decisions, constitutes an endorsement, sponsorship or approval by SDF and/or SCF, or creates any agency relationship between SDF/SCF and Referrers, except to the extent explicitly provided by the referral mechanism as set forth in the Referral Rules herein.
 
 #### 4. Referral Submission & Attribution
 
