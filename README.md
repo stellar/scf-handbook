@@ -54,7 +54,7 @@ If your project passes the eligibility review, you may be invited to apply for a
 **Tools for Applicants:**
 
 * [communityfund.stellar.org](https://communityfund.stellar.org/) - view all SCF projects, check dates of upcoming rounds, and access submission forms for eligible projects
-* Supporting Programs - SCF-awarded projects can leverage the [Audit Bank](supporting-programs/audit-bank/) and [Liquidity Award](supporting-programs/stellar-liquidity-award/) to get ready for a secure and successful launch
+* Supporting Programs - SCF-awarded projects can leverage the [Audit Bank](supporting-programs/audit-bank/README.md) and [Liquidity Award](supporting-programs/stellar-liquidity-award/README.md) to get ready for a secure and successful launch
 
 **Community & Info:**
 
