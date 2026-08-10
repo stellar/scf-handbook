@@ -167,7 +167,7 @@ SDF’s failure to enforce any term of the Official Rules shall not constitute a
 
 #### 3.4 Data Privacy
 
-SDF collects personal information from Participants when they enter the SCF Public Goods Award Program. The information collected is subject to the privacy policy located here:[ https://www.stellar.org/privacy-policy](https://www.stellar.org/privacy-policy)
+SDF collects personal information from Participants when they enter the SCF Public Goods Award Program. The information collected is subject to the privacy policy located here: [stellar.org/privacy-policy](https://www.stellar.org/privacy-policy)
 
 #### 3.5 Contact
 
