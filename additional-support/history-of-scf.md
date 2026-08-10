@@ -69,7 +69,7 @@ During the [5th round of the Stellar Build Challenge](https://web.archive.org/we
 
 [XLM hit its all-time high to date on Jan 04, 2018](https://coinmarketcap.com/currencies/stellar/historical-data/). There was suddenly a much higher interest in the Stellar network, and we saw this reflected in SBC #6. 324 projects were submitted to this round, more than all the other previous SBCs combined! 113 winners were awarded 2.7M XLM, five times the prize pool of the previously planned 550K. Among the high-quality entries were popular SDKs [Stellar's Python SDK](https://stellar-sdk.readthedocs.io/) and [Stellar iOS SDK](https://github.com/Soneso/stellar-ios-mac-sdk), Stellar node explorer, [StellarBeat](https://stellarbeat.io/), and Stellar educational platform [Lumenauts.com](https://www.lumenauts.com/).
 
-<figure><img src="../.gitbook/assets/scf-history/sbc-submissions-meme.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="/.gitbook/assets/scf-history/sbc-submissions-meme.png" alt=""><figcaption></figcaption></figure>
 
 While the increased number of submissions was great, we struggled to keep up with the demand. There was only one person to handle the initial review rounds, with Jed McCaleb making the final decisions. As the [blog post announcing the results](https://stellar.org/blog/sixth-stellar-build-challenge-results) indicates:&#x20;
 
@@ -153,7 +153,7 @@ The selection and voting processes also changed. Of all entries, nominated proje
 \
 A key component of the new community vote was flaggable quadratic voting. Community voting used to be one-dimensional, leaning towards a linear distribution that made it impossible to recognize exceptional projects—either positively or negatively. Implemented by popular blockchain funding programs, including [Gitcoin](https://gitcoin.co/), quadratic voting promises to be better at capturing community sentiment and enables the community to help police bad actors and thwart manipulation.
 
-<figure><img src="../.gitbook/assets/scf-history/flaggable-quadratic-voting-meme.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="/.gitbook/assets/scf-history/flaggable-quadratic-voting-meme.png" alt=""><figcaption></figcaption></figure>
 
 **How it worked:**
 
@@ -165,7 +165,7 @@ Voting was live and open, which meant that you could see how many votes a projec
 
 A new website, [communityfund.stellar.org](https://communityfund.stellar.org/), was also introduced (look at those cute astronauts!). The site contained all SCF rules, including details about each fund and how to submit your project. GalacticTalk was still used sparingly, but the new site was the primary place to see and vote on projects.
 
-<figure><img src="../.gitbook/assets/scf-history/communityfund-site-scf-6-7.png" alt=""><figcaption><p>communityfund.stellar.org during SCF#6 and SCF#7</p></figcaption></figure>
+<figure><img src="/.gitbook/assets/scf-history/communityfund-site-scf-6-7.png" alt=""><figcaption><p>communityfund.stellar.org during SCF#6 and SCF#7</p></figcaption></figure>
 
 ### **SCF#6 - The Lab Fund for developers to experiment**
 
@@ -314,7 +314,7 @@ SCF governance also became more decentralized and automated through the continue
 
 ***
 
-<figure><img src="../.gitbook/assets/scf-history/scf-evolution-panels.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="/.gitbook/assets/scf-history/scf-evolution-panels.png" alt=""><figcaption></figcaption></figure>
 
 ***
 
