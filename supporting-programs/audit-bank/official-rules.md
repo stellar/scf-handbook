@@ -40,7 +40,7 @@ The following audit firms have joined us for initial engagements, and we're work
 
 #### **Phase 1: Intake & Eligibility Submission**
 
-Projects interested in participating must submit an audit request using a provided intake form. This intake form is provided to SCF-funded projects which have reached Testnet stage or are already on Mainnet. This form will detail the division of audit costs between SDF and the projects, and will require detailed information about the project, including:
+Projects interested in participating must submit an audit request using a provided intake form. This intake form is provided to SCF-funded projects which have reached Testnet stage or are already on Mainnet. This form will detail the division of audit costs between SDF and the projects and will require detailed information about the project, including:
 
 * Project description and purpose
 * Smart contract and technical architecture details

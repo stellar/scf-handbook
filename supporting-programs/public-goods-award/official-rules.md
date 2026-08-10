@@ -8,7 +8,7 @@ Project teams can apply every three months and may receive up to $50,000 in XLM\
 
 ### 1.1 Roll-Out Timeline
 
-The SCF Public Good Award program will roll-out in several incremental stages based on performance and community feedback. The Award Structure, Participant- and Submission Eligibility mentioned below align with the current stage of the program (Soft-Launch), and may change with future stages of the program.
+The SCF Public Good Award program will roll-out in several incremental stages based on performance and community feedback. The Award Structure, Participant- and Submission Eligibility mentioned below align with the current stage of the program (Soft-Launch) and may change with future stages of the program.
 
 
 
