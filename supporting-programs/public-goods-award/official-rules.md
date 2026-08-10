@@ -4,7 +4,7 @@ Each Project team looking to submit for an SCF Public Good Award must meet the E
 
 ## 1. Award Structure
 
-Project teams can apply every three months and may receive up to $50K in XLM\* per proposal. Funding is awarded based on both demonstrated retroactive impact and the value of the newly proposed features or maintenance. Projects may reapply each three months, and continued funding is contingent on prior deliverables being met and validated impact in the ecosystem. Accountability is driven by transparent review, community oversight, and adherence to eligibility and evaluation criteria and these Official Rules.
+Project teams can apply every three months and may receive up to $50,000 in XLM\* per proposal. Funding is awarded based on both demonstrated retroactive impact and the value of the newly proposed features or maintenance. Projects may reapply each three months, and continued funding is contingent on prior deliverables being met and validated impact in the ecosystem. Accountability is driven by transparent review, community oversight, and adherence to eligibility and evaluation criteria and these Official Rules.
 
 ### 1.1 Roll-Out Timeline
 
@@ -49,7 +49,7 @@ If a project meets [eligibility requirements](official-rules.md#program-eligibil
 * Deliverables completion overview of the past three months (not applicable to first-time applicants)
 * Retroactive impact of the past three months
 * Goals and metrics for the next three months
-* Budget request (up to $50K in XLM\*) and deliverables
+* Budget request (up to $50,000 in XLM\*) and deliverables
 * KYC and Due Diligence questionnaire (if not completed before)
 
 If approved to submit, the Proposal Form will be shared for the project to complete their Proposal.&#x20;
@@ -66,7 +66,7 @@ Eligible Proposals should initiate discussion with a project post in `#projects`
 * Deliverables completion overview of the past three months (not applicable to first-time applicants)
 * Retroactive impact of the past three months
 * Goals and metrics for the next three months
-* Budget request (up to $50K in XLM\*) and deliverables
+* Budget request (up to $50,000 in XLM\*) and deliverables
 * KYC and Due Diligence questionnaire (if not completed before)
 
 #### 3️⃣ | Onchain Submission

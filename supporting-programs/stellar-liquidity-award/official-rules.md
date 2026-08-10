@@ -10,8 +10,8 @@ Financial protocols who have completed an audit and have a live implementation o
 
 | Award Type                   | Amount (Range)               |
 | ---------------------------- | ---------------------------- |
-| Base Liquidity Award         | $50K in XLM\*                |
-| Supplemental Liquidity Award | An additional $50k in XLM\*  |
+| Base Liquidity Award         | $50,000 in XLM\*                |
+| Supplemental Liquidity Award | An additional $50,000 in XLM\*  |
 
 #### Program Phases&#x20;
 
@@ -27,7 +27,7 @@ In order to be invited to submit an application to the Liquidity Awards Program 
 
 In order to also qualify for the Supplemental Liquidity Award, Projects must have met the initial Liquidity Award criteria as stated above, received an initial Liquidity Award and then also meet the following criteria:
 
-* Supplemental Liquidity Award Criteria: Projects that are able to attract liquidity into their projects and are able to show 7-day consecutive TVL (of recognized asset(s)) greater than $250K.
+* Supplemental Liquidity Award Criteria: Projects that are able to attract liquidity into their projects and are able to show 7-day consecutive TVL (of recognized asset(s)) greater than $250,000.
 
 #### Reviewer Evaluation Criteria
 
