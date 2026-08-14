@@ -28,11 +28,12 @@ Prescreening helps:
 
 During prescreening, the SCF team does a check for:
 
-* Vague or missing deliverables
+* Vague or missing deliverables (or deliverables that don't have a specific budget amount associated with them).&#x20;
 * Inflated or unbalanced budgets
 * Ineligible expenses (like marketing, token giveaways, etc.)
 * Missing technical details or architecture
 * Deliverables that don’t align with SCF’s requirements
+* (Integration Track) A present, concrete, and credible final-tranche metric commitment — not omitted, vague, trivially low, or unrealistically high.
 
 In some cases, the SCF team will reach out with suggested edits so you can improve your submission before it’s sent to the panel.
 
@@ -46,7 +47,7 @@ Your application must satisfy all of the following:
 
 #### Participant Eligibility
 
-You must meet all Participant and Submission Eligibility Requirements, as well as any Category-Specific Eligibility that may apply.
+You must meet all Participant and Submission Eligibility Requirements, as well as any Category-Specific Eligibility or Jurisdiction-Specific Restriction that may apply.
 
 #### Product Readiness & Traction
 
@@ -80,7 +81,7 @@ This includes:
 
 * A fully defined roadmap and technical plan
 * Developers on your team with experience in the relevant tools/languages
-* Ideally, plans to leverage existing ecosystem tools and solutions rather than building from scratch.&#x20;
+* Ideally, plans to leverage existing ecosystem tools and solutions rather than building from scratch.
 
 #### Stellar Relevance
 
@@ -100,7 +101,7 @@ Your proposed budget must:
 
 #### Tranche Structure
 
-Your application must include three tranches of deliverables. The final tranche should be your Mainnet launch. Define your own path with your other deliverables, but make sure milestones make sense for your proposed build. One suggestion is to organize your tranches as:
+Your application must include three tranches of deliverables. The final tranche should be your Mainnet launch. In certain cases, jurisdiction-specific restrictions may require a modified tranche structure (for example, where deployment is limited to testnet). If this applies to your project, the SCF team will provide guidance on how to structure your tranches before you submit. Define your own path with your other deliverables, but make sure milestones make sense for your proposed build. One suggestion is to organize your tranches as:
 
 * **Tranche 1:** MVP
 * **Tranche 2:** Testnet
@@ -110,7 +111,30 @@ Each tranche must contain:
 
 * Feasible, well-defined deliverables
 * Sufficient detail and realistic timing
-* How much each deliverable will cost&#x20;
+* How much each deliverable will cost
+* How reviewers will be able to check completion of each deliverable
+
+**Integration Track — Final-Tranche Metric Commitment**
+
+Integration Track submissions must also include a final-tranche onchain metric commitment:
+
+* The metric type — NAV, cumulative payment/transaction volume, or an equivalent onchain measure appropriate to the integration.
+* The proposed threshold and the measurement window over which it will be assessed.
+* The onchain footprint you will register at award time so the metric is attributable to your product, for instance Soroban contract IDs, asset issuing accounts, app-operated wallets, and sponsored accounts.
+
+The panel ratifies or adjusts your proposal during review. A modest, credible threshold that demonstrates real usage is expected — not an aggressive growth target.
+
+#### Tranche #2 Threat Model and Monitoring Plan Requirements
+
+The most effective time for projects to identify potential security issues and enable future success with monitoring and observability is during the planning and building phase of the project. Toward that end, we are adding a requirement for a threat model and a “monitoring plan” into the tranche 2 requirements.  This requirement helps teams identify issues earlier in the lifecycle and create observability metrics (emissions, triggers, etc) that can be used for monitoring in the future.
+
+Similar to the STRIDE model, some project teams may not be familiar with building monitoring plans.  That is why we have developed similar training materials to what we did for the STRIDE model documentation, but with the monitoring plan using the output of the threat model.  Documentation will guide you, the project team, from inception, through building a threat model, to building a corresponding monitoring plan.
+
+This documentation provides a framework for builders or users in the ecosystem to plan out their monitoring requirements:
+
+* [Threat Modeling Readiness How-To Guide](https://developers.stellar.org/docs/build/security-docs/threat-modeling)
+* [On-Chain Monitoring Plan Template (Builders) ](https://developers.stellar.org/docs/build/security-docs/monitoring/monitoring-template-builders)
+* [On-Chain Monitoring Plan Template (Users)](https://developers.stellar.org/docs/build/security-docs/monitoring/monitoring-template-users)
 
 #### Ecosystem Value & Differentiation
 

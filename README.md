@@ -70,6 +70,12 @@ Check out our [FAQ section](additional-support/faq.md)! Have questions not addre
 
 ### What’s New in the SCF Handbook:
 
+_August 2026_
+
+* [Tranche #2 Threat Model and Monitoring Plan Requirements](scf-awards/build-award/submission-criteria.md#tranche-2-threat-model-and-monitoring-plan-requirements) implemented to help guide teams in thinking critically about their security.&#x20;
+* Integration Track Updates: The final tranche (#3) now releases against a committed, panel-ratified onchain metric (NAV or volume) rather than on mainnet launch alone. Up to ⅓ of total budget may be allocated to approved user-testing activities. See [Integration Track](scf-awards/build-award/integration-track/) and [Budget & Deliverable Guidelines](scf-awards/build-award/budget-and-deliverable-guidelines.md).
+* Jurisdiction-Specific Conditions. Some projects may be subject to additional restrictions based on the jurisdiction in which they operate, which may result in a modified tranche structure or deployment scope (for example, deployment limited to testnet).&#x20;
+
 _July 2026_
 
 * Implementation of timegating policy between tranches. Teams that miss a deadline without notifying the SCF team in advance forfeit the remainder of their award. See [Budget & Deliverables](scf-awards/build-award/budget-and-deliverable-guidelines.md) and the [Official Rules](scf-awards/instawards/official-rules.md) for full details.

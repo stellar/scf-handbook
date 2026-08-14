@@ -50,7 +50,8 @@ Your budget should focus on the cost of completing specific deliverables. These 
 ### ❌ Budget DONT’s: What You Can’t Include
 
 * Audit costs (covered separately by Audit Bank for eligible projects )
-* Marketing and user acquisition costs
+* Marketing and user acquisition costs&#x20;
+  * Except that, for Integration Track awards, a portion of tranche #2 and tranche #3, up to one-third (1/3) of the total budget, may be used for narrow, validation-focused user testing activities to prove the flow with real initial users. Broad paid acquisitions are prohibited. See [Integration Track](budget-and-deliverable-guidelines.md#integration-track-outcome-based-final-tranche) for details, including permissible activities and restricted activities.
 * General bounties, token giveaways, or prize pools
 * Legal fees or entity registration costs
 * Reimbursement for past work or unrelated activity<br>
@@ -121,7 +122,11 @@ We recommend a structure that follows a typical product lifecycle:
 
 <table><thead><tr><th width="114.76953125">Tranche</th><th>Focus</th><th>Examples of Deliverable</th></tr></thead><tbody><tr><td>1</td><td>Minimum Viable Product (MVP)</td><td>Core contracts on Testnet, simple UI, CLI tools</td></tr><tr><td>2</td><td>Testnet Expansion</td><td>Governance, integrations, adapters, feature depth</td></tr><tr><td>3</td><td>Mainnet Launch</td><td>Deployment, docs, SDK, monitoring, go-live metrics</td></tr></tbody></table>
 
-Your timeline and deliverables can flex, but the end goal is the same: **a functional project live on Stellar Mainnet.**
+Your timeline and deliverables can flex, but the end goal is the same: **a functional project live on Stellar Mainnet.** In certain cases, jurisdiction-specific restrictions may require a modified final tranche (for example, where deployment must be limited to testnet rather than mainnet). If this applies to your project, the SCF team will provide guidance before you submit your application.
+
+### Integration Track — Outcome-Based Final Tranche:
+
+For Integration Track awards, tranche #3 (40%) releases against a committed, panel-ratified onchain metric (NAV, cumulative volume, or an equivalent measure), not on mainnet launch alone. Tranches #0–#2 are unchanged. See [Integration Track](https://stellar.gitbook.io/scf-handbook/scf-awards/build-award/integration-track) for the full mechanic.
 
 ### ✅ What Makes a Strong Deliverable
 
@@ -159,6 +164,7 @@ You must submit each tranche completion form within 90 calendar days of receivin
    1. Are all deliverables complete?
    2. Do they match the success criteria?
    3. Can reviewers test or verify them?
+   4. (Integration Track Tranche #3 Only) Has the committed onchain metric been met?
 4. Payment is released
 
 ***
