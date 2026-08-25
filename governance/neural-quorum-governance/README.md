@@ -20,7 +20,7 @@ Common issues across voting mechanisms include inaccurate sentiment of the large
 
 We invite you to be a part of this transformative journey as we contribute your insights as we shape the future of governance.
 
-* Get [SCF Verified](https://stellarcommunityfund.gitbook.io/scf-handbook/community-involvement/governance/become-a-verified-member) (and become a voting member!)
+* Get [SCF Verified](../verified-members/how-to-become-verified.md) (and become a voting member!)
 * Engage through feedback and discussions in the [Stellar Developers Discord](https://discord.com/invite/stellardev)<br>
 
 ### **Blogs and Updates**
