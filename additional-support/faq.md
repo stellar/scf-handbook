@@ -20,7 +20,7 @@ SCF is the Stellar Community Fund - an open-application awards program that leve
 
 <summary>Who is eligible to apply for SCF?</summary>
 
-SCF has a [number of programs](https://app.gitbook.com/s/4IGHJeoWQzABoSBkKBxt/scf-awards) meant for projects at many stages of development, but generally, the SCF Build Award is for teams with significant existing traction. As a general rule, all projects should be building on Stellar, and should not fall within [ineligible criteria. ](../scf-awards/official-rules-for-submissions.md#general-rules)Individuals, Teams of Individuals, and Entities are all encouraged to submit for SCF.
+SCF has a [number of programs](https://app.gitbook.com/s/4IGHJeoWQzABoSBkKBxt/scf-awards) meant for projects at many stages of development, but generally, the SCF Build Award is for teams with significant existing traction. As a general rule, all projects should be building on Stellar and should not fall within [ineligible criteria. ](../scf-awards/official-rules-for-submissions.md#general-rules)Individuals, Teams of Individuals, and Entities are all encouraged to submit for SCF.
 
 </details>
 
@@ -64,7 +64,7 @@ You can find step-by-step submission instructions for each program here in the h
 
 * Entities in which either the Matching Fund or Enterprise Fund have invested are not eligible to receive an SCF Award.
 * Recipients of any currently outstanding[ Research & Development Grant](https://stellar.org/foundation/r-d-grants?locale=en) and/or[ Academic Research Grant](https://www.stellar.org/foundation/academic-research-grants?locale=en) are not eligible to receive an SCF Award unless and until such recipient has submitted all required deliverables and fulfilled all obligations under their respective Grant Agreement(s).
-* Recipients of any currently outstanding[ Marketing Grant](https://stellar.org/foundation/marketing-grants),[ Currency Support Grant](https://www.stellar.org/foundation/mandate#ecosystem-support), and[ Ecosystem Infrastructure Grant](https://www.stellar.org/foundation/mandate#direct-development), will not be eligible to receive an SCF Award for any project or deliverable that falls within the scope, whether directly or indirectly, of their respective Grant Agreement(s).
+* Recipients of any currently outstanding[ Marketing Grant](https://stellar.org/foundation/marketing-grants),[ Currency Support Grant](https://www.stellar.org/foundation/mandate#ecosystem-support), and[ Ecosystem Infrastructure Grant](https://www.stellar.org/foundation/mandate#direct-development) will not be eligible to receive an SCF Award for any project or deliverable that falls within the scope, whether directly or indirectly, of their respective Grant Agreement(s).
 
 </details>
 

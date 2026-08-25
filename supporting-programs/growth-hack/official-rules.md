@@ -28,7 +28,7 @@ Companies applying to the Growth Hack Program must meet the following criteria:
 
 ## Selection Criteria
 
-Companies should demonstrate a good fit and readiness for the Growth Hack Program, and have the basic capabilities and resources necessary for execution.
+Companies should demonstrate a good fit and readiness for the Growth Hack Program and have the basic capabilities and resources necessary for execution.
 
 <figure><img src="../../.gitbook/assets/growth-hack/selection-criteria.png" alt=""><figcaption></figcaption></figure>
 

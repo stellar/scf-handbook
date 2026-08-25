@@ -40,7 +40,7 @@ The following audit firms have joined us for initial engagements, and we're work
 
 #### **Phase 1: Intake & Eligibility Submission**
 
-Projects interested in participating must submit an audit request using a provided intake form. This intake form is provided to SCF-funded projects which have reached Testnet stage or are already on Mainnet. This form will detail the division of audit costs between SDF and the projects, and will require detailed information about the project, including:
+Projects interested in participating must submit an audit request using a provided intake form. This intake form is provided to SCF-funded projects which have reached Testnet stage or are already on Mainnet. This form will detail the division of audit costs between SDF and the projects and will require detailed information about the project, including:
 
 * Project description and purpose
 * Smart contract and technical architecture details
@@ -171,7 +171,7 @@ This consent applies, as applicable, to all members of the Participant that has 
 
 SDF reserves the right, in their sole discretion, to cancel, suspend and/or modify the Soroban Security Audit Bank, or any part of the Official Rules for any reason.
 
-The Soroban Security Audit Bank is governed by the[ SDF Terms of Service](https://www.stellar.org/terms-of-service) and the Official Rules. If there is any conflict or inconsistency between the SDF Terms of Service and the Official Rules, the Official Rules will prevail. If there is any discrepancy or inconsistency between the terms and conditions of the Official Rules and disclosures or other statements contained in any Soroban Security Audit Bank materials, including but not limited to the Soroban Security Audit Bank Submission form, and/or the Stellar.org website, then the Official Rules shall prevail.
+The Soroban Security Audit Bank is governed by the[ SDF Terms of Service](https://www.stellar.org/terms-of-service) and the Official Rules. If there is any conflict or inconsistency between the SDF Terms of Service and the Official Rules, the Official Rules will prevail. If there is any discrepancy or inconsistency between the terms and conditions of the Official Rules and disclosures or other statements contained in any Soroban Security Audit Bank materials, including but not limited to the Soroban Security Audit Bank Submission form and/or the Stellar.org website, then the Official Rules shall prevail.
 
 The terms and conditions of the Official Rules are subject to change at any time, including the rights or obligations of the Participants and SDF. SDF will post the terms and conditions of the amended Official Rules on the Stellar.org website. To the fullest extent permitted by law, any amendment will become effective at the time specified in the posting of the amended Official Rules or, if no time is specified, the time of posting.
 
