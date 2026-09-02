@@ -70,6 +70,10 @@ Check out our [FAQ section](additional-support/faq.md)! Have questions not addre
 
 ### What’s New in the SCF Handbook:
 
+_September 2026_
+
+* LayerZero added to [SCF Integration Track Partner list](scf-awards/build-award/integration-track/integration-list.md)&#x20;
+
 _August 2026_
 
 * [Tranche #2 Threat Model and Monitoring Plan Requirements](scf-awards/build-award/submission-criteria.md#tranche-2-threat-model-and-monitoring-plan-requirements) implemented to help guide teams in thinking critically about their security.&#x20;
