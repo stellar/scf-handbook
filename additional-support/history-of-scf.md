@@ -37,7 +37,7 @@ Throughout the years, SCF has been iterated on many times based on community fee
 
 On June 28, 2016, the Stellar Development Foundation (consisting of only a handful of people) [announced the Stellar Build Challenge](https://www.stellar.org/blog/build-challenge?locale=en), a new program that awarded 2B+ XLM to encourage creativity and develop the Stellar ecosystem.
 
-<figure><img src="https://lh5.googleusercontent.com/lJy74DH7QOSi_-ryqjCcyJGpPhJyhQywc3qikhCa-c8sftIFzxTAzbF9OrU2hTjcP5kANFcN4wTawv-kQpx1ya5wM2tqvO8hZwFfu0lV7ve55R7NsLlM0XNYDoSvv72xkbRhxVVB2fTy9G59DM-ImRCdlKfLf0GNI1QXYrw8wminJGSw7UXBoamiJQ" alt=""><figcaption><p>Screenshot taken from <a href="https://galactictalk.org/d/5-2b-lumens-will-be-awarded-to-projects-built-on-stellar">galactictalk.org</a> </p></figcaption></figure>
+<figure><img src="../.gitbook/assets/scf-history/stellar-build-challenge-announcement.png" alt=""><figcaption><p>Screenshot taken from <a href="https://galactictalk.org/d/5-2b-lumens-will-be-awarded-to-projects-built-on-stellar">galactictalk.org</a> </p></figcaption></figure>
 
 Developers were encouraged to submit projects in one of four categories: anchors, applications, exchanges, or first-time submissions, with awards distributed annually or quarterly depending on the category.
 
@@ -57,7 +57,7 @@ SBC was no longer an experiment but a thriving program working to grow the Stell
 
 [GalacticTalk](https://galactictalk.org/d/2-galactic-talk-the-new-stellar-forum) started as a forum to organize discussions better than the Stellar Slack channel (where the community gathered before Keybase and Discord), and was an immediate hit with the community: Jed himself even used it to [announce the first SBC](https://galactictalk.org/d/5-2b-lumens-will-be-awarded-to-projects-built-on-stellar).
 
-<figure><img src="https://lh4.googleusercontent.com/YWw0ETAL3fT_1TfealX6zDzJvF8ZK1MABrzbdrGylb78O2BuKX6LC7GTi9bRn_2Rc96KBkiQtzd6vpACchXmjjLHe4FgbGb7HzB1LpoFCW0LU523lb5xJHpKt-nyY3BCSD_i14yDsm-OdMoH5aUrwWpXNrFWilLjwR0_WxOJozF6BY0h6PbAEKho_w" alt=""><figcaption><p>Screenshot from <a href="https://galactictalk.org/t/april-2017?sort=top">galactictalk.org</a></p></figcaption></figure>
+<figure><img src="../.gitbook/assets/scf-history/galactictalk-stellar-build-challenge-forum.png" alt=""><figcaption><p>Screenshot from <a href="https://galactictalk.org/t/april-2017?sort=top">galactictalk.org</a></p></figcaption></figure>
 
 During the [fourth round of SBC](https://galactictalk.org/d/294-stellar-build-challenge) starting in May 2017, we started listing submissions on [GalacticTalk](https://galactictalk.org/t/april-2017?sort=top). This allowed applicants to solicit feedback from SDF and the community before uploading their final projects for review. With this new interactive format, SBC #4 reeled in 45 submissions, of which the judges awarded 23 winners with 7.95M XLM.
 
@@ -133,7 +133,7 @@ SCF #4 attracted 17 proposals, and 190 unique eligible voters voted for eight wi
 
 Voter manipulation happened in previous SCF rounds, but it was manageable: ineligible votes never exceed eligible votes by more than 23%. Until [SCF #5](https://medium.com/stellar-community/stellar-community-fund-round-5-finals-postmortem-b7b627531fff)! In the Nomination Phase alone, a record number of 376 votes were manipulated out of the 671 total votes. And out of the 4,137 unique Keybase accounts voting in the final Award phase, 4,058 were fake.
 
-<figure><img src="https://lh5.googleusercontent.com/IXYwbGxLNYCwj8rJoxje2XizuAxMNq5H_cK1QqXWVTNi8BUZFo6wb7k0CUh4nrYR7m_JzjOv6wQS7JUJWiMtpER5k1wnN33lKRZDGXmf3gUP1PD6-lyXD7dL8RhJuId00U9hKzSvKjQxBpDlfxVLVNKfSdkOgukiq2QOqy-Ghnhlk9bj0yTdCzC86w" alt=""><figcaption><p>Graph showing voter manipulation in the final Award phases of different SCF rounds, Aug 12, 2020 on <a href="https://medium.com/stellar-community/stellar-community-fund-round-5-finals-postmortem-b7b627531fff">Stellar Community Medium</a></p></figcaption></figure>
+<figure><img src="../.gitbook/assets/scf-history/scf-final-vote-participants.png" alt=""><figcaption><p>Graph showing voter manipulation in the final Award phases of different SCF rounds, Aug 12, 2020 on <a href="https://medium.com/stellar-community/stellar-community-fund-round-5-finals-postmortem-b7b627531fff">Stellar Community Medium</a></p></figcaption></figure>
 
 The current system wasn’t designed for that kind of volume, which meant the team spent days and nights combing through thousands of votes and making lots of tough calls. To keep things fair, all accounts with duplicate IPs, zero proofs, inactivity, or bounty hunter proofs were removed. As were accounts created after the nomination voting started. One particularly suspicious project was disqualified, and another two took its place to reflect community sentiment. These were by far the most dramatic steps SDF took to preserve the integrity of SCF, as a decentralized, open, hands-off approach was always preferred. SCF, as it was designed at the time, wasn’t well suited to deal with manipulation of this magnitude.
 
@@ -159,7 +159,7 @@ A key component of the new community vote was flaggable quadratic voting. Commun
 
 Each voter had 100 credits and could give a max of ten votes for any single project. In addition to upvoting, voters could also downvote a project. The more votes you gave a project, the weight of the vote would increase quadratically:
 
-<figure><img src="https://lh5.googleusercontent.com/KJA0ZHDF2IBn64riKMY6xNZHFmj1Yqze9ipayf0VuDqhHcKFWTJXKwsbwyHUqvZYus5zI63dhQFXmhm0jtBsRWxIhtJolaEh5sNxowgGK772XVcnaVTM-64jBQK-Nw_q0wFTwP_Vrz6KC1BjJ7CIopk8J-aszUTBLEpw5RLpbOmzd_59wmTn7VUjSQ" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/scf-history/quadratic-voting-credit-costs.png" alt=""><figcaption></figcaption></figure>
 
 Voting was live and open, which meant that you could see how many votes a project had already received. If voters suspected foul play, they could use some of their credits to flag an entry and the SDF team would take a closer look.
 
