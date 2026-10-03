@@ -62,7 +62,7 @@ Current employees of SDF are not eligible to receive any Referral Rewards.
 
 6.1 Consent to Share. Referrers represent and warrant that they have obtained all necessary permissions and consents from the Referred Party to share Referred Party’s contact information and any related project materials with SCF and/or SDF for the purposes contemplated under this program.\
 \
-6.2 Data Handling. SCF will use submitted information for intake triage, communication, evaluation routing, reporting, program administration, and other program operations, and will process such information in accordance with applicable law and the privacy policy located here: https://www.stellar.org/privacy-policy.
+6.2 Data Handling. SCF will use submitted information for intake triage, communication, evaluation routing, reporting, program administration, and other program operations and will process such information in accordance with applicable law and the privacy policy located here: https://www.stellar.org/privacy-policy.
 
 6.3 Retention. Referral records and related information may be retained for operational, legal, compliance, and audit purposes in accordance with SDF policies. Referrers and Referred Parties expressly consent to such data retention, and such consent shall remain in effect for a period of three (3) years following the conclusion of the SCF program or initiative in which the Referrer or Referred Party last participated.
 

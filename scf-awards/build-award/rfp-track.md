@@ -27,7 +27,7 @@ description: >-
 * The submission must address an [open RFP](rfp-track.md#current-open-rfps) from the current quarter—read the RFP carefully and respond directly to its needs.
   * Your proposal does not need to address all points of the RFP, but you should articulate reasoning for a limited scope.
 * You must clearly show:
-  * Why you’re a good fit to solve this (provide examples of past dev-focused work, and share open-sourced repos if possible)
+  * Why you’re a good fit to solve this (provide examples of past dev-focused work and share open-sourced repos if possible)
   * What makes your solution technically strong
   * Clear, testable milestones
   * How your tool will be maintained post-launch

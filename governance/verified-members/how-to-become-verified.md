@@ -16,9 +16,9 @@ Verification is completed through the SCF Dashboard and granted automatically on
 
 ### Grow your influence in SCF
 
-Navigators and Pilots play a more direct and impactful role in SCF governance, and are unlocked through acquired voting power relative to the total voting power in a given round, and approved by a number of community members with a higher role than they currently have.&#x20;
+Navigators and Pilots play a more direct and impactful role in SCF governance and are unlocked through acquired voting power relative to the total voting power in a given round and approved by a number of community members with a higher role than they currently have.&#x20;
 
-Relative voting power is powered by [SCF’s implementation of Neural Quorum Governance](../neural-quorum-governance/) and represents a member’s standing compared to other verified members, and is influenced by:
+Relative voting power is powered by [SCF’s implementation of Neural Quorum Governance](../neural-quorum-governance/) and represents a member’s standing compared to other verified members and is influenced by:
 
 * Acquired Discord roles
 * Historic voting behavior

@@ -101,9 +101,9 @@ Additionally, if you are a team member of a project that's being voted on in a g
 <figure><img src="../../.gitbook/assets/nqg/round-weight-graph.png"/></figure>
 
 {% hint style="info" %}
-Example: User A voted in round 42, from the graph above we can see weight for this round is 1.0. In this round user A submitted 68 Yes/No votes, and 32 Delegate votes, so 68% active votes. The final weight of round 42 for this user will be 1.0 x 68% = 0.68.
+Example: User A voted in round 42, from the graph above we can see weight for this round is 1.0. In this round user A submitted 68 Yes/No votes and 32 Delegate votes, so 68% active votes. The final weight of round 42 for this user will be 1.0 x 68% = 0.68.
 
-User B voted in round 42, from the graph above we can see weight for this round is 1.0. In this round user B submitted 0 Yes/No votes, and 100 Delegate votes, so 0% active votes. The final weight of round 42 for this user will be 1.0 x 50% = 0.5.
+User B voted in round 42, from the graph above we can see weight for this round is 1.0. In this round user B submitted 0 Yes/No votes and 100 Delegate votes, so 0% active votes. The final weight of round 42 for this user will be 1.0 x 50% = 0.5.
 {% endhint %}
 {% endstep %}
 
@@ -159,7 +159,7 @@ In the graph below, we chose values (a = -5, k = 5, c = 1, q = 1, b = 0.4, n = 1
 <figure><img src="../../.gitbook/assets/nqg/vote-quality-curve.png"/></figure>
 
 {% hint style="info" %}
-**Example**: In previous rounds, a user voted for one project that went live on Stellar within 6 months, and one that is on Testnet after 6 months, so the sum of his points will be 0.3 - 0.1 = 0.2. We then look at the graph for the value of 0.2 on the X axis, and see that the corresponding bonus is ≈ 0.2 — around zero the curve is almost linear, and it only flattens out for users with a large sum of points.
+**Example**: In previous rounds, a user voted for one project that went live on Stellar within 6 months and one that is on Testnet after 6 months, so the sum of his points will be 0.3 - 0.1 = 0.2. We then look at the graph for the value of 0.2 on the X axis, and see that the corresponding bonus is ≈ 0.2 — around zero the curve is almost linear, and it only flattens out for users with a large sum of points.
 {% endhint %}
 
 #### **1.2.4. Trust Graph Neuron**

@@ -37,7 +37,7 @@ Nominations take place during the Nomination phase in the `#governance` channel 
 
 ### **2. Delegate Selection & Retro**
 
-In order to be selected as a delegate, nominated Pilots who are not SDF employees need to meet the following criteria, which are based on the level of estimated support needed for that quarter, and assessments for sufficient community sentiment.
+In order to be selected as a delegate, nominated Pilots who are not SDF employees need to meet the following criteria, which are based on the level of estimated support needed for that quarter and assessments for sufficient community sentiment.
 
 #### Current Community Delegate Criteria
 
