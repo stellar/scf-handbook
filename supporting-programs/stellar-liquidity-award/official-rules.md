@@ -25,7 +25,7 @@ In order to be invited to submit an application to the Liquidity Awards Program 
 * **Technical Criteria**: Projects must have a completed valid security audit from an SDF recognized audit firm, with any outstanding vulnerabilities and issues resolved.
 * **Legal Criteria**: Projects must have passed SDF’s KYC, Risk Assessment, and Due Diligence checks.<br>
 
-In order to also qualify for the Supplemental Liquidity Award, Projects must have met the initial Liquidity Award criteria as stated above, received an initial Liquidity Award and then also meet the following criteria:
+In order to also qualify for the Supplemental Liquidity Award, Projects must have met the initial Liquidity Award criteria as stated above, received an initial Liquidity Award, and then also meet the following criteria:
 
 * Supplemental Liquidity Award Criteria: Projects that are able to attract liquidity into their projects and are able to show 7-day consecutive TVL (of recognized asset(s)) greater than $250,000.
 
@@ -75,7 +75,7 @@ By applying to the Liquidity Award Program, Participants consent to the use of t
 
 Participants acknowledge and understand that XLM is a highly risky and volatile asset, and that SDF does not provide any representations, warranties, or guarantees of its value.
 
-‍In addition to the disclaimers, limitation of liability, and indemnities agreed to in the main[ SDF Terms of Service](https://stellar.org/terms-of-service), Participants also specifically agree to release and hold harmless SDF and its respective affiliates, employees, and agents from any and all liability or any injury, loss or damage of any kind arising from or in connection with SDF and its promotion, or any Awards granted in connection with SDF.
+‍In addition to the disclaimers, limitation of liability, and indemnities agreed to in the main[ SDF Terms of Service](https://stellar.org/terms-of-service), Participants also specifically agree to release and hold harmless SDF and its respective affiliates, employees, and agents from any and all liability or any injury, loss, or damage of any kind arising from or in connection with SDF and its promotion, or any Awards granted in connection with SDF.
 
 #### 3) General Conditions
 

@@ -165,7 +165,7 @@ This consent applies, as applicable, to all members of the Participant that has 
 
 #### 2) Disclaimers & Limitations of Liability
 
-‍In addition to the disclaimers, limitation of liability, and indemnities agreed to in the main[ SDF Terms of Service](https://stellar.org/terms-of-service), Participants also specifically agree to release and hold harmless SDF and its respective affiliates, employees, and agents from any and all liability or any injury, loss or damage of any kind arising from or in connection with SDF and its promotion, or any Awards granted in connection with SDF.
+‍In addition to the disclaimers, limitation of liability, and indemnities agreed to in the main[ SDF Terms of Service](https://stellar.org/terms-of-service), Participants also specifically agree to release and hold harmless SDF and its respective affiliates, employees, and agents from any and all liability or any injury, loss, or damage of any kind arising from or in connection with SDF and its promotion, or any Awards granted in connection with SDF.
 
 #### 3) General Conditions
 

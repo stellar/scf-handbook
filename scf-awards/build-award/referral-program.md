@@ -8,7 +8,7 @@ hidden: true
 
 #### 1. Program Overview
 
-The SCF Referral Program (“Referral Program”) enables approved individuals or organizations (“Referrers”) to recommend prospective applicants (“Referred Parties”) to the Stellar Community Fund (together with its governance body, “SCF”). Referrals are tracked via unique referral codes and/or a referral submission form. The specific rules and terms below (“Referral Rules”) supplement the SCF Official Rules and SCF Handbook, which are incorporated herein by reference, and help define the relationship among Stellar Development Foundation (“SDF”, “we”, or “us”), SCF, the Referrers and the Referred Parties. The Referrers and the Referred Parties represent and warrant respectively that you have read and understood the Referral Rules, the SCF Official Rules and the SCF Handbook, have consulted any necessary independent advisors and agree to comply with all applicable terms and requirements.
+The SCF Referral Program (“Referral Program”) enables approved individuals or organizations (“Referrers”) to recommend prospective applicants (“Referred Parties”) to the Stellar Community Fund (together with its governance body, “SCF”). Referrals are tracked via unique referral codes and/or a referral submission form. The specific rules and terms below (“Referral Rules”) supplement the SCF Official Rules and SCF Handbook, which are incorporated herein by reference, and help define the relationship among Stellar Development Foundation (“SDF”, “we”, or “us”), SCF, the Referrers, and the Referred Parties. The Referrers and the Referred Parties represent and warrant respectively that you have read and understood the Referral Rules, the SCF Official Rules, and the SCF Handbook, have consulted any necessary independent advisors and agree to comply with all applicable terms and requirements.
 
 #### 2. Eligibility
 
@@ -21,7 +21,7 @@ The SCF Referral Program (“Referral Program”) enables approved individuals o
 
 3.1 Independence of SCF Decisions. Referrals are an important part of the SCF application process and may be considered as part of the evaluation. However, referrals do not guarantee acceptance into SCF, selection, funding, or any other benefit. Funding decisions remain independent and subject to SCF governance, evaluation criteria, and final approvals in accordance with the rules set forth in the SCF Handbook.<br>
 
-3.2 No Undue Influence. Referrers shall not, directly or indirectly, represent, imply or suggest that their referral confers any advantage or rights to any SCF awards,influences SCF decisions, constitutes an endorsement, sponsorship or approval by SDF and/or SCF, or creates any agency relationship between SDF/SCF and Referrers, except to the extent explicitly provided by the referral mechanism as set forth in the Referral Rules herein.
+3.2 No Undue Influence. Referrers shall not, directly or indirectly, represent, imply, or suggest that their referral confers any advantage or rights to any SCF awards,influences SCF decisions, constitutes an endorsement, sponsorship, or approval by SDF and/or SCF, or creates any agency relationship between SDF/SCF and Referrers, except to the extent explicitly provided by the referral mechanism as set forth in the Referral Rules herein.
 
 #### 4. Referral Submission & Attribution
 
@@ -52,7 +52,7 @@ Current employees of SDF are not eligible to receive any Referral Rewards.
 
 5.2 Anti-Fraud. Referrers may not submit fabricated teams, impersonate individuals, create duplicate identities, or otherwise attempt to deceive SCF. Any attempt to manipulate the referral program, artificially inflate submissions, or misrepresent relationships, affiliations, or qualifications will be considered fraudulent.\
 \
-5.3 Conflicts of Interest. Referrers must disclose any material conflicts of interest at the time of referral, including but not limited to financial interest, team membership, advisory roles or other relationships that could reasonably affect impartiality. Disclosure of a conflict does not automatically disqualify a referral but SCF may consider such conflicts in scoring, recognition, or award decisions.
+5.3 Conflicts of Interest. Referrers must disclose any material conflicts of interest at the time of referral, including but not limited to financial interest, team membership, advisory roles, or other relationships that could reasonably affect impartiality. Disclosure of a conflict does not automatically disqualify a referral but SCF may consider such conflicts in scoring, recognition, or award decisions.
 
 5.4 Compliance and Anti-Kickback. Referrers must comply with all applicable laws, regulations, third-party rights, and SCF/SDF rules in connection with their referrals. Referrers may not offer, solicit, or accept any kickbacks, bribes, or other improper incentives in connection with referrals. Referrals made in violation of any law, regulation, or third-party right are prohibited.
 
