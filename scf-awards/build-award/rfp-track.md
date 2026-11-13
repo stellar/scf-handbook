@@ -172,13 +172,6 @@ Extra weight will be given to demonstrated open-source maintainer track record, 
 * Live proof of adoption: at least three real SCF-awarded projects instrumented for web analytics and one project instrumented for API traffic, with both the live global operator view and a tenant-perspective screen-capture video demonstrating the experience
 * Explicit statements on data residency, jurisdictions of GDPR compliance without opt-in, and the right-to-erasure workflow (if any personal data is stored)
 
-### 6. Budget & Funding Structure (for internal review purposes only)
-
-* Expected range: $40 000 to $60 000
-* Payment structure: milestone-based tranches (10/20/30/40; final tranche must already demonstrate handover readiness)
-* The 12-month service window starts only after the final development tranche has been approved by SCF reviewers
-* SCF does not operate a formal SLA-enforcement process; selection therefore places significant weight on the proposer’s reputation within the Stellar ecosystem
-
 </details>
 
 <details>
@@ -263,14 +256,7 @@ The same gap exists one layer down, in the SDKs that decode the ledger. A fix ma
 * Conformance runner for at least three SDKs, with a findings report of where they diverge and sibling issues filed in each affected SDK.
 * Production release and a maintenance plan covering the first protocol upgrade after delivery.
 
-### 6. Budget & Funding Structure (for internal review purposes only)
-
-* Range: $50K to $75K, with $65K as the working estimate. The closest launched comparable is the State Optimization CLI ($70K), also analysis tooling with a validation requirement; treat it as a ceiling, not an anchor. The corpus is the cost driver: entries must be real core-emitted XDR across every CAP, reproducible on both passphrases, and consistent with stellar-core's golden LedgerCloseMeta.
-* Milestone breakdown: (1) $25K: indexer-hardening guide, plus corpus and generator with per-CAP coverage manifest; (2) $25K: replay harness, documented adapter interface, one reference adapter (Galexie layout or mock getLedgers), the SDK conformance runner, and findings reports against an SDF pipeline and the three SDKs with issues filed upstream; (3) $7.5K: linter and self-audit checklist; (4) $7.5K: production release with Protocol 30 coverage, CI, and maintenance plan through the first protocol upgrade. If the linter is cut and the guide's checklist stands in for it, the total falls to about $57.5K.
-* The SDK conformance runner (added 2026-11-02 from Airtable OPP-101) is absorbed into milestone 2 with no change to the total; its acceptance test is the reproduction of the three js-stellar-sdk issues listed in section 1.
-* Payment on deliverables: funding is released in tranches on acceptance of each milestone, where acceptance means the section 1 checks for that milestone's deliverables pass. Each subsequent tranche must be submitted within 90 days of the previous payment, per the SCF Build Award rules.
-
-### 7. Supporting Signals
+### 6. Supporting Signals
 
 These sightings are the evidence behind this RFP. Applicants can read the public items; they describe the failures this work should fix.
 
