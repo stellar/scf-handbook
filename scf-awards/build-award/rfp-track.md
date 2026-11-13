@@ -283,7 +283,7 @@ Public sightings:
 
 </details>
 
-If you have an need for a tool or infrastructure that would meet an immediate ecosystem need but isn't listed above, it could be a good idea for an SCF RFP—add it on the [Stellarlight Ideas page](https://ideas.stellarlight.xyz/) and discuss further in the [Stellar Dev Discord](https://discord.gg/stellardev)!
+If you have an need for a tool or infrastructure that would meet an immediate ecosystem need but isn't listed above, it could be a good idea for an SCF RFP—add it on the [Stellarlight Ideas page](https://stellarlight.xyz/) and discuss further in the [Stellar Dev Discord](https://discord.gg/stellardev)!
 
 #### 📅 Process & Timeline
 
