@@ -28,7 +28,7 @@ SCF has a [number of programs](https://app.gitbook.com/s/4IGHJeoWQzABoSBkKBxt/sc
 
 <summary>What types of projects does SCF support?</summary>
 
-SCF supports projects from ideation to launch and growth. SCF supports projects from ideation to launch and growth. The main project categories supported by SCF are End-User Applications and Financial Protocols. Some developer tooling is supported through RFPs and the Public Goods Award.
+SCF supports projects from ideation to launch and growth. The main project categories supported by SCF are End-User Applications and Financial Protocols. Some developer tooling is supported through RFPs and the Public Goods Award.
 
 </details>
 
